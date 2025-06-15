@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy.tsx'
 import CookiesPolicy from './pages/cookies-policy/CookiesPolicy.tsx'
 import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
+import AboutUs from "./components/AboutUs/AboutUs.tsx";
 
 function Home() {
     return <div>Home page content</div>
@@ -46,6 +47,14 @@ function App() {
                         <CookiesPolicy />
                     </>
                 } />
+
+
+            <Route path="/about_us" element={
+                    <>
+                        <AboutUs />
+                    </>
+                } />
+
             </Routes>
 
             <Footer />

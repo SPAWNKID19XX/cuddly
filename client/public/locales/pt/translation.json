@@ -5,6 +5,50 @@
     "Produtos",
     "Contacto"
   ],
+  "about_us": {
+    "title": "Sobre Nós",
+    "p": [
+      "Somos uma equipa de profissionais que atuam na área da beleza e bem-estar, desenvolvendo produtos modernos para os mercados cosmético e de bem-estar. A nossa abordagem combina uma profunda experiência, desenvolvimentos científicos de ponta e padrões de qualidade europeus.",
+      "Acreditamos que a beleza começa com a saúde, e que um produto verdadeiramente excelente deve ser eficaz, seguro, ético e cuidadosamente concebido.",
+      "A nossa empresa especializa-se numa abordagem de ciclo completo: não fornecemos apenas produtos — criamos soluções. De cosméticos a suplementos alimentares e fórmulas de bem-estar, cobrimos todo o percurso, da ideia ao mercado.",
+      "Somos mais do que consultores ou fornecedores — somos parceiros estratégicos que o ajudam a criar produtos de beleza e saúde modernos, eficazes e diferenciados."
+    ],
+    "subtitle": [
+      {
+        "title": "Oferecemos",
+        "lt": {
+          "1": [
+            "Consultorias",
+            "profissionais",
+            "nas áreas da beleza, saúde e desenvolvimento de produtos"
+          ],
+          "2": [
+            "Criação de produtos",
+            "marca branca — do conceito à solução final"
+          ],
+          "3": [
+            "Parcerias de fabrico em",
+            "Itália, Espanha e outros países europeus"
+          ],
+          "4": [
+            "Fórmulas adaptadas ao mercado e ao seu público-alvo"
+          ],
+          "5": [
+            "Apoio completo do I&D até à embalagem"
+          ]
+        }
+      },
+      {
+        "title": "Trabalhamos com clientes que valorizam",
+        "lt": [
+          "Abordagem individual",
+          "Honestidade e transparência",
+          "Qualidade premium dos produtos",
+          "Inovação e flexibilidade"
+        ]
+      }
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",

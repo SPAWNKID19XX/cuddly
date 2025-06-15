@@ -5,6 +5,50 @@
     "Products",
     "Contact"
   ],
+  "about_us": {
+    "title": "About Us",
+    "p": [
+      "We are a team of professionals working in the beauty and wellness industry, developing modern products for the cosmetic and wellness market. Our approach combines deep expertise, cutting-edge scientific developments, and European quality standards.",
+      "We believe that beauty starts with health, and a truly great product must be effective, safe, ethical, and thoughtfully designed.",
+      "Our company specializes in a full-cycle approach: we don’t just supply products — we create solutions. From cosmetics to dietary supplements and wellness formulations, we cover the entire journey from idea to market.",
+      "We are more than consultants or suppliers — we are strategic partners helping you build modern, effective, and distinctive beauty and health products."
+    ],
+    "subtitle": [
+      {
+        "title": "We offer",
+        "lt": {
+          "1": [
+            "Professional",
+            "consultations",
+            "in the fields of beauty, health, and product development"
+          ],
+          "2": [
+            "Private label",
+            "product creation — from concept to final solution"
+          ],
+          "3": [
+            "Manufacturing partnerships in",
+            "Italy, Spain, and other European countries"
+          ],
+          "4": [
+            "Market-adapted formulas tailored to your audience"
+          ],
+          "5": [
+            "Full-cycle support from R&D to packaging"
+          ]
+        }
+      },
+      {
+        "title": "We work with clients who value",
+        "lt": [
+          "Individual approach",
+          "Honesty and transparency",
+          "Premium product quality",
+          "Innovation and flexibility"
+        ]
+      }
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",

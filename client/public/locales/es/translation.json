@@ -5,6 +5,50 @@
     "Productos",
     "Contacto"
   ],
+  "about_us": {
+    "title": "Sobre Nosotros",
+    "p": [
+      "Somos un equipo de profesionales que trabaja en la industria de la belleza y el bienestar, desarrollando productos modernos para los mercados cosmético y de bienestar. Nuestro enfoque combina una profunda experiencia, avances científicos de vanguardia y estándares de calidad europeos.",
+      "Creemos que la belleza comienza con la salud, y que un producto verdaderamente excelente debe ser eficaz, seguro, ético y cuidadosamente diseñado.",
+      "Nuestra empresa se especializa en un enfoque de ciclo completo: no solo suministramos productos — creamos soluciones. Desde cosméticos hasta suplementos dietéticos y formulaciones de bienestar, cubrimos todo el camino desde la idea hasta el mercado.",
+      "Somos más que consultores o proveedores — somos socios estratégicos que te ayudan a construir productos de belleza y salud modernos, eficaces y distintivos."
+    ],
+    "subtitle": [
+      {
+        "title": "Ofrecemos",
+        "lt": {
+          "1": [
+            "Consultorías",
+            "profesionales",
+            "en los ámbitos de la belleza, la salud y el desarrollo de productos"
+          ],
+          "2": [
+            "Creación de productos",
+            "de marca blanca — desde el concepto hasta la solución final"
+          ],
+          "3": [
+            "Colaboraciones de fabricación en",
+            "Italia, España y otros países europeos"
+          ],
+          "4": [
+            "Fórmulas adaptadas al mercado y a tu público objetivo"
+          ],
+          "5": [
+            "Apoyo completo desde I+D hasta el envasado"
+          ]
+        }
+      },
+      {
+        "title": "Trabajamos con clientes que valoran",
+        "lt": [
+          "Enfoque individual",
+          "Honestidad y transparencia",
+          "Calidad premium del producto",
+          "Innovación y flexibilidad"
+        ]
+      }
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "Utilizamos cookies para mejorar la funcionalidad del sitio. Al continuar usando el sitio, aceptas el uso de cookies.",
