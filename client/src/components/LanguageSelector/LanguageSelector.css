@@ -1,0 +1,96 @@
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Если нужно адаптировать размеры при маленьких экранах */
+@media (max-width: 360px) {
+    .mobile-header-language {
+        transform: scale(0.8);
+        margin: 0 10px;
+    }
+}
+
+.lang-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background: none;
+    color: #4A5568;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lang-button:hover {
+    background-color: rgba(30, 82, 204, 0.05);
+}
+
+.lang-button.active {
+    background-color: rgba(30, 82, 204, 0.1);
+    border-color: #1E52CC;
+    color: #1E52CC;
+}
+
+.lang-flag {
+    width: 20px;
+    height: 15px;
+    object-fit: contain;
+    border-radius: 2px;
+    transition: transform 0.2s ease;
+}
+
+.lang-button.active .lang-flag {
+    transform: scale(1.1);
+}
+
+.lang-label {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.lang-divider {
+    color: #CBD5E0;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+/* Анимация при наведении */
+.lang-button:hover .lang-flag {
+    transform: scale(1.1);
+}
+
+/* Эффект нажатия */
+.lang-button:active {
+    transform: scale(0.97);
+}
+
+/* Доступность */
+.lang-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(30, 82, 204, 0.3);
+}
+
+
+@media (max-width: 480px) {
+    .language-switcher {
+        gap: 4px;
+    }
+
+    .lang-button {
+        padding: 4px 8px;
+    }
+
+    .lang-flag {
+        width: 16px;
+        height: 12px;
+    }
+}
