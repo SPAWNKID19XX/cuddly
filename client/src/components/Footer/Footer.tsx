@@ -43,8 +43,9 @@ const Footer = () => {
                         <div className='contact-politics'>
                             <div className='contacts'>
                                 <h3>{t("ftr.contact.title")}</h3>
-                                <span>📞 (+351) 964696149</span>
-                                <span>📍 My Adress<br/> 8700-497, Faro</span>
+                                <span>📞 (+351) 920 811 661</span>
+                                <span>📧 cuddlybreeze@gmail.com</span>
+                                <span>📍 Rua das Hortênsias, Lote F, Loja D, R/C <br/> Faro 8005-196, Gambelas</span>
                                 {/*<button><img src={whatsapp} alt="" />{t("ftr.contact.btn")}</button>*/}
                             </div>
                             <div className='politics'>
