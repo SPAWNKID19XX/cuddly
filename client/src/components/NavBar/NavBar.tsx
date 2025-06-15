@@ -1,8 +1,7 @@
 import {useState, useEffect, useCallback} from 'react';
 import './NavBar.css';
-import logo from "../../assets/img/navbar/logo.jpg"
+import logo from "../../assets/img/logo.jpg"
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
-import AccountAreaNavbar from "../accountAreaNavbar/AccountAreaNavBar.tsx";
 
 
 // Nav item interface
@@ -79,9 +78,6 @@ const Navbar = () => {
                         <div className="language-selector">
                             <LanguageSelector/>
                         </div>
-                        <div className="account-area-navbar">
-                            <AccountAreaNavbar/>
-                        </div>
                     </div>
 
                     {/* Desktop Navigation */}
@@ -99,9 +95,6 @@ const Navbar = () => {
                     <div className="desktop-actions navbar-actions">
                         <div className="language-selector">
                             <LanguageSelector/>
-                        </div>
-                        <div className="account-area-navbar">
-                            <AccountAreaNavbar/>
                         </div>
                     </div>
 
