@@ -1,96 +1,51 @@
-.language-switcher {
-    display: flex;
+.language-dropdown {
+    position: relative;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 4px;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Если нужно адаптировать размеры при маленьких экранах */
-@media (max-width: 360px) {
-    .mobile-header-language {
-        transform: scale(0.8);
-        margin: 0 10px;
-    }
-}
-
-.lang-button {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    background: none;
-    color: #4A5568;
-    font-size: 14px;
-    font-weight: 600;
+.language-select {
+    appearance: none;
+    padding: 8px 32px 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
     cursor: pointer;
-    transition: all 0.2s ease;
+    font-size: 14px;
+    min-width: 100px;
 }
 
-.lang-button:hover {
-    background-color: rgba(30, 82, 204, 0.05);
+.language-select:hover {
+    border-color: #999;
 }
 
-.lang-button.active {
-    background-color: rgba(30, 82, 204, 0.1);
-    border-color: #1E52CC;
-    color: #1E52CC;
+.language-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
 }
 
-.lang-flag {
+.selected-flag {
     width: 20px;
     height: 15px;
-    object-fit: contain;
-    border-radius: 2px;
-    transition: transform 0.2s ease;
+    object-fit: cover;
+    position: absolute;
+    right: 8px;
+    pointer-events: none;
 }
 
-.lang-button.active .lang-flag {
-    transform: scale(1.1);
-}
-
-.lang-label {
-    font-weight: 600;
-    letter-spacing: 0.02em;
-}
-
-.lang-divider {
-    color: #CBD5E0;
-    font-size: 14px;
-    opacity: 0.6;
-}
-
-/* Анимация при наведении */
-.lang-button:hover .lang-flag {
-    transform: scale(1.1);
-}
-
-/* Эффект нажатия */
-.lang-button:active {
-    transform: scale(0.97);
-}
-
-/* Доступность */
-.lang-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(30, 82, 204, 0.3);
-}
-
-
-@media (max-width: 480px) {
-    .language-switcher {
-        gap: 4px;
-    }
-
-    .lang-button {
-        padding: 4px 8px;
-    }
-
-    .lang-flag {
-        width: 16px;
-        height: 12px;
-    }
+/* Add a custom dropdown arrow */
+.language-dropdown::after {
+    content: '';
+    position: absolute;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+    pointer-events: none;
 }
