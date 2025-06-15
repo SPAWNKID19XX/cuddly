@@ -2,6 +2,7 @@ import {useState, useEffect, useCallback} from 'react';
 import './NavBar.css';
 import logo from "../../assets/img/navbar/logo.jpg"
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
+import AccountAreaNavbar from "../accountAreaNavbar/AccountAreaNavBar.tsx";
 
 
 // Nav item interface
@@ -12,21 +13,16 @@ interface NavItem {
 }
 
 
-
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
     // Navigation items
     const navItems: NavItem[] = [
-        {id: 1, name: 'Home', link: 'home/'},
-        {id: 2, name: 'About Us', link: 'about_us/'},
-        {id: 3, name: 'Services', link: 'services/'},
-        {id: 4, name: 'Products', link: 'products/'},
-        {id: 5, name: 'Nanotech', link: 'nanotech/'},
-        {id: 6, name: 'Clients', link: 'clients/'},
-        {id: 7, name: 'Certifications', link: 'certifications/'},
-        {id: 8, name: 'Contact', link: 'contact/'}
+        {id: 1, name: 'About Us', link: 'about_us/'},
+        {id: 2, name: 'Services', link: 'services/'},
+        {id: 3, name: 'Products', link: 'products/'},
+        {id: 4, name: 'Contact', link: 'contact/'}
     ];
 
     // Handle scroll effect
@@ -80,7 +76,12 @@ const Navbar = () => {
 
                     {/* Mobile Language Selector - всегда видимый */}
                     <div className="mobile-visible-language">
-                        <LanguageSelector/>
+                        <div className="language-selector">
+                            <LanguageSelector/>
+                        </div>
+                        <div className="account-area-navbar">
+                            <AccountAreaNavbar/>
+                        </div>
                     </div>
 
                     {/* Desktop Navigation */}
@@ -98,6 +99,9 @@ const Navbar = () => {
                     <div className="desktop-actions navbar-actions">
                         <div className="language-selector">
                             <LanguageSelector/>
+                        </div>
+                        <div className="account-area-navbar">
+                            <AccountAreaNavbar/>
                         </div>
                     </div>
 

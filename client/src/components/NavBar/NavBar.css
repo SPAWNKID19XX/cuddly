@@ -76,7 +76,6 @@
     justify-content: space-between;
     width: 90%;
     height: 100%;
-    max-width: 1440px;
     margin: 0 auto;
     padding: 0 5%;
     position: relative;
@@ -85,14 +84,13 @@
 
 /* Logo styles */
 .navbar-logo {
-
     display: flex;
     align-items: center;
 }
 
 .navbar-logo img {
-    width: 149px;
-    height: 59px;
+    width: 150px;
+    height: 60px;
 }
 
 
@@ -273,8 +271,7 @@
 .language-selector button:hover,
 .language-selector button.active {
     color: #1EB958;
-    border: 2px solid #9F5434;
-    padding: 5px 25px 5px 10px;
+    border-bottom: 2px solid #9F5434;
     border-radius: 5px;
 }
 
