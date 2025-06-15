@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './LanguageSelector.css';
+import { useTranslation } from "react-i18next";
 
 interface Language {
     code: string;
@@ -31,34 +32,35 @@ const languages: Language[] = [
 ];
 
 const LanguageSwitcher: React.FC = () => {
-    const [selectedLang, setSelectedLang] = useState('en');
+    const { i18n } = useTranslation();
 
-    const handleLanguageChange = (langCode: string) => {
-        setSelectedLang(langCode);
-        // Здесь можно добавить дополнительную логику при смене языка
+    const handleLanguageChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        i18n.changeLanguage(event.target.value);
+    };
+
+    const getCurrentLanguage = () => {
+        console.log('current language',i18n.language)
+        return languages.find(lang => lang.code === i18n.language) || languages[0];
     };
 
     return (
-        <div className="language-switcher">
-            {languages.map((lang, index) => (
-                <React.Fragment key={lang.code}>
-                    <button
-                        className={`lang-button ${selectedLang === lang.code ? 'active' : ''}`}
-                        onClick={() => handleLanguageChange(lang.code)}
-                        aria-label={`Switch to ${lang.label}`}
-                    >
-                        <span className="lang-label">{lang.label}</span>
-                        <img
-                            src={lang.flag}
-                            alt={`${lang.label} flag`}
-                            className="lang-flag"
-                        />
-                    </button>
-                    {index < languages.length - 1 && (
-                        <span className="lang-divider">|</span>
-                    )}
-                </React.Fragment>
-            ))}
+        <div className="language-dropdown">
+            <select
+                value={i18n.language}
+                onChange={handleLanguageChange}
+                className="language-select"
+            >
+                {languages.map((lang) => (
+                    <option key={lang.code} value={lang.code}>
+                        {lang.label}
+                    </option>
+                ))}
+            </select>
+            <img
+                src={getCurrentLanguage().flag}
+                alt={`${getCurrentLanguage().label} flag`}
+                className="selected-flag"
+            />
         </div>
     );
 };

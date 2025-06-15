@@ -2,7 +2,7 @@ import {useState, useEffect, useCallback} from 'react';
 import './NavBar.css';
 import logo from "../../assets/img/logo.jpg"
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
-
+import {useTranslation} from "react-i18next";
 
 // Nav item interface
 interface NavItem {
@@ -15,13 +15,13 @@ interface NavItem {
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-
+    const {t} = useTranslation();
     // Navigation items
     const navItems: NavItem[] = [
-        {id: 1, name: 'About Us', link: 'about_us/'},
-        {id: 2, name: 'Services', link: 'services/'},
-        {id: 3, name: 'Products', link: 'products/'},
-        {id: 4, name: 'Contact', link: 'contact/'}
+        {id: 1, name: t("navbar.0"), link: 'about_us/'},
+        {id: 2, name: t("navbar.1"), link: 'services/'},
+        {id: 3, name: t("navbar.2"), link: 'products/'},
+        {id: 4, name: t("navbar.3"), link: 'contact/'}
     ];
 
     // Handle scroll effect

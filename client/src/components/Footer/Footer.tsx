@@ -4,20 +4,21 @@ import tt from '../../assets/img/icons/tiktok.png'
 import insta from '../../assets/img/icons/instagram.png'
 import {useState} from "react";
 import logo from '../../assets/img/logo.jpg';
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-
+    const {t} = useTranslation();
     interface SubjectOption {
         value: string;
         label: string;
     }
 
     const subjectOptions: SubjectOption[] = [
-        {value: '', label: 'Select a subject'},
-        {value: 'general', label: 'General Inquiry'},
-        {value: 'support', label: 'Technical Support'},
-        {value: 'feedback', label: 'Feedback'}
+        {value: '', label: t("ftr.frm.fields.subject.lt.0")},
+        {value: 'general', label: t("ftr.frm.fields.subject.lt.1")},
+        {value: 'support', label: t("ftr.frm.fields.subject.lt.2")},
+        {value: 'feedback', label: t("ftr.frm.fields.subject.lt.3")}
     ];
 
     const [selectedSubject, setSelectedSubject] = useState<string>('');
@@ -33,7 +34,7 @@ const Footer = () => {
                 <section className='footer'>
                     <div className='footer-info'>
                         <img className="logo" src={logo} alt="Cuddly Logo"/>
-                        <span>Cuddly – Beauty and Wellness in Harmony.</span>
+                        <span>{t("ftr.slogan")}</span>
                         <div className='social-media'>
                             <a href=""><img src={fb} alt=""/></a>
                             <a href=""><img src={insta} alt=""/></a>
@@ -41,25 +42,25 @@ const Footer = () => {
                         </div>
                         <div className='contact-politics'>
                             <div className='contacts'>
-                                <h3>Contacts</h3>
+                                <h3>{t("ftr.contact.title")}</h3>
                                 <span>📞 (+351) 964696149</span>
                                 <span>📍 My Adress<br/> 8700-497, Faro</span>
                                 {/*<button><img src={whatsapp} alt="" />{t("ftr.contact.btn")}</button>*/}
                             </div>
                             <div className='politics'>
-                                <h3>Documents</h3>
-                                <a href="/privacy-policy">Privacy Policy</a>
-                                <a href="/cookie-policy">Cookie Policy</a>
-                                <a href="/terms-conditions">Terms Conditions</a>
+                                <h3>{t("ftr.docs.title")}</h3>
+                                <a href="/privacy-policy">{t("ftr.docs.lt.0")}</a>
+                                <a href="/cookie-policy">{t("ftr.docs.lt.1")}</a>
+                                <a href="/terms-conditions">{t("ftr.docs.lt.2")}</a>
                             </div>
                         </div>
                     </div>
                     <div className='form-container'>
                         <div className='form'>
-                            <h2>Contact form</h2>
-                            <span>Please fill out the form below to get in touch with our team.</span>
+                            <h2>{t("ftr.frm.title")}</h2>
+                            <span>{t("ftr.frm.p")}</span>
                             <form action="">
-                                <label htmlFor="">Name*</label>
+                                <label htmlFor="">{t("ftr.frm.fields.name")}*</label>
                                 <input type="text"/>
                                 <div className='email-phone'>
                                     <div className="field">
@@ -67,11 +68,11 @@ const Footer = () => {
                                         <input type="email"/>
                                     </div>
                                     <div className="field">
-                                        <label>Phone*</label>
+                                        <label>{t("ftr.frm.fields.phone")}*</label>
                                         <input type="tel"/>
                                     </div>
                                 </div>
-                                <label htmlFor="subject">Subject*</label>
+                                <label htmlFor="subject">{t("ftr.frm.fields.subject.title")}*</label>
                                 <select
                                     name="subject"
                                     id="subject"
@@ -86,21 +87,21 @@ const Footer = () => {
                                     ))}
                                 </select>
 
-                                <label htmlFor="">Message*</label>
+                                <label htmlFor="">{t("ftr.frm.fields.msg")}*</label>
                                 <textarea name="" id=""></textarea>
                                 <div className='checkbox'>
                                     <input type="checkbox"/>
-                                    <span>I have read and accept the <a href="/politica-privacidade" target="_blank"
-                                                                        rel="noopener noreferrer">Terms Conditions</a></span>
+                                    <span>{t("ftr.frm.fields.axcept.0")}<a href="/politica-privacidade" target="_blank"
+                                                                        rel="noopener noreferrer">{t("ftr.frm.fields.axcept.1")}</a></span>
                                 </div>
-                                <button>Submit</button>
+                                <button>{t("ftr.frm.btn")}</button>
                             </form>
                         </div>
                     </div>
 
                 </section>
                 <div className='copyright'>
-                    <span>© {currentYear} Cuddly. All rights reserved.</span>
+                    <span>© {currentYear} Cuddly. {t("ftr.bf")}.</span>
                 </div>
             </div>
         </div>
