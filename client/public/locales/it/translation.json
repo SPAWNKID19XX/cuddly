@@ -87,7 +87,10 @@
           "Termini e Condizioni"
         ]
       },
-      "btn": "Invia"
+      "btn": "Invia",
+      "success_msg": "L'email è stata inviata!",
+      "error_msg": "Si è verificato un errore durante l'invio dell'e-mail!"
+
     },
     "bf": "Tutti i diritti riservati."
   },

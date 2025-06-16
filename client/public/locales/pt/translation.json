@@ -87,7 +87,9 @@
           "Terms Conditions"
         ]
       },
-      "btn": "Submit"
+      "btn": "Submit",
+     "success_msg": "Email foi enviado!",
+      "error_msg": "Ocorreu um erro ao enviar o e-mail!"
     },
     "bf": "All rights reserved."
   },

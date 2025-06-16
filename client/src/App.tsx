@@ -10,7 +10,9 @@ import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 
 function Home() {
-    return <div>Home page content</div>
+    return (
+        <div className='main_content'>Home page content</div>
+    );
 }
 
 function App() {

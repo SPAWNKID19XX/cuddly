@@ -87,7 +87,9 @@
           "Términos y Condiciones"
         ]
       },
-      "btn": "Enviar"
+      "btn": "Enviar",
+      "success_msg": "¡El correo ha sido enviado!",
+      "error_msg": "¡Se ha producido un error al enviar el correo!"
     },
     "bf": "Todos los derechos reservados."
   },

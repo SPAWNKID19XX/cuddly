@@ -1,3 +1,4 @@
+import axios from 'axios';
 import './Footer.css'
 import fb from '../../assets/img/icons/facebook.png'
 import tt from '../../assets/img/icons/tiktok.png'
@@ -9,6 +10,7 @@ import {useTranslation} from "react-i18next";
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     const {t} = useTranslation();
+
     interface SubjectOption {
         value: string;
         label: string;
@@ -25,6 +27,55 @@ const Footer = () => {
 
     const handleSubjectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setSelectedSubject(event.target.value);
+    };
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: '',
+        accepted: false,
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const target = e.target;
+    const value = target instanceof HTMLInputElement && target.type === 'checkbox'
+        ? target.checked
+        : target.value;
+    const name = target.name;
+
+    setFormData(prev => ({
+        ...prev,
+        [name]: value,
+    }));
+};
+
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+
+        if (!formData.accepted) {
+            alert(t("ftr.frm.errors.privacy"));
+            return;
+        }
+        try {
+            const response = await axios.post('http://127.0.0.1:8000/api/v1/main/', formData);
+            console.log('Success:', response.data);
+            alert(t("ftr.frm.success_msg"));
+            setFormData({
+                name: '',
+                email: '',
+                phone: '',
+                subject: '',
+                message: '',
+                accepted: false,
+            });
+            setSelectedSubject('');
+        } catch (error: Error | unknown) {
+            console.error('Error:', error);
+            alert(t("ftr.frm.error_msg"));
+        }
     };
 
 
@@ -60,17 +111,38 @@ const Footer = () => {
                         <div className='form'>
                             <h2>{t("ftr.frm.title")}</h2>
                             <span>{t("ftr.frm.p")}</span>
-                            <form action="">
-                                <label htmlFor="">{t("ftr.frm.fields.name")}*</label>
-                                <input type="text"/>
+                            <form onSubmit={handleSubmit}>
+                                <label htmlFor="name">{t("ftr.frm.fields.name")}*</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    required
+                                />
                                 <div className='email-phone'>
                                     <div className="field">
-                                        <label>Email*</label>
-                                        <input type="email"/>
+                                        <label htmlFor="email">Email*</label>
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            required
+                                        />
                                     </div>
                                     <div className="field">
-                                        <label>{t("ftr.frm.fields.phone")}*</label>
-                                        <input type="tel"/>
+                                        <label htmlFor="phone">{t("ftr.frm.fields.phone")}*</label>
+                                        <input
+                                            type="tel"
+                                            id="phone"
+                                            name="phone"
+                                            value={formData.phone}
+                                            onChange={handleChange}
+                                            required
+                                        />
                                     </div>
                                 </div>
                                 <label htmlFor="subject">{t("ftr.frm.fields.subject.title")}*</label>
@@ -78,7 +150,10 @@ const Footer = () => {
                                     name="subject"
                                     id="subject"
                                     value={selectedSubject}
-                                    onChange={handleSubjectChange}
+                                    onChange={(e) => {
+                                        handleSubjectChange(e);
+                                        handleChange(e);
+                                    }}
                                     required
                                 >
                                     {subjectOptions.map((option) => (
@@ -88,15 +163,36 @@ const Footer = () => {
                                     ))}
                                 </select>
 
-                                <label htmlFor="">{t("ftr.frm.fields.msg")}*</label>
-                                <textarea name="" id=""></textarea>
+                                <label htmlFor="message">{t("ftr.frm.fields.msg")}*</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    required
+                                />
                                 <div className='checkbox'>
-                                    <input type="checkbox"/>
-                                    <span>{t("ftr.frm.fields.axcept.0")}<a href="/politica-privacidade" target="_blank"
-                                                                        rel="noopener noreferrer">{t("ftr.frm.fields.axcept.1")}</a></span>
+                                    <input
+                                        type="checkbox"
+                                        id="accepted"
+                                        name="accepted"
+                                        checked={formData.accepted}
+                                        onChange={handleChange}
+                                    />
+                                    <span>
+                {t("ftr.frm.fields.axcept.0")}
+                                        <a
+                                            href="/politica-privacidade"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                    {t("ftr.frm.fields.axcept.1")}
+                </a>
+            </span>
                                 </div>
-                                <button>{t("ftr.frm.btn")}</button>
+                                <button type="submit">{t("ftr.frm.btn")}</button>
                             </form>
+
                         </div>
                     </div>
 

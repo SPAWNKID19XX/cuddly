@@ -32,6 +32,9 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
 
+    'products.apps.ProductsConfig',
+    'main.apps.MainConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -110,11 +113,25 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
-USE_I18N = True
+USE_I18N = False
+USE_L10N = True
+
+LANGUAGES = [
+    ('en', 'English'),
+    ('it', 'Italian'),
+    ('pt', 'Portuguese'),
+    ('es', 'Spanish'),
+]
+
+# Directory where Django will look for translation files
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
+
 
 USE_TZ = True
 
@@ -140,3 +157,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('MAIL_USERNAME')
 EMAIL_HOST_PASSWORD = os.environ.get('MAIL_PASSWORD')
+
+print(EMAIL_BACKEND, EMAIL_HOST, EMAIL_PORT, EMAIL_USE_TLS, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
+
+
