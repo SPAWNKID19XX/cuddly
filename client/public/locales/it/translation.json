@@ -5,48 +5,95 @@
     "Prodotti",
     "Contatti"
   ],
-  "ftr": {
-  "info_coockies": {
-    "p": "Utilizziamo i cookie per migliorare la funzionalità del sito. Continuando a utilizzare il sito, accetti l'uso dei cookie.",
-    "btn": "Accetta"
-  },
-  "slogan": "Cuddly – Bellezza e Benessere in Armonia.",
-  "contact": {
-    "title": "Contatti"
-  },
-  "docs": {
-    "title": "Documenti",
-    "lt": [
-      "Informativa sulla Privacy",
-      "Politica dei Cookie",
-      "Termini e Condizioni"
+  "about_us": {
+    "title": "Chi Siamo",
+    "p": [
+      "Siamo un team di professionisti che operano nel settore della bellezza e del benessere, sviluppando prodotti moderni per i mercati cosmetico e del wellness. Il nostro approccio combina una profonda esperienza, innovazioni scientifiche all’avanguardia e standard di qualità europei.",
+      "Crediamo che la bellezza inizi dalla salute, e che un prodotto veramente eccellente debba essere efficace, sicuro, etico e progettato con cura.",
+      "La nostra azienda è specializzata in un approccio a ciclo completo: non ci limitiamo a fornire prodotti — creiamo soluzioni. Dai cosmetici agli integratori alimentari e formulazioni per il benessere, copriamo l’intero percorso, dall’idea al mercato.",
+      "Siamo più di semplici consulenti o fornitori — siamo partner strategici che ti aiutano a costruire prodotti di bellezza e salute moderni, efficaci e distintivi."
+    ],
+    "subtitle": [
+      {
+        "title": "Offriamo",
+        "lt": {
+          "1": [
+            "Consulenze",
+            "professionali",
+            "nei settori della bellezza, salute e sviluppo prodotto"
+          ],
+          "2": [
+            "Creazione di prodotti",
+            "a marchio privato — dal concetto alla soluzione finale"
+          ],
+          "3": [
+            "Collaborazioni produttive in",
+            "Italia, Spagna e altri paesi europei"
+          ],
+          "4": [
+            "Formule adattate al mercato e al tuo pubblico"
+          ],
+          "5": [
+            "Supporto completo, dalla R&S al packaging"
+          ]
+        }
+      },
+      {
+        "title": "Lavoriamo con clienti che valorizzano",
+        "lt": [
+          "Approccio personalizzato",
+          "Onestà e trasparenza",
+          "Qualità premium dei prodotti",
+          "Innovazione e flessibilità"
+        ]
+      }
     ]
   },
-  "frm": {
-    "title": "Modulo di contatto",
-    "p": "Compila il modulo sottostante per metterti in contatto con il nostro team",
-    "fields": {
-      "name": "Nome",
-      "phone": "Telefono",
-      "subject": {
-        "title": "Oggetto",
-        "lt": [
-          "Seleziona un oggetto",
-          "Richiesta Generale",
-          "Supporto Tecnico",
-          "Feedback"
-        ]
-      },
-      "msg": "Messaggio",
-      "axcept": [
-        "Ho letto e accetto i",
+  "ftr": {
+    "info_coockies": {
+      "p": "Utilizziamo i cookie per migliorare la funzionalità del sito. Continuando a utilizzare il sito, accetti l'uso dei cookie.",
+      "btn": "Accetta"
+    },
+    "slogan": "Cuddly – Bellezza e Benessere in Armonia.",
+    "contact": {
+      "title": "Contatti"
+    },
+    "docs": {
+      "title": "Documenti",
+      "lt": [
+        "Informativa sulla Privacy",
+        "Politica dei Cookie",
         "Termini e Condizioni"
       ]
     },
-    "btn": "Invia"
+    "frm": {
+      "title": "Modulo di contatto",
+      "p": "Compila il modulo sottostante per metterti in contatto con il nostro team",
+      "fields": {
+        "name": "Nome",
+        "phone": "Telefono",
+        "subject": {
+          "title": "Oggetto",
+          "lt": [
+            "Seleziona un oggetto",
+            "Richiesta Generale",
+            "Supporto Tecnico",
+            "Feedback"
+          ]
+        },
+        "msg": "Messaggio",
+        "axcept": [
+          "Ho letto e accetto i",
+          "Termini e Condizioni"
+        ]
+      },
+      "btn": "Invia",
+      "success_msg": "L'email è stata inviata!",
+      "error_msg": "Si è verificato un errore durante l'invio dell'e-mail!"
+
+    },
+    "bf": "Tutti i diritti riservati."
   },
-  "bf": "Tutti i diritti riservati."
-},
   "pc": {
     "top_info": {
       "title": "Informazioni su come utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web.",

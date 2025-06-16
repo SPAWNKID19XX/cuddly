@@ -160,7 +160,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #ECDDD6;
+    background: #90D1CA;
     transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
