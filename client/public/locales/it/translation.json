@@ -5,6 +5,14 @@
     "Prodotti",
     "Contatti"
   ],
+  "mb": {
+    "title": "Benvenuti a Cuddly Breeze Lda",
+    "subtitle": "Crea il tuo brand cosmetico – al resto pensiamo noi",
+    "p": [
+      "Formule naturali, approccio personalizzato e possibilità di lanciare prodotti con il tuo marchio. Formulazioni uniche o soluzioni già pronte – a te la scelta!",
+      "Il tuo brand. Il minimo sforzo. Il massimo risultato."
+    ]
+  },
   "about_us": {
     "title": "Chi Siamo",
     "p": [
@@ -90,7 +98,6 @@
       "btn": "Invia",
       "success_msg": "L'email è stata inviata!",
       "error_msg": "Si è verificato un errore durante l'invio dell'e-mail!"
-
     },
     "bf": "Tutti i diritti riservati."
   },

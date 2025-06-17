@@ -5,6 +5,14 @@
     "Products",
     "Contact"
   ],
+  "mb": {
+    "title": "Welcome to Cuddly Breeze Lda",
+    "subtitle": "Create your own cosmetics brand – we’ll take care of the rest",
+    "p": [
+      "Natural formulas, personalized approach, and the ability to launch products under your label. Unique formulations or ready-made solutions – it’s your choice!",
+      "Your brand. Minimal effort. Maximum impact."
+    ]
+  },
   "about_us": {
     "title": "About Us",
     "p": [

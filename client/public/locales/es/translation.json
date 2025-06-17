@@ -5,6 +5,14 @@
     "Productos",
     "Contacto"
   ],
+  "mb": {
+    "title": "Bienvenido a Cuddly Breeze Lda",
+    "subtitle": "Crea tu propia marca de cosméticos – nosotros nos encargamos del resto",
+    "p": [
+      "Fórmulas naturales, enfoque personalizado y posibilidad de lanzar productos con tu propia etiqueta. Fórmulas únicas o soluciones listas para usar – tú eliges.",
+      "Tu marca. Mínimo esfuerzo. Máximo impacto."
+    ]
+  },
   "about_us": {
     "title": "Sobre Nosotros",
     "p": [
