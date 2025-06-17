@@ -8,12 +8,7 @@ import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy.tsx'
 import CookiesPolicy from './pages/cookies-policy/CookiesPolicy.tsx'
 import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
-
-function Home() {
-    return (
-        <div className='main_content'>Home page content</div>
-    );
-}
+import MainBaner  from "./components/MainBanner/MainBaner.tsx";
 
 function App() {
     return (
@@ -24,7 +19,7 @@ function App() {
                 <Route path="/" element={
                     <>
                         <CookieConsent />
-                        <Home />
+                        <MainBaner />
                     </>
                 } />
 
