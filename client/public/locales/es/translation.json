@@ -57,6 +57,143 @@
       }
     ]
   },
+  "products": [
+    {
+      "id": 1,
+      "name": "Crema de Manos",
+      "subtitle": "💧 Cuidado diario suave",
+      "description": "Una crema de manos rica pero ligera que se absorbe rápidamente sin dejar residuos grasos. Enriquecida con aceites naturales, extractos botánicos y agentes hidratantes para nutrir, restaurar y proteger profundamente la piel.",
+      "vantage": [
+        "Restaura la piel seca y agrietada",
+        "Suaviza las cutículas",
+        "Aroma delicado y neutro",
+        "Ideal para el uso diario",
+        "Libre de parabenos, siliconas y colorantes artificiales"
+      ],
+      "add_info": "Perfecta para todo tipo de piel — incluso pieles sensibles."
+    },
+    {
+      "id": 2,
+      "name": "Protector Solar",
+      "subtitle": "🧴 Protección diaria invisible",
+      "description": "Un protector solar ligero de rápida absorción que no deja residuo blanco mientras protege la piel de los rayos UVA/UVB. Enriquecido con ingredientes naturales calmantes e hidratantes.",
+      "vantage": [
+        "SPF 30 / SPF 50",
+        "Sin fragancia o con aroma natural suave",
+        "No comedogénico, apto para todo tipo de piel",
+        "Compatible con el maquillaje",
+        "Libre de oxibenzona, parabenos y alcohol"
+      ],
+      "add_info": "Perfecta para todo tipo de piel — incluso pieles sensibles."
+    },
+    {
+      "id": 3,
+      "name": "Aceite Facial/Corporal",
+      "subtitle": "💧 Nutre. Equilibra. Ilumina.",
+      "description": "Un aceite natural ligero que hidrata profundamente, suaviza y restaura la barrera natural de la piel. Ideal para rostro, cuello, escote o cuerpo. Perfecto para masajes o cuidado diario.",
+      "vantage": [
+        "100% ingredientes naturales",
+        "Acabado no graso",
+        "Calma la piel seca o sensible",
+        "Se puede mezclar con cremas o sueros",
+        "Frasco cuentagotas para uso preciso"
+      ],
+      "add_info": "Piel radiante, naturalmente."
+    },
+    {
+      "id": 4,
+      "name": "Agua Micelar",
+      "subtitle": "💧 Limpia. Refresca. Equilibra.",
+      "description": "Un agua micelar suave diseñada para la limpieza diaria. Elimina maquillaje, impurezas y exceso de grasa sin aclarado. Segura para todo tipo de piel, incluso las sensibles.",
+      "vantage": [
+        "Sin alcohol y sin fragancia",
+        "Apta para el área de los ojos",
+        "Equilibra el pH de la piel",
+        "Refresca sin resecar",
+        "Esencial en el cuidado diario"
+      ],
+      "add_info": "Piel limpia, naturalmente."
+    },
+    {
+      "id": 5,
+      "name": "Suero Facial",
+      "subtitle": "💧 Hidrata. Repara. Ilumina.",
+      "description": "Un suero facial ligero formulado para hidratación profunda y renovación de la piel. Potencia la textura y luminosidad, absorbiendo rápidamente. Ideal para uso diario antes del hidratante.",
+      "vantage": [
+        "Con ácido hialurónico, vitaminas o péptidos",
+        "Textura no pegajosa y rápida absorción",
+        "Apto para todo tipo de piel",
+        "Sin parabenos ni siliconas",
+        "Mejora la elasticidad y el brillo"
+      ],
+      "add_info": "🌿 La belleza comienza desde dentro."
+    },
+    {
+      "id": 6,
+      "name": "Crema Facial",
+      "subtitle": "💧 Nutre. Conforta. Equilibra.",
+      "description": "Un hidratante facial diario suave que hidrata, suaviza y protege la piel. Diseñado para todo tipo de piel, incluidas las sensibles. Deja la piel suave, equilibrada y radiante.",
+      "vantage": [
+        "Enriquecida con aceites naturales y agentes hidratantes",
+        "No comedogénico",
+        "Apto para uso de día y noche",
+        "Fórmula minimalista sin fragancia"
+      ],
+      "add_info": "🌿 Cuidado de la piel inspirado en la naturaleza."
+    },
+    {
+      "id": 7,
+      "name": "Champú",
+      "subtitle": "💧 Limpia. Refresca. Revitaliza.",
+      "description": "Un limpiador diario suave que purifica el cuero cabelludo y el cabello sin eliminar los aceites naturales. Adecuado para todo tipo de cabello, incluido cuero cabelludo sensible. Deja el cabello limpio, suave y lleno de vitalidad.",
+      "vantage": [
+        "Con extractos botánicos y tensioactivos suaves",
+        "Sin sulfatos",
+        "Seguro para cabello teñido",
+        "Fórmula minimalista sin fragancia"
+      ],
+      "add_info": "🌿 Cuidado capilar inspirado en la naturaleza."
+    },
+    {
+      "id": 8,
+      "name": "Acondicionador",
+      "subtitle": "💧 Hidrata. Desenreda. Protege.",
+      "description": "Un acondicionador ligero de uso diario que restaura la suavidad y facilita el peinado sin apelmazar. Ideal para todo tipo de cabello. Deja los mechones sedosos, hidratados y fáciles de peinar.",
+      "vantage": [
+        "Enriquecido con aceites nutritivos y extractos botánicos",
+        "Sin siliconas",
+        "Seguro para cabello teñido",
+        "Fórmula minimalista sin fragancia"
+      ],
+      "add_info": "🌿 Cuidado capilar inspirado en la naturaleza."
+    },
+    {
+      "id": 9,
+      "name": "Mascarilla Capilar",
+      "subtitle": "💧 Repara. Fortalece. Nutre.",
+      "description": "Un tratamiento semanal rico que restaura profundamente el cabello dañado, seco o tratado químicamente. Deja el cabello fuerte, brillante y visiblemente más saludable de raíz a puntas.",
+      "vantage": [
+        "Con proteínas vegetales y aceites naturales",
+        "Sin siliconas ni parabenos",
+        "Ideal para cabello seco, quebradizo o tratado",
+        "Fórmula minimalista sin fragancia"
+      ],
+      "add_info": "🌿 Cuidado capilar inspirado en la naturaleza."
+    },
+    {
+      "id": 10,
+      "name": "Cápsulas Capilares",
+      "subtitle": "💧 Revitaliza. Fortalece. Da brillo.",
+      "description": "Un tratamiento concentrado sin aclarado en cápsulas que entrega nutrientes esenciales directamente al cabello y cuero cabelludo. Restaura vitalidad, suavidad y brillo radiante.",
+      "vantage": [
+        "Ricas en vitaminas y aceites botánicos",
+        "Fórmula no grasa y de rápida absorción",
+        "Ideal para cabello dañado o fino",
+        "Fórmula minimalista sin fragancia"
+      ],
+      "add_info": "🌿 Cuidado capilar inspirado en la naturaleza."
+    }
+  ],
   "ftr": {
     "info_coockies": {
       "p": "Utilizamos cookies para mejorar la funcionalidad del sitio. Al continuar usando el sitio, aceptas el uso de cookies.",

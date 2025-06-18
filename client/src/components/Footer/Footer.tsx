@@ -39,17 +39,17 @@ const Footer = () => {
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const target = e.target;
-    const value = target instanceof HTMLInputElement && target.type === 'checkbox'
-        ? target.checked
-        : target.value;
-    const name = target.name;
+        const target = e.target;
+        const value = target instanceof HTMLInputElement && target.type === 'checkbox'
+            ? target.checked
+            : target.value;
+        const name = target.name;
 
-    setFormData(prev => ({
-        ...prev,
-        [name]: value,
-    }));
-};
+        setFormData(prev => ({
+            ...prev,
+            [name]: value,
+        }));
+    };
 
 
     const handleSubmit = async (e: React.FormEvent) => {

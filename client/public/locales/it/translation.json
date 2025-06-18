@@ -57,6 +57,143 @@
       }
     ]
   },
+   "products": [
+    {
+      "id": 1,
+      "name": "Crema Mani",
+      "subtitle": "💧 Cura quotidiana delicata",
+      "description": "Una crema mani ricca ma leggera che si assorbe rapidamente senza lasciare residui grassi. Arricchita con oli naturali, estratti botanici e agenti idratanti per nutrire, riparare e proteggere la pelle in profondità.",
+      "vantage": [
+        "Ripara la pelle secca e screpolata",
+        "Ammorbidisce le cuticole",
+        "Profumo delicato e neutro",
+        "Ideale per l’uso quotidiano",
+        "Senza parabeni, siliconi o coloranti artificiali"
+      ],
+      "add_info": "Perfetta per tutti i tipi di pelle — anche quelle sensibili."
+    },
+    {
+      "id": 2,
+      "name": "Crema Solare",
+      "subtitle": "🧴 Protezione quotidiana invisibile",
+      "description": "Una crema solare leggera e ad assorbimento rapido che non lascia l'effetto bianco, protegge dai raggi UVA/UVB. Arricchita con ingredienti naturali lenitivi e idratanti.",
+      "vantage": [
+        "SPF 30 / SPF 50",
+        "Senza profumo o con una fragranza naturale delicata",
+        "Non comedogenica, adatta a tutti i tipi di pelle",
+        "Compatibile con il trucco",
+        "Senza ossibenzone, parabeni, alcol"
+      ],
+      "add_info": "Perfetta per tutti i tipi di pelle — anche quelle sensibili."
+    },
+    {
+      "id": 3,
+      "name": "Olio Viso/Corpo",
+      "subtitle": "💧 Nutre. Equilibra. Illumina.",
+      "description": "Un olio naturale leggero che idrata in profondità, ammorbidisce e ripristina la barriera cutanea. Ideale per viso, collo, décolleté o corpo. Perfetto per massaggi o cura quotidiana.",
+      "vantage": [
+        "100% ingredienti naturali",
+        "Finitura non grassa",
+        "Calma la pelle secca o sensibile",
+        "Si può miscelare a creme o sieri",
+        "Flacone con contagocce per dosaggio preciso"
+      ],
+      "add_info": "Pelle radiosa, naturalmente."
+    },
+    {
+      "id": 4,
+      "name": "Acqua Micellare",
+      "subtitle": "💧 Detersa. Rinfresca. Equilibra.",
+      "description": "Un'acqua micellare delicata per la detersione quotidiana. Rimuove trucco, impurità e sebo in eccesso senza risciacquo. Sicura per tutti i tipi di pelle, anche le più sensibili.",
+      "vantage": [
+        "Senza alcol e senza profumo",
+        "Adatta alla zona occhi",
+        "Equilibra il pH cutaneo",
+        "Rinfresca senza seccare",
+        "Essenziale nella skincare quotidiana"
+      ],
+      "add_info": "Pelle pulita, naturalmente."
+    },
+    {
+      "id": 5,
+      "name": "Siero Viso",
+      "subtitle": "💧 Idrata. Ripara. Illumina.",
+      "description": "Un siero viso leggero formulato per idratazione profonda e rinnovo cutaneo. Migliora la texture e la luminosità della pelle, assorbendosi rapidamente. Ideale per uso quotidiano prima della crema.",
+      "vantage": [
+        "Con acido ialuronico, vitamine o peptidi",
+        "Texture non appiccicosa ad assorbimento rapido",
+        "Adatto a tutti i tipi di pelle",
+        "Senza parabeni né siliconi",
+        "Migliora elasticità e luminosità"
+      ],
+      "add_info": "🌿 La bellezza inizia da dentro."
+    },
+    {
+      "id": 6,
+      "name": "Crema Viso",
+      "subtitle": "💧 Nutre. Conforta. Equilibra.",
+      "description": "Una crema idratante quotidiana delicata che idrata, ammorbidisce e protegge la pelle. Ideale per tutti i tipi di pelle, comprese quelle sensibili. Lascia la pelle liscia, equilibrata e luminosa.",
+      "vantage": [
+        "Arricchita con oli naturali e agenti idratanti",
+        "Non comedogenica",
+        "Adatta per giorno e notte",
+        "Formula minimalista senza profumo"
+      ],
+      "add_info": "🌿 Skincare radicata nella natura."
+    },
+    {
+      "id": 7,
+      "name": "Shampoo",
+      "subtitle": "💧 Detersa. Rinfresca. Rivitalizza.",
+      "description": "Uno shampoo delicato per uso quotidiano che purifica cute e capelli senza eliminare gli oli naturali. Adatto a tutti i tipi di capelli, anche quelli sensibili. Lascia i capelli puliti, morbidi e vitali.",
+      "vantage": [
+        "Con estratti botanici e tensioattivi delicati",
+        "Senza solfati",
+        "Sicuro sui capelli colorati",
+        "Formula minimalista senza profumo"
+      ],
+      "add_info": "🌿 Haircare radicata nella natura."
+    },
+    {
+      "id": 8,
+      "name": "Balsamo",
+      "subtitle": "💧 Idrata. Districa. Protegge.",
+      "description": "Un balsamo leggero per uso quotidiano che ridona morbidezza e facilita il pettinare senza appesantire. Adatto a tutti i tipi di capelli. Lascia i capelli setosi, idratati e facili da pettinare.",
+      "vantage": [
+        "Arricchito con oli nutrienti ed estratti botanici",
+        "Senza siliconi",
+        "Sicuro sui capelli colorati",
+        "Formula minimalista senza profumo"
+      ],
+      "add_info": "🌿 Haircare radicata nella natura."
+    },
+    {
+      "id": 9,
+      "name": "Maschera Capillare",
+      "subtitle": "💧 Ripara. Rinforza. Nutre.",
+      "description": "Un trattamento settimanale intenso che ripara profondamente capelli danneggiati, secchi o trattati chimicamente. Lascia i capelli forti, lucidi e visibilmente più sani, dalla radice alle punte.",
+      "vantage": [
+        "Con proteine vegetali e oli naturali",
+        "Senza siliconi e parabeni",
+        "Ideale per capelli secchi, fragili o trattati",
+        "Formula minimalista senza profumo"
+      ],
+      "add_info": "🌿 Haircare radicata nella natura."
+    },
+    {
+      "id": 10,
+      "name": "Capsule Capillari",
+      "subtitle": "💧 Rivitalizza. Rinforza. Dona brillantezza.",
+      "description": "Un trattamento concentrato leave‑in in capsule che fornisce nutrienti essenziali direttamente ai capelli e al cuoio capelluto. Ristabilisce vitalità, morbidezza e brillantezza radiante.",
+      "vantage": [
+        "Ricche di vitamine e oli botanici",
+        "Formula non grassa ad assorbimento rapido",
+        "Ideali per capelli danneggiati o sottili",
+        "Formula minimalista senza profumo"
+      ],
+      "add_info": "🌿 Haircare radicata nella natura."
+    }
+  ],
   "ftr": {
     "info_coockies": {
       "p": "Utilizziamo i cookie per migliorare la funzionalità del sito. Continuando a utilizzare il sito, accetti l'uso dei cookie.",

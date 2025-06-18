@@ -3,6 +3,7 @@ import './NavBar.css';
 import logo from "../../assets/img/logo.jpg"
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
 import {useTranslation} from "react-i18next";
+import { Link } from 'react-router-dom';
 
 // Nav item interface
 interface NavItem {
@@ -18,10 +19,10 @@ const Navbar = () => {
     const {t} = useTranslation();
     // Navigation items
     const navItems: NavItem[] = [
-        {id: 1, name: t("navbar.0"), link: 'about_us/'},
-        {id: 2, name: t("navbar.1"), link: 'services/'},
-        {id: 3, name: t("navbar.2"), link: 'products/'},
-        {id: 4, name: t("navbar.3"), link: 'contact/'}
+        {id: 1, name: t("navbar.0"), link: '/about_us/'},
+        {id: 2, name: t("navbar.1"), link: '/services/'},
+        {id: 3, name: t("navbar.2"), link: '/Products/'},
+        {id: 4, name: t("navbar.3"), link: '/contact/'}
     ];
 
     // Handle scroll effect
@@ -138,12 +139,12 @@ const Navbar = () => {
                         <ul>
                             {navItems.map(item => (
                                 <li key={item.id}>
-                                    <a
-                                        href={item.link}
+                                    <Link
+                                        to={item.link}
                                         onClick={closeMenu}
                                     >
                                         {item.name}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
