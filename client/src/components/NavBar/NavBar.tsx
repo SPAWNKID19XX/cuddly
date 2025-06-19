@@ -21,7 +21,7 @@ const Navbar = () => {
     const navItems: NavItem[] = [
         {id: 1, name: t("navbar.0"), link: '/about_us/'},
         {id: 2, name: t("navbar.1"), link: '/services/'},
-        {id: 3, name: t("navbar.2"), link: '/Products/'},
+        {id: 3, name: t("navbar.2"), link: '/products/'},
         {id: 4, name: t("navbar.3"), link: '/contact/'}
     ];
 

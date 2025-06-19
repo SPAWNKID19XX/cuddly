@@ -10,6 +10,7 @@ import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 import MainBaner from "./components/MainBanner/MainBaner.tsx";
 import Product from "./components/Products/Product.tsx";
+import ContactForm from "./components/ContactForm/ContactForm.tsx";
 
 
 function App() {
@@ -27,6 +28,12 @@ function App() {
                 <Route path="/products" element={
                     <>
                         <Product />
+                    </>
+                }/>
+
+                <Route path="/contact" element={
+                    <>
+                        <ContactForm />
                     </>
                 }/>
 

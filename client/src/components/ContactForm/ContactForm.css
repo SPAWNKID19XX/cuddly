@@ -1,0 +1,32 @@
+.contact-form-section{
+    margin-top: 100px;
+}
+
+
+.contact-form-section .container{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+.contact-form-section .container form{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-form-section .container form input{
+    height: 35px;
+    margin-top:10px;
+}
+
+.contact-form-section .container form textarea{
+    height: 300px;
+    margin-top: 10px;
+}
+.contact-form-section .container form select{
+    margin-top: 10px;
+    height: 35px;
+}
+
