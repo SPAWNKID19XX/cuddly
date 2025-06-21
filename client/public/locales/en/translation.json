@@ -1,10 +1,19 @@
 {
-  "navbar": [
-    "About Us",
-    "Services",
-    "Products",
-    "Contact"
-  ],
+  "navbar": {
+    "links": {
+      "1": "About Us",
+      "2": "Services",
+      "3": {
+        "title": "Products",
+        "subtitle": [
+          "Hair Care",
+          " Face & Body Care",
+          "Health & Balance"
+        ]
+      },
+      "4": "Contact"
+    }
+  },
   "mb": {
     "title": "Welcome to Cuddly Breeze Lda",
     "subtitle": "Create your own cosmetics brand – we’ll take care of the rest",
@@ -198,8 +207,6 @@
       "add_info": "🌿 Haircare rooted in nature."
     }
   ],
-
-
   "ftr": {
     "info_coockies": {
       "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",

@@ -1,10 +1,19 @@
 {
-  "navbar": [
-    "Sobre Nós",
-    "Serviços",
-    "Produtos",
-    "Contacto"
-  ],
+  "navbar": {
+  "links": {
+    "1": "Sobre Nós",
+    "2": "Serviços",
+    "3": {
+      "title": "Produtos",
+      "subtitle": [
+        "Cuidados com o Cabelo",
+        "Cuidados com o Rosto e Corpo",
+        "Saúde e Equilíbrio"
+      ]
+    },
+    "4": "Contacto"
+  }
+},
   "mb": {
     "title": "Bem-vindo à Cuddly Breeze Lda",
     "subtitle": "Crie a sua própria marca de cosméticos – nós tratamos do resto",

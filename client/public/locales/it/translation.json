@@ -1,10 +1,19 @@
 {
-  "navbar": [
-    "Chi Siamo",
-    "Servizi",
-    "Prodotti",
-    "Contatti"
-  ],
+  "navbar": {
+    "links": {
+      "1": "Chi Siamo",
+      "2": "Servizi",
+      "3": {
+        "title": "Prodotti",
+        "subtitle": [
+          "Cura dei Capelli",
+          "Cura del Viso e del Corpo",
+          "Salute ed Equilibrio"
+        ]
+      },
+      "4": "Contatto"
+    }
+  },
   "mb": {
     "title": "Benvenuti a Cuddly Breeze Lda",
     "subtitle": "Crea il tuo brand cosmetico – al resto pensiamo noi",
