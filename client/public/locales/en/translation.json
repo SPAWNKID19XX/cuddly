@@ -205,6 +205,40 @@
         "Fragrance-free minimalist formula"
       ],
       "add_info": "🌿 Haircare rooted in nature."
+    },
+    {
+      "id": 11,
+      "name": "HAIR SCRUB",
+      "subtitle": "💧 Deep scalp cleansing for healthy hair growth.",
+      "description": "An innovative scalp scrub in a jar format, designed for gentle yet effective cleansing. The formula with natural exfoliants softly removes product buildup, excess sebum, and dead skin cells, stimulating circulation and promoting the growth of strong, healthy hair.",
+      "vantage": [
+        "Suitable for all scalp types",
+        "Free from sulfates, parabens, and silicones",
+        "Can be used 1–2 times per week",
+        "Ideal as a preparation before serums"
+      ],
+      "ingr": [
+        "Natural exfoliating particles",
+        "Moisturizing oils",
+        "Plant extracts to soothe the scalp"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "HAIR SERUM",
+      "subtitle": "💧 Intensive nourishment and protection for healthy, shiny hair",
+      "description": "A hair serum in a dropper bottle, designed for deep restoration and care. Its lightweight texture absorbs quickly without weighing down the hair, leaving it shiny, soft, and strong. Active ingredients protect against heat and environmental damage, helping prevent breakage and split ends.",
+      "vantage": [
+        "Suitable for all hair types",
+        "Ideal for daily use",
+        "Free from sulfates, parabens, alcohol, and silicones",
+        "Restores hair structure from within"
+      ],
+      "ingr": [
+        "Argan and coconut oils",
+        "Vitamin complex A, E, F",
+        "Plant extracts for nourishment and protection"
+      ]
     }
   ],
   "ftr": {
