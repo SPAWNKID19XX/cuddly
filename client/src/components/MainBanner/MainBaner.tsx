@@ -6,6 +6,7 @@ import oil from "./../../assets/img/oil.jpg"
 import serum from "./../../assets/img/serum.jpg"
 import sunscreen from "./../../assets/img/sunscreen.jpg"
 import micelar_water from './../../assets/img/micelar_water.jpg'
+import lab from './../../assets/img/lab.avif'
 import {useTranslation} from "react-i18next";
 
 
@@ -110,6 +111,20 @@ const MainBaner: React.FC<MainBannerProps> = () => {
     return (
         <div className="main-banner">
             <div className="banner-content">
+                <div className="main_links">
+                    <a href="#">
+                        <img src={lab} alt="lab" className="lab_logo" />
+                        <div className="title_img_lab">
+                            <h3>Labaratorio</h3>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img src={lab} alt="lab" className="lab_logo" />
+                        <div className="title_img_lab">
+                            <h3>Products</h3>
+                        </div>
+                    </a>
+                </div>
                 <h1 className="banner-title">{t('mb.title')}</h1>
                 <div className="piture-container">
                     <ImageListBanner/>
