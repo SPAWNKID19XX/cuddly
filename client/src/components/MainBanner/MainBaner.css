@@ -1,5 +1,6 @@
 .main-banner{
-    margin-top: 100px;
+    margin-top: 150px;
+  background: #f7f7eb;
 }
 
 
@@ -49,8 +50,8 @@
 }
 
 .thumbnail-wrapper.active {
-  border-color: #129990;
-  box-shadow: 0 0 10px #90D1CA;
+  border-color: black;
+  box-shadow: 0 0 10px gray;
 }
 
 .thumbnail-image {
