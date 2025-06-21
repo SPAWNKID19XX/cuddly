@@ -14,6 +14,10 @@
     ]
   },
   "about_us": {
+    "links": [
+      "Laboratory",
+      "Products"
+    ],
     "title": "About Us",
     "p": [
       "We are a team of professionals working in the beauty and wellness industry, developing modern products for the cosmetic and wellness market. Our approach combines deep expertise, cutting-edge scientific developments, and European quality standards.",

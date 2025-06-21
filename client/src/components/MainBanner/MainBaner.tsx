@@ -6,7 +6,8 @@ import oil from "./../../assets/img/oil.jpg"
 import serum from "./../../assets/img/serum.jpg"
 import sunscreen from "./../../assets/img/sunscreen.jpg"
 import micelar_water from './../../assets/img/micelar_water.jpg'
-import lab from './../../assets/img/lab.avif'
+import lab from './../../assets/img/lab.jpg'
+import products from './../../assets/img/products.jpg'
 import {useTranslation} from "react-i18next";
 
 
@@ -112,18 +113,24 @@ const MainBaner: React.FC<MainBannerProps> = () => {
         <div className="main-banner">
             <div className="banner-content">
                 <div className="main_links">
-                    <a href="#">
-                        <img src={lab} alt="lab" className="lab_logo" />
-                        <div className="title_img_lab">
-                            <h3>Labaratorio</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <img src={lab} alt="lab" className="lab_logo" />
-                        <div className="title_img_lab">
-                            <h3>Products</h3>
-                        </div>
-                    </a>
+                    <div className="links-img-container">
+                        <a href="#">
+                            <img src={lab} alt="lab" />
+                            <div className="title_img_lab">
+                                <h3>{t("about_us.links.0")}</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="links-img-container">
+                        <a href="#">
+                            <img src={products} alt='products' />
+                            <div className="title_img_lab">
+                                <h3>{t("about_us.links.1")}</h3>
+                            </div>
+                        </a>
+                    </div>
+
+
                 </div>
                 <h1 className="banner-title">{t('mb.title')}</h1>
                 <div className="piture-container">

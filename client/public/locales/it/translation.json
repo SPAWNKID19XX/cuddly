@@ -14,6 +14,10 @@
     ]
   },
   "about_us": {
+    "links": [
+      "Laboratorio",
+      "Prodotti"
+    ],
     "title": "Chi Siamo",
     "p": [
       "Siamo un team di professionisti che operano nel settore della bellezza e del benessere, sviluppando prodotti moderni per i mercati cosmetico e del wellness. Il nostro approccio combina una profonda esperienza, innovazioni scientifiche all’avanguardia e standard di qualità europei.",
@@ -57,7 +61,7 @@
       }
     ]
   },
-   "products": [
+  "products": [
     {
       "id": 1,
       "name": "Crema Mani",

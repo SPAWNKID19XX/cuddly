@@ -4,6 +4,22 @@
   font-family: "EB Garamond", serif;
 }
 
+
+.links-img-container{
+  width: 40%;
+  margin-top: 50px;
+}
+
+.links-img-container img{
+  width: 100%;
+}
+
+.links-img-container a:hover img{
+  border: 2px solid black;
+  box-shadow: 0 0 30px gray;
+}
+
+
 .main-banner .main_links{
   display: flex;
   justify-content: space-around;

@@ -14,6 +14,10 @@
     ]
   },
   "about_us": {
+    "links": [
+      "Laboratório",
+      "Produtos"
+    ],
     "title": "Sobre Nós",
     "p": [
       "Somos uma equipa de profissionais que atuam na área da beleza e bem-estar, desenvolvendo produtos modernos para os mercados cosmético e de bem-estar. A nossa abordagem combina uma profunda experiência, desenvolvimentos científicos de ponta e padrões de qualidade europeus.",
