@@ -1,42 +1,64 @@
-.contact-form-section{
+.contact-form-section {
     margin-top: 150px;
     background: #f7f7eb;
     padding-bottom: 100px;
+    font-family: "EB Garamond", serif;
+
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
 }
 
 
-.contact-form-section .container{
+.contact-form-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('./../../assets/img/lppZGC01.svg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.contact-form-section .container {
     width: 50%;
     margin: 0 auto;
-
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.contact-form-section .container form{
+.contact-form-section .container form {
     display: grid;
     width: 90%;
     margin: 0 auto;
 }
 
-.contact-form-section .container form input{
+.contact-form-section .container form input {
     height: 35px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.contact-form-section .container form textarea{
+.contact-form-section .container form textarea {
     height: 300px;
     margin-top: 10px;
 }
-.contact-form-section .container form select{
+
+.contact-form-section .container form select {
     margin-top: 10px;
     height: 35px;
 }
 
-form button{
+form button {
     background: grey;
     color: white;
 }
 
-form button:hover{
+form button:hover {
     background: black;
     color: white;
 }
