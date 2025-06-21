@@ -3,58 +3,69 @@ import Navbar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import CookieConsent from './components/coockiesConsent/CookiesConsent'
 import './i18n.js'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy.tsx'
 import CookiesPolicy from './pages/cookies-policy/CookiesPolicy.tsx'
 import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
-import MainBaner  from "./components/MainBanner/MainBaner.tsx";
+import MainBaner from "./components/MainBanner/MainBaner.tsx";
+import Product from "./components/Products/Product.tsx";
+import ContactForm from "./components/ContactForm/ContactForm.tsx";
+
 
 function App() {
     return (
         <BrowserRouter>
-            <Navbar />
+            <Navbar/>
 
             <Routes>
                 <Route path="/" element={
                     <>
-                        <CookieConsent />
-                        <MainBaner />
+                        <MainBaner/>
                     </>
-                } />
+                }/>
+
+                <Route path="/products" element={
+                    <>
+                        <Product />
+                    </>
+                }/>
+
+                <Route path="/contact" element={
+                    <>
+                        <ContactForm />
+                    </>
+                }/>
 
                 <Route path="/privacy-policy" element={
                     <>
-                        <CookieConsent />
-                        <PrivacyPolicy />
+                        <PrivacyPolicy/>
                     </>
-                } />
+                }/>
 
                 <Route path="/cookies-policy" element={
                     <>
-                        <CookieConsent />
-                        <CookiesPolicy />
+                        <CookiesPolicy/>
                     </>
-                } />
+                }/>
 
 
                 <Route path="/terms-conditions" element={
                     <>
-                        <TermsConditions />
-                        <CookiesPolicy />
+                        <TermsConditions/>
                     </>
-                } />
+                }/>
 
 
-            <Route path="/about_us" element={
+                <Route path="/about_us" element={
                     <>
-                        <AboutUs />
+                        <AboutUs/>
                     </>
-                } />
+                }/>
 
             </Routes>
-
-            <Footer />
+            <CookieConsent/>
+            <Footer/>
         </BrowserRouter>
     )
 }

@@ -1,63 +1,59 @@
-import {useState, useEffect, useCallback} from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import './NavBar.css';
-import logo from "../../assets/img/logo.jpg"
+import logo from "../../assets/img/logo1.jpg";
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 // Nav item interface
 interface NavItem {
     id: number;
     name: string;
-    link: string;
+    link?: string;
+    subItems?: { name: string; link: string }[];
 }
-
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const {t} = useTranslation();
-    // Navigation items
+    const { t } = useTranslation();
+
     const navItems: NavItem[] = [
-        {id: 1, name: t("navbar.0"), link: 'about_us/'},
-        {id: 2, name: t("navbar.1"), link: 'services/'},
-        {id: 3, name: t("navbar.2"), link: 'products/'},
-        {id: 4, name: t("navbar.3"), link: 'contact/'}
+        { id: 1, name: t("navbar.0"), link: '/about_us/' },
+        { id: 2, name: t("navbar.1"), link: '/services/' },
+        {
+            id: 3,
+            name: t("navbar.2"),
+            link: '/products/',
+            subItems: [
+                { name: t("navbar.products.option1"), link: '/products/option1' },
+                { name: t("navbar.products.option2"), link: '/products/option2' },
+                { name: t("navbar.products.option3"), link: '/products/option3' },
+            ]
+        },
+        { id: 4, name: t("navbar.3"), link: '/contact/' }
     ];
 
-    // Handle scroll effect
+    // Scroll effect
     useEffect(() => {
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 20);
-        };
-
+        const handleScroll = () => setScrolled(window.scrollY > 20);
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Disable body scroll when menu is open
+    // Prevent body scroll on mobile menu
     useEffect(() => {
-        if (isMenuOpen) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = '';
-        }
-
-        return () => {
-            document.body.style.overflow = '';
-        };
+        document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+        return () => { document.body.style.overflow = ''; };
     }, [isMenuOpen]);
 
-    // Toggle mobile menu
     const toggleMenu = useCallback(() => {
         setIsMenuOpen(prev => !prev);
     }, []);
 
-    // Close the menu
     const closeMenu = useCallback(() => {
         setIsMenuOpen(false);
     }, []);
-
-    // Change language
 
     return (
         <>
@@ -66,17 +62,17 @@ const Navbar = () => {
                 <div className="navbar-container">
                     {/* Logo */}
                     <div className="navbar-logo">
-                        <a href="/">
+                        <Link to="/">
                             <div className="logo-container">
-                                <img src={logo} alt="logo"/>
+                                <img src={logo} alt="logo" />
                             </div>
-                        </a>
+                        </Link>
                     </div>
 
-                    {/* Mobile Language Selector - всегда видимый */}
+                    {/* Mobile Language Selector */}
                     <div className="mobile-visible-language">
                         <div className="language-selector">
-                            <LanguageSelector/>
+                            <LanguageSelector />
                         </div>
                     </div>
 
@@ -84,8 +80,17 @@ const Navbar = () => {
                     <nav className="desktop-links navbar-links">
                         <ul>
                             {navItems.map(item => (
-                                <li key={item.id}>
-                                    <a href={item.link}>{item.name}</a>
+                                <li key={item.id} className={item.subItems ? "has-submenu" : ""}>
+                                    <Link to={item.link || "#"}>{item.name}</Link>
+                                    {item.subItems && (
+                                        <ul className="submenu">
+                                            {item.subItems.map((subItem, index) => (
+                                                <li key={index}>
+                                                    <Link to={subItem.link}>{subItem.name}</Link>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
                                 </li>
                             ))}
                         </ul>
@@ -94,7 +99,7 @@ const Navbar = () => {
                     {/* Desktop Actions */}
                     <div className="desktop-actions navbar-actions">
                         <div className="language-selector">
-                            <LanguageSelector/>
+                            <LanguageSelector />
                         </div>
                     </div>
 
@@ -110,7 +115,6 @@ const Navbar = () => {
                         <span className="hamburger-line"></span>
                     </button>
                 </div>
-
             </header>
 
             {/* Mobile Menu */}
@@ -118,14 +122,12 @@ const Navbar = () => {
                 <div className="mobile-menu-container">
                     <div className="mobile-menu-header">
                         <div className="navbar-logo">
-
-                            <a href="/">
+                            <Link to="/">
                                 <div className="logo-container">
-                                    <img src={logo} alt="logo"/>
+                                    <img src={logo} alt="logo" />
                                 </div>
-                            </a>
+                            </Link>
                         </div>
-
                         <button
                             className="mobile-menu-close"
                             onClick={closeMenu}
@@ -137,20 +139,21 @@ const Navbar = () => {
                     <nav className="mobile-nav">
                         <ul>
                             {navItems.map(item => (
-                                <li key={item.id}>
-                                    <a
-                                        href={item.link}
-                                        onClick={closeMenu}
-                                    >
-                                        {item.name}
-                                    </a>
+                                <li key={item.id} className={item.subItems ? "has-submenu" : ""}>
+                                    <Link to={item.link || "#"} onClick={closeMenu}>{item.name}</Link>
+                                    {item.subItems && (
+                                        <ul className="submenu">
+                                            {item.subItems.map((subItem, index) => (
+                                                <li key={index}>
+                                                    <Link to={subItem.link} onClick={closeMenu}>{subItem.name}</Link>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
                                 </li>
                             ))}
                         </ul>
-
                     </nav>
-
-
                 </div>
             </div>
         </>

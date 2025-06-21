@@ -4,7 +4,6 @@ import fb from '../../assets/img/icons/facebook.png'
 import tt from '../../assets/img/icons/tiktok.png'
 import insta from '../../assets/img/icons/instagram.png'
 import {useState} from "react";
-import logo from '../../assets/img/logo.jpg';
 import {useTranslation} from "react-i18next";
 
 const Footer = () => {
@@ -39,17 +38,17 @@ const Footer = () => {
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const target = e.target;
-    const value = target instanceof HTMLInputElement && target.type === 'checkbox'
-        ? target.checked
-        : target.value;
-    const name = target.name;
+        const target = e.target;
+        const value = target instanceof HTMLInputElement && target.type === 'checkbox'
+            ? target.checked
+            : target.value;
+        const name = target.name;
 
-    setFormData(prev => ({
-        ...prev,
-        [name]: value,
-    }));
-};
+        setFormData(prev => ({
+            ...prev,
+            [name]: value,
+        }));
+    };
 
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -84,7 +83,6 @@ const Footer = () => {
             <div className='footer-container'>
                 <section className='footer'>
                     <div className='footer-info'>
-                        <img className="logo" src={logo} alt="Cuddly Logo"/>
                         <span>{t("ftr.slogan")}</span>
                         <div className='social-media'>
                             <a href=""><img src={fb} alt=""/></a>
@@ -110,7 +108,7 @@ const Footer = () => {
                     <div className='form-container'>
                         <div className='form'>
                             <h2>{t("ftr.frm.title")}</h2>
-                            <span>{t("ftr.frm.p")}</span>
+                            <span className="fuel_form">{t("ftr.frm.p")}</span>
                             <form onSubmit={handleSubmit}>
                                 <label htmlFor="name">{t("ftr.frm.fields.name")}*</label>
                                 <input
@@ -179,9 +177,7 @@ const Footer = () => {
                                         checked={formData.accepted}
                                         onChange={handleChange}
                                     />
-                                    <span>
-                {t("ftr.frm.fields.axcept.0")}
-                                        <a
+                                     <span> {t("ftr.frm.fields.axcept.0")} <a
                                             href="/politica-privacidade"
                                             target="_blank"
                                             rel="noopener noreferrer"

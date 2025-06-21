@@ -5,7 +5,7 @@ const AboutUs = () => {
     const {t} = useTranslation();
     return (
         <div className="about-us">
-            <div className="about-us__container">
+            <div className="about-us__container" >
                 <h1>{t("about_us.title")}</h1>
                 <p>{t("about_us.p.0")}
                 </p>
@@ -23,10 +23,10 @@ const AboutUs = () => {
                             {t("about_us.subtitle.0.lt.1.0")} <strong>{t("about_us.subtitle.0.lt.1.1")}</strong> {t("about_us.subtitle.0.lt.1.2")}
                         </li>
                         <li>
-                            <strong>{t("about_us.subtitle.0.lt.2.0")}</strong> {t("about_us.subtitle.0.lt.2.1")}
+                            <strong>{t("about_us.subtitle.0.lt.2.0")} </strong> {t("about_us.subtitle.0.lt.2.1")}
                         </li>
                         <li>
-                            {t("about_us.subtitle.0.lt.3.0")}<strong>{t("about_us.subtitle.0.lt.3.1")}</strong>
+                            {t("about_us.subtitle.0.lt.3.0")} <strong>{t("about_us.subtitle.0.lt.3.1")}</strong>
                         </li>
                         <li>
                             {t("about_us.subtitle.0.lt.4.0")}

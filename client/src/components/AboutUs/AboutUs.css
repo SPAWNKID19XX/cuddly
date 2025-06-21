@@ -1,15 +1,48 @@
 .about-us__container{
     width: 80%;
     margin : 0 auto;
+
 }
+
+.about-us__container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about-us__container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./../../assets/img/lppZGC01.svg');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.about-us__content {
+  position: relative;
+  z-index: 1;
+}
+
+.about-us__container h1{
+    font-weight: lighter;
+}
+
+
 .about-us {
-    margin-top: 100px;
+    margin-top: 150px;
+    background-color: #f7f7eb;
+    color:black;
+    font-family: "EB Garamond", serif;
 }
 
 .about-us__container p{
     text-indent: 50px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
 }
 
@@ -20,6 +53,7 @@
 
 .about-us__list li{
     text-align: left;
+    font-size: 20px;
 }
 
 .about-us__container h2{

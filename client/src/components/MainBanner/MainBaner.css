@@ -1,5 +1,21 @@
 .main-banner{
-    margin-top: 100px;
+    margin-top: 150px;
+  background: #f7f7eb;
+  font-family: "EB Garamond", serif;
+}
+
+.main-banner .main_links{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-banner .main_links h3{
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 50px;
 }
 
 
@@ -49,8 +65,8 @@
 }
 
 .thumbnail-wrapper.active {
-  border-color: #129990;
-  box-shadow: 0 0 10px #90D1CA;
+  border-color: black;
+  box-shadow: 0 0 10px gray;
 }
 
 .thumbnail-image {
