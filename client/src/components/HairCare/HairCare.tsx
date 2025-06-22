@@ -131,7 +131,7 @@ const HairCare = () => {
         <div className="product-main-container">
             <div className="container">
                 <div className="title-container">
-                    <h1>Our Products</h1>
+                    <h1>Hair Care</h1>
                 </div>
                 <div className="products-description-container">
                     {
