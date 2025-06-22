@@ -1,19 +1,19 @@
 {
   "navbar": {
-  "links": {
-    "1": "Sobre Nós",
-    "2": "Serviços",
-    "3": {
-      "title": "Produtos",
-      "subtitle": [
-        "Cuidados com o Cabelo",
-        "Cuidados com o Rosto e Corpo",
-        "Saúde e Equilíbrio"
-      ]
-    },
-    "4": "Contacto"
-  }
-},
+    "links": {
+      "1": "Sobre Nós",
+      "2": "Serviços",
+      "3": {
+        "title": "Produtos",
+        "subtitle": [
+          "Cuidados com o Cabelo",
+          "Cuidados com o Rosto e Corpo",
+          "Saúde e Equilíbrio"
+        ]
+      },
+      "4": "Contacto"
+    }
+  },
   "mb": {
     "title": "Bem-vindo à Cuddly Breeze Lda",
     "subtitle": "Crie a sua própria marca de cosméticos – nós tratamos do resto",
@@ -205,6 +205,352 @@
         "Fórmula minimalista e sem fragrância"
       ],
       "add_info": "🌿 Cuidados capilares baseados na natureza."
+    },
+    {
+      "id": 11,
+      "name": "ESFOLIANTE CAPILAR",
+      "subtitle": "💧 Limpeza profunda do couro cabeludo para crescimento capilar saudável.",
+      "description": "Um esfoliante inovador para o couro cabeludo em pote, desenvolvido para uma limpeza suave, mas eficaz. A fórmula com esfoliantes naturais remove suavemente resíduos, excesso de oleosidade e células mortas, estimulando a circulação e promovendo o crescimento de cabelos fortes e saudáveis.",
+      "vantage": [
+        "Adequado para todos os tipos de couro cabeludo",
+        "Sem sulfatos, parabenos e silicones",
+        "Pode ser usado 1–2 vezes por semana",
+        "Ideal como preparação antes do sérum"
+      ],
+      "ingr": [
+        "Partículas esfoliantes naturais",
+        "Óleos hidratantes",
+        "Extratos vegetais para acalmar o couro cabeludo"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "SÉRUM CAPILAR",
+      "subtitle": "💧 Nutrição intensiva e proteção para cabelos saudáveis e brilhantes",
+      "description": "Um sérum capilar em frasco conta‑gotas, projetado para restauração profunda e cuidado. Sua textura leve é absorvida rapidamente sem pesar no cabelo, deixando‑o macio, brilhante e forte. Ingredientes ativos protegem contra calor e danos ambientais, ajudando a prevenir quebra e pontas duplas.",
+      "vantage": [
+        "Adequado para todos os tipos de cabelo",
+        "Ideal para uso diário",
+        "Sem sulfatos, parabenos, álcool nem silicones",
+        "Restaura a estrutura capilar de dentro para fora"
+      ],
+      "ingr": [
+        "Óleos de argan e coco",
+        "Complexo de vitaminas A, E, F",
+        "Extratos vegetais para nutrição e proteção"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Visão geral das vitaminas",
+      "vit_func": {
+        "A": {
+          "func": "Visão, pele, imunidade",
+          "source": "Cenouras, fígado, ovos",
+          "de": "Cegueira noturna, pele seca"
+        },
+        "D": {
+          "func": "Absorção de cálcio, ossos",
+          "source": "Luz solar, peixe, gema de ovo",
+          "de": "Raquitismo, osteomalacia"
+        },
+        "E": {
+          "func": "Antioxidante, proteção celular",
+          "source": "Nozes, óleos, espinafre",
+          "de": "Fraqueza muscular"
+        },
+        "K": {
+          "func": "Coagulação, ossos",
+          "source": "Verduras, brócolis, flora intestinal",
+          "de": "Problemas de sangramento"
+        },
+        "C": {
+          "func": "Imunidade, antioxidante, colágeno",
+          "source": "Frutas cítricas, berries, pimentões",
+          "de": "Escorbuto, fraqueza"
+        },
+        "B1": {
+          "func": "Nervos, metabolismo de carboidratos",
+          "source": "Grãos, carne",
+          "de": "Beribéri"
+        },
+        "B2": {
+          "func": "Metabolismo, pele",
+          "source": "Leite, ovos",
+          "de": "Lábios rachados"
+        },
+        "B3": {
+          "func": "Respiração celular",
+          "source": "Carne, peixe, grãos",
+          "de": "Pelagra"
+        },
+        "B5": {
+          "func": "Hormônios, energia",
+          "source": "Ovos, fígado",
+          "de": "Fadiga, irritabilidade"
+        },
+        "B6": {
+          "func": "Metabolismo de proteínas",
+          "source": "Carne, bananas",
+          "de": "Anemia, distúrbios de humor"
+        },
+        "B7": {
+          "func": "Pele, cabelo, metabolismo de gorduras",
+          "source": "Ovos, nozes",
+          "de": "Erupção cutânea, cabelos quebradiços"
+        },
+        "B9": {
+          "func": "DNA, desenvolvimento fetal",
+          "source": "Verduras escuras",
+          "de": "Anemia, defeitos neurais"
+        },
+        "B12": {
+          "func": "Sistema nervoso, sangue",
+          "source": "Carne, ovos, peixe",
+          "de": "Anemia, danos nos nervos"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Suplementos",
+      "description": "Suplementos (suplementos dietéticos, nutracêuticos) são produtos que complementam a dieta e fornecem nutrientes essenciais: vitaminas, minerais, aminoácidos, ácidos graxos, enzimas, extratos vegetais e mais. Não substituem alimentos, mas ajudam a preencher lacunas nutricionais ou apoiar funções corporais específicas.",
+      "subtitle": [
+        "Funções principais dos suplementos:",
+        "Quando tomar suplementos:"
+      ],
+      "mf": [
+        {
+          "title": "Vitaminas e minerais",
+          "p": "apoiam imunidade, metabolismo e sistema nervoso."
+        },
+        {
+          "title": "Ômega‑3",
+          "p": "beneficia cérebro, coração e redução de inflamação."
+        },
+        {
+          "title": "Colágeno",
+          "p": "melhora pele, cabelo, unhas e articulações."
+        },
+        {
+          "title": "Probióticos e prebióticos",
+          "p": "equilibram microbiota intestinal."
+        },
+        {
+          "title": "Proteína",
+          "p": "apoia massa muscular e recuperação após exercício."
+        },
+        {
+          "title": "Aminoácidos",
+          "p": "suportam músculos, energia e imunidade"
+        },
+        {
+          "title": "Enzimas",
+          "p": "aumentam digestão."
+        },
+        {
+          "title": "Adaptógenos",
+          "p": "ajudam com estresse e fadiga."
+        },
+        {
+          "title": "Magnésio",
+          "p": "promove sono, reduz cãibras e ansiedade"
+        },
+        {
+          "title": "Cálcio + vitamina D",
+          "p": "para saúde dos ossos e do coração."
+        },
+        {
+          "title": "Ferro",
+          "p": "importante para anemia e fadiga crônica."
+        },
+        {
+          "title": "Zinco e selênio",
+          "p": "antioxidantes que fortalecem imunidade."
+        }
+      ],
+      "ws": [
+        "Em caso de deficiência (após exames laboratoriais).",
+        "Durante estresse, doença ou esforço físico.",
+        "Durante dieta ou restrição nutricional.",
+        "Para beleza e bem-estar geral."
+      ],
+      "note": [
+        "Nota",
+        "Os suplementos não substituem um estilo de vida saudável, mas são um complemento útil."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Minerais",
+      "description": "Minerais são substâncias inorgânicas necessárias ao corpo em pequenas quantidades para manter a saúde, crescimento, desenvolvimento e função normal dos órgãos.",
+      "subtitle": [
+        "Funções principais dos minerais:",
+        "Quando tomar minerais:"
+      ],
+      "mf": [
+        {
+          "title": "Vitaminas e minerais",
+          "p": "apoiam imunidade, metabolismo e sistema nervoso."
+        },
+        {
+          "title": "Ômega‑3",
+          "p": "beneficia cérebro, coração e redução de inflamação."
+        },
+        {
+          "title": "Colágeno",
+          "p": "melhora pele, cabelo, unhas e articulações."
+        },
+        {
+          "title": "Probióticos e prebióticos",
+          "p": "equilibram microbiota intestinal."
+        },
+        {
+          "title": "Proteína",
+          "p": "apoia massa muscular e recuperação após exercício."
+        },
+        {
+          "title": "Aminoácidos",
+          "p": "suportam músculos, energia e imunidade"
+        },
+        {
+          "title": "Enzimas",
+          "p": "aumentam digestão."
+        },
+        {
+          "title": "Adaptógenos",
+          "p": "ajudam com estresse e fadiga."
+        },
+        {
+          "title": "Magnésio",
+          "p": "promove sono, reduz cãibras e ansiedade"
+        },
+        {
+          "title": "Cálcio + vitamina D",
+          "p": "para saúde dos ossos e do coração."
+        },
+        {
+          "title": "Ferro",
+          "p": "importante para anemia e fadiga crônica."
+        },
+        {
+          "title": "Zinco e selênio",
+          "p": "antioxidantes que fortalecem imunidade."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bióticos",
+      "description": "O que são os bióticos e como eles ajudam o corpo?",
+      "subtitle": [
+        "Bióticos",
+        "é um termo geral para grupos de substâncias que apoiam o microbioma humano e a saúde intestinal. Eles incluem:"
+      ],
+      "lt": [
+        {
+          "title": "Probióticos",
+          "p": "Micro-organismos vivos (bactérias ou leveduras) que, quando consumidos em quantidades suficientes, trazem benefícios à saúde.",
+          "lt": [
+            {
+              "title": "Cepas comuns",
+              "lt": [
+                "Lactobacillus",
+                "Bifidobacterium",
+                "Saccharomyces boulardii"
+              ]
+            },
+            {
+              "title": "Benefícios",
+              "lt": [
+                "Restaurar a flora intestinal após antibióticos",
+                "Aliviar sintomas da SII (síndrome do intestino irritável)",
+                "Fortalecer o sistema imunológico",
+                "Reduzir diarreia ou prisão de ventre",
+                "Melhorar a absorção de nutrientes"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prebióticos",
+          "p": "Fibras alimentares não digeríveis que servem como \"alimento\" para bactérias benéficas do intestino.",
+          "lt": [
+            {
+              "title": "Tipos principais",
+              "lt": [
+                "Inulina",
+                "Frutooligossacarídeos (FOS)",
+                "Galactooligossacarídeos (GOS)"
+              ]
+            },
+            {
+              "title": "Benefícios",
+              "lt": [
+                "Promovem o crescimento de bactérias saudáveis",
+                "Melhoram a digestão",
+                "Normalizam o trânsito intestinal",
+                "Ajudam a regular o colesterol e a glicose"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pós-bióticos",
+          "p": "Subprodutos metabólicos dos probióticos, como ácidos graxos de cadeia curta, peptídeos e enzimas.",
+          "lt": [
+            {
+              "title": "Benefícios",
+              "lt": [
+                "Efeitos anti-inflamatórios",
+                "Apoiam a função da barreira intestinal",
+                "Reforçam a imunidade",
+                "Combatem microrganismos nocivos"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Simbióticos",
+          "p": "Uma combinação de probióticos e prebióticos que atuam de forma sinérgica.",
+          "lt": [
+            {
+              "title": "Benefícios",
+              "lt": [
+                "Aumentam a sobrevivência dos probióticos",
+                "Maximizam os benefícios do microbioma intestinal",
+                "Melhoram a digestão e a absorção de nutrientes"
+              ]
+            },
+            {
+              "title": "Outros benefícios dos bióticos:",
+              "lt": [
+                [
+                  "Eixo intestino-cérebro",
+                  "o microbioma afeta o humor, a memória e a ansiedade"
+                ],
+                [
+                  "Saúde da pele",
+                  "útil para acne, eczema e dermatite"
+                ],
+                [
+                  "Controle de peso",
+                  "apoia o metabolismo de gorduras e carboidratos"
+                ]
+              ]
+            },
+            {
+              "title": "Quando usar bióticos",
+              "lt": [
+                "Após o uso de antibióticos",
+                "Problemas digestivos",
+                "Estresse crônico",
+                "Suporte ao sistema imunológico"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "ftr": {

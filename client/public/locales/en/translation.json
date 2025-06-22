@@ -239,6 +239,318 @@
         "Vitamin complex A, E, F",
         "Plant extracts for nourishment and protection"
       ]
+    },
+    {
+      "id": 13,
+      "name": "Vitamins Overview",
+      "vit_func": {
+        "A": {
+          "func": "Vision, skin, immunity",
+          "source": "Carrots, liver, eggs",
+          "de": "Night blindness, dry skin"
+        },
+        "D": {
+          "func": "Calcium absorption, bones",
+          "source": "Sunlight, fish, egg yolk",
+          "de": "Rickets, osteomalacia"
+        },
+        "E": {
+          "func": "Antioxidant, cell protection",
+          "source": "Nuts, oils, spinach",
+          "de": "Muscle weakness"
+        },
+        "K": {
+          "func": "Blood clotting, bones",
+          "source": "Greens, broccoli, gut flora",
+          "de": "Bleeding issues"
+        },
+        "C": {
+          "func": "Immunity, antioxidant, collagen",
+          "source": "Citrus, berries, peppers",
+          "de": "Scurvy, weakness"
+        },
+        "B1": {
+          "func": "Nerves, carbs metabolism",
+          "source": "Grains, meat",
+          "de": "Beriberi"
+        },
+        "B2": {
+          "func": "Metabolism, skin",
+          "source": "Milk, eggs",
+          "de": "Cracked lips"
+        },
+        "B3": {
+          "func": "Cellular respiration",
+          "source": "Meat, fish, grains",
+          "de": "Pellagra"
+        },
+        "B5": {
+          "func": "Hormones, energy",
+          "source": "Eggs, liver",
+          "de": "Fatigue, irritability"
+        },
+        "B6": {
+          "func": "Protein metabolism",
+          "source": "Meat, bananas",
+          "de": "Anemia, mood disorders"
+        },
+        "B7": {
+          "func": "Skin, hair, fat metabolism",
+          "source": "Eggs, nuts",
+          "de": "Rash, brittle hair"
+        },
+        "B9": {
+          "func": "DNA, fetal development",
+          "source": "Leafy greens",
+          "de": "Anemia, neural defects"
+        },
+        "B12": {
+          "func": "Nervous system, blood",
+          "source": "Meat, eggs, fish",
+          "de": "Anemia, nerve damage"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Supplements",
+      "description": "Supplements (dietary supplements, nutraceuticals) are products that complement the diet and supply the body with essential nutrients: vitamins, minerals, amino acids, fatty acids, enzymes, plant extracts, and more. They don’t replace food, but help fill nutritional gaps or support specific body functions.",
+      "subtitle": [
+        "Main functions of supplements:",
+        "When to take supplements:"
+      ],
+      "mf": [
+        {
+          "title": "Vitamins & minerals",
+          "p": "support immunity, metabolism, and the nervous system."
+        },
+        {
+          "title": "Omega-3",
+          "p": "beneficial for the brain, heart, and reducing inflammation."
+        },
+        {
+          "title": "Collagen",
+          "p": "improves skin, hair, nails, and joints."
+        },
+        {
+          "title": "Probiotics & prebiotics",
+          "p": "balance gut microbiota."
+        },
+        {
+          "title": "Protein",
+          "p": "supports muscle mass and recovery after exercise."
+        },
+        {
+          "title": "Amino acids",
+          "p": "support muscles, energy, and immunity"
+        },
+        {
+          "title": "Enzymes",
+          "p": "enhance digestion."
+        },
+        {
+          "title": "Adaptogens",
+          "p": "help with stress and energy loss."
+        },
+        {
+          "title": "Magnesium",
+          "p": "promotes sleep, reduces cramps and anxiety"
+        },
+        {
+          "title": "Calcium + vitamin D",
+          "p": "or bone and heart health."
+        },
+        {
+          "title": "Iron",
+          "p": "important for anemia and chronic fatigue."
+        },
+        {
+          "title": "Zinc & selenium",
+          "p": "antioxidants that boost immunity."
+        }
+      ],
+      "ws": [
+        "In case of deficiency (after lab tests).",
+        "During stress, illness, or physical exertion.",
+        "While dieting or limiting nutrition.",
+        "For beauty and general wellness support."
+      ],
+      "note": [
+        "Note",
+        "Supplements are not a replacement for a healthy lifestyle, but a helpful addition."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Minerals",
+      "description": "Minerals are inorganic substances needed by the body in small amounts to maintain health, growth, development, and normal organ function.",
+      "subtitle": [
+        "Main functions of supplements:",
+        "When to take supplements:"
+      ],
+      "mf": [
+        {
+          "title": "Vitamins & minerals",
+          "p": "support immunity, metabolism, and the nervous system."
+        },
+        {
+          "title": "Omega-3",
+          "p": "beneficial for the brain, heart, and reducing inflammation."
+        },
+        {
+          "title": "Collagen",
+          "p": "improves skin, hair, nails, and joints."
+        },
+        {
+          "title": "Probiotics & prebiotics",
+          "p": "balance gut microbiota."
+        },
+        {
+          "title": "Protein",
+          "p": "supports muscle mass and recovery after exercise."
+        },
+        {
+          "title": "Amino acids",
+          "p": "support muscles, energy, and immunity"
+        },
+        {
+          "title": "Enzymes",
+          "p": "enhance digestion."
+        },
+        {
+          "title": "Adaptogens",
+          "p": "help with stress and energy loss."
+        },
+        {
+          "title": "Magnesium",
+          "p": "promotes sleep, reduces cramps and anxiety"
+        },
+        {
+          "title": "Calcium + vitamin D",
+          "p": "or bone and heart health."
+        },
+        {
+          "title": "Iron",
+          "p": "important for anemia and chronic fatigue."
+        },
+        {
+          "title": "Zinc & selenium",
+          "p": "antioxidants that boost immunity."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Biotics",
+      "description": "What Are Biotics and How Do They Help the Body?",
+      "subtitle": [
+        "Biotics",
+        "is a general term for groups of substances that support the human microbiome and gut health. They include:"
+      ],
+      "lt": [
+        {
+          "title": "Probiotics",
+          "p": "Live microorganisms (bacteria or yeast) that, when consumed in sufficient amounts, benefit health.",
+          "lt": [
+            {
+              "title": "Common strains",
+              "lt": [
+                "Lactobacillus",
+                "Bifidobacterium",
+                "Saccharomyces boulardii"
+              ]
+            },
+            {
+              "title": "Benefits",
+              "lt": [
+                "Restore gut flora after antibiotics",
+                "Relieve IBS symptoms",
+                "Support the immune system",
+                "Ease diarrhea or constipation",
+                "Improve nutrient absorption"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prebiotics",
+          "p": "Non-digestible dietary fibers that serve as \"food\" for beneficial gut bacteria.",
+          "lt": [
+            {
+              "title": "Main types",
+              "lt": [
+                "Inulin",
+                "Fructooligosaccharides (FOS)",
+                "Galactooligosaccharides (GOS)"
+              ]
+            },
+            {
+              "title": "Benefits",
+              "lt": [
+                "Promote the growth of healthy bacteria",
+                "Improve digestion",
+                "Normalize bowel movements",
+                "Help regulate cholesterol and glucose"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Postbiotics",
+          "p": "Metabolic byproducts of probiotics, such as short-chain fatty acids, peptides, and enzymes",
+          "lt": [
+            {
+              "title": "Benefits",
+              "lt": [
+                "Anti-inflammatory effects",
+                "Support gut barrier function",
+                "Strengthen immunity",
+                "Fight harmful microbes"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Synbiotics",
+          "p": "A combination of probiotics and prebiotics that work synergistically.",
+          "lt": [
+            {
+              "title": "Benefits",
+              "lt": [
+                "Boost probiotic survival",
+                "Maximize gut microbiome benefits",
+                "Improve digestion and nutrient absorption"
+              ]
+            },
+            {
+              "title": "Other Benefits of Biotics:",
+              "lt": [
+                [
+                  "Gut-brain axis",
+                  "microbiome affects mood, memory, anxiety"
+                ],
+                [
+                  "Skin health",
+                  "helpful for acne, eczema, dermatitis"
+                ],
+                [
+                  "Weight management",
+                  "supports fat and carb metabolism"
+                ]
+              ]
+            },
+            {
+              "title": "When to Use Biotics",
+              "lt": [
+                "After antibiotics",
+                "Digestive issues",
+                "Chronic stress",
+                "Immune system support"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "ftr": {
