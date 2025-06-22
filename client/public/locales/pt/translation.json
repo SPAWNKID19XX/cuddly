@@ -241,204 +241,284 @@
       ]
     },
     {
-      "id": 13,
-      "name": "Visão geral das vitaminas",
-      "vit_func": {
-        "A": {
-          "func": "Visão, pele, imunidade",
-          "source": "Cenouras, fígado, ovos",
-          "de": "Cegueira noturna, pele seca"
-        },
-        "D": {
-          "func": "Absorção de cálcio, ossos",
-          "source": "Luz solar, peixe, gema de ovo",
-          "de": "Raquitismo, osteomalacia"
-        },
-        "E": {
-          "func": "Antioxidante, proteção celular",
-          "source": "Nozes, óleos, espinafre",
-          "de": "Fraqueza muscular"
-        },
-        "K": {
-          "func": "Coagulação, ossos",
-          "source": "Verduras, brócolis, flora intestinal",
-          "de": "Problemas de sangramento"
-        },
-        "C": {
-          "func": "Imunidade, antioxidante, colágeno",
-          "source": "Frutas cítricas, berries, pimentões",
-          "de": "Escorbuto, fraqueza"
-        },
-        "B1": {
-          "func": "Nervos, metabolismo de carboidratos",
-          "source": "Grãos, carne",
-          "de": "Beribéri"
-        },
-        "B2": {
-          "func": "Metabolismo, pele",
-          "source": "Leite, ovos",
-          "de": "Lábios rachados"
-        },
-        "B3": {
-          "func": "Respiração celular",
-          "source": "Carne, peixe, grãos",
-          "de": "Pelagra"
-        },
-        "B5": {
-          "func": "Hormônios, energia",
-          "source": "Ovos, fígado",
-          "de": "Fadiga, irritabilidade"
-        },
-        "B6": {
-          "func": "Metabolismo de proteínas",
-          "source": "Carne, bananas",
-          "de": "Anemia, distúrbios de humor"
-        },
-        "B7": {
-          "func": "Pele, cabelo, metabolismo de gorduras",
-          "source": "Ovos, nozes",
-          "de": "Erupção cutânea, cabelos quebradiços"
-        },
-        "B9": {
-          "func": "DNA, desenvolvimento fetal",
-          "source": "Verduras escuras",
-          "de": "Anemia, defeitos neurais"
-        },
-        "B12": {
-          "func": "Sistema nervoso, sangue",
-          "source": "Carne, ovos, peixe",
-          "de": "Anemia, danos nos nervos"
-        }
-      }
+  "id": 13,
+  "name": "Resumo das Vitaminas",
+  "vit_func": {
+    "A": {
+      "func": "Visão, pele, imunidade",
+      "source": "Cenouras, fígado, ovos",
+      "de": "Cegueira noturna, pele seca"
     },
+    "D": {
+      "func": "Absorção de cálcio, ossos",
+      "source": "Luz solar, peixe, gema de ovo",
+      "de": "Raquitismo, osteomalácia"
+    },
+    "E": {
+      "func": "Antioxidante, proteção celular",
+      "source": "Nozes, óleos, espinafre",
+      "de": "Fraqueza muscular"
+    },
+    "K": {
+      "func": "Coagulação sanguínea, ossos",
+      "source": "Verduras, brócolos, flora intestinal",
+      "de": "Problemas de sangramento"
+    },
+    "C": {
+      "func": "Imunidade, antioxidante, colágeno",
+      "source": "Cítricos, frutas vermelhas, pimentões",
+      "de": "Escorbuto, fraqueza"
+    },
+    "B1": {
+      "func": "Nervos, metabolismo de carboidratos",
+      "source": "Grãos, carne",
+      "de": "Beribéri"
+    },
+    "B2": {
+      "func": "Metabolismo, pele",
+      "source": "Leite, ovos",
+      "de": "Lábios rachados"
+    },
+    "B3": {
+      "func": "Respiração celular",
+      "source": "Carne, peixe, grãos",
+      "de": "Pelagra"
+    },
+    "B5": {
+      "func": "Hormônios, energia",
+      "source": "Ovos, fígado",
+      "de": "Fadiga, irritabilidade"
+    },
+    "B6": {
+      "func": "Metabolismo de proteínas",
+      "source": "Carne, bananas",
+      "de": "Anemia, alterações de humor"
+    },
+    "B7": {
+      "func": "Pele, cabelo, metabolismo de gorduras",
+      "source": "Ovos, nozes",
+      "de": "Erupções cutâneas, cabelo quebradiço"
+    },
+    "B9": {
+      "func": "DNA, desenvolvimento fetal",
+      "source": "Folhas verdes",
+      "de": "Anemia, defeitos neurais"
+    },
+    "B12": {
+      "func": "Sistema nervoso, sangue",
+      "source": "Carne, ovos, peixe",
+      "de": "Anemia, danos nervosos"
+    }
+  }
+},
+
     {
-      "id": 14,
-      "name": "Suplementos",
-      "description": "Suplementos (suplementos dietéticos, nutracêuticos) são produtos que complementam a dieta e fornecem nutrientes essenciais: vitaminas, minerais, aminoácidos, ácidos graxos, enzimas, extratos vegetais e mais. Não substituem alimentos, mas ajudam a preencher lacunas nutricionais ou apoiar funções corporais específicas.",
-      "subtitle": [
-        "Funções principais dos suplementos:",
-        "Quando tomar suplementos:"
-      ],
-      "mf": [
-        {
-          "title": "Vitaminas e minerais",
-          "p": "apoiam imunidade, metabolismo e sistema nervoso."
-        },
-        {
-          "title": "Ômega‑3",
-          "p": "beneficia cérebro, coração e redução de inflamação."
-        },
-        {
-          "title": "Colágeno",
-          "p": "melhora pele, cabelo, unhas e articulações."
-        },
-        {
-          "title": "Probióticos e prebióticos",
-          "p": "equilibram microbiota intestinal."
-        },
-        {
-          "title": "Proteína",
-          "p": "apoia massa muscular e recuperação após exercício."
-        },
-        {
-          "title": "Aminoácidos",
-          "p": "suportam músculos, energia e imunidade"
-        },
-        {
-          "title": "Enzimas",
-          "p": "aumentam digestão."
-        },
-        {
-          "title": "Adaptógenos",
-          "p": "ajudam com estresse e fadiga."
-        },
-        {
-          "title": "Magnésio",
-          "p": "promove sono, reduz cãibras e ansiedade"
-        },
-        {
-          "title": "Cálcio + vitamina D",
-          "p": "para saúde dos ossos e do coração."
-        },
-        {
-          "title": "Ferro",
-          "p": "importante para anemia e fadiga crônica."
-        },
-        {
-          "title": "Zinco e selênio",
-          "p": "antioxidantes que fortalecem imunidade."
-        }
-      ],
-      "ws": [
-        "Em caso de deficiência (após exames laboratoriais).",
-        "Durante estresse, doença ou esforço físico.",
-        "Durante dieta ou restrição nutricional.",
-        "Para beleza e bem-estar geral."
-      ],
-      "note": [
-        "Nota",
-        "Os suplementos não substituem um estilo de vida saudável, mas são um complemento útil."
+  "id": 14,
+  "name": "Suplementos",
+  "description": "Suplementos (suplementos alimentares, nutracêuticos) são produtos que complementam a dieta e fornecem ao corpo nutrientes essenciais: vitaminas, minerais, aminoácidos, ácidos graxos, enzimas, extratos vegetais e mais. Eles não substituem a alimentação, mas ajudam a preencher lacunas nutricionais ou apoiar funções específicas do corpo.",
+  "subtitle": [
+    "Principais funções dos suplementos:",
+    "Quando tomar suplementos:"
+  ],
+  "mf": [
+    { "title": "Vitaminas e minerais", "p": "apoiam a imunidade, o metabolismo e o sistema nervoso." },
+    { "title": "Ômega-3", "p": "benéfico para o cérebro, coração e redução da inflamação." },
+    { "title": "Colágeno", "p": "melhora a pele, cabelos, unhas e articulações." },
+    { "title": "Probióticos e prebióticos", "p": "equilibram a microbiota intestinal." },
+    { "title": "Proteína", "p": "apoia a massa muscular e a recuperação após exercícios." },
+    { "title": "Aminoácidos", "p": "ajudam músculos, energia e imunidade." },
+    { "title": "Enzimas", "p": "melhoram a digestão." },
+    { "title": "Adaptógenos", "p": "ajudam com o estresse e perda de energia." },
+    { "title": "Magnésio", "p": "promove o sono, reduz cãibras e ansiedade." },
+    { "title": "Cálcio + vitamina D", "p": "para saúde dos ossos e do coração." },
+    { "title": "Ferro", "p": "importante para anemia e fadiga crônica." },
+    { "title": "Zinco e selênio", "p": "antioxidantes que fortalecem a imunidade." }
+  ],
+  "ws": [
+    "Em caso de deficiência (após exames laboratoriais).",
+    "Durante estresse, doença ou esforço físico.",
+    "Durante dietas ou restrições alimentares.",
+    "Para beleza e bem-estar geral."
+  ],
+  "note": [
+    "Nota",
+    "Suplementos não substituem um estilo de vida saudável, mas são uma adição útil."
+  ]
+},
+
+    {
+  "id": 15,
+  "name": "Minerais",
+  "description": "Os minerais são substâncias inorgânicas necessárias ao corpo em pequenas quantidades para manter a saúde, o crescimento, o desenvolvimento e o funcionamento normal dos órgãos.",
+  "subtitle": [
+    "Principais tipos de minerais",
+    "Os minerais são divididos em macroelementos e microelementos (oligoelementos)"
+  ],
+  "mf": [
+    {
+      "title": "Macroelements (necessários em grandes quantidades):",
+      "lt": [
+        "Cálcio — saúde dos ossos e dentes, contrações musculares, coagulação sanguínea.",
+        "Fósforo — formação de ossos e dentes, metabolismo energético.",
+        "Magnésio — apoia a função nervosa e muscular, regula a pressão arterial.",
+        "Potássio — ritmo cardíaco, equilíbrio hídrico, função muscular.",
+        "Sódio — equilíbrio de água e sal, transmissão de impulsos nervosos.",
+        "Cloreto — parte do ácido estomacal, equilíbrio de água.",
+        "Enxofre — componente de aminoácidos, saúde da pele, cabelos e unhas."
       ]
     },
     {
-      "id": 15,
-      "name": "Minerais",
-      "description": "Minerais são substâncias inorgânicas necessárias ao corpo em pequenas quantidades para manter a saúde, crescimento, desenvolvimento e função normal dos órgãos.",
-      "subtitle": [
-        "Funções principais dos minerais:",
-        "Quando tomar minerais:"
-      ],
-      "mf": [
+      "title": "Microelementos (oligoelementos):",
+      "lt": [
+        "Ferro — transporte de oxigênio (hemoglobina), energia, imunidade.",
+        "Zinco — cicatrização de feridas, imunidade, reações enzimáticas.",
+        "Iodo — produção de hormônios da tireoide.",
+        "Selênio — antioxidante, apoio imunológico.",
+        "Cobre — formação de glóbulos vermelhos, absorção de ferro.",
+        "Manganês — metabolismo, formação de tecidos conjuntivos.",
+        "Cromo — regulação dos níveis de glicose no sangue.",
+        "Molibdênio — atividade enzimática."
+      ]
+    },
+    {
+      "title": "Funções dos minerais no corpo:",
+      "lt": [
+        "Formação do tecido ósseo (Ca, P, Mg)",
+        "Condução de impulsos nervosos (Na, K, Ca)",
+        "Produção hormonal (I, Zn)",
+        "Regulação do metabolismo (Cr, Se)",
+        "Suporte ao sistema imunológico (Zn, Fe, Se)",
+        "Proteção antioxidante (Se, Cu, Zn)"
+      ]
+    },
+    {
+      "title": "Por que às vezes tomar minerais como suplementos?",
+      "lt": [
+        "Dieta desequilibrada",
+        "Dieta vegana ou restritiva",
+        "Gravidez ou amamentação",
+        "Doenças crônicas (anemia, osteoporose, etc.)",
+        "Atividade física intensa",
+        "Má absorção devido a distúrbios gastrointestinais"
+      ]
+    }
+  ]
+},
+    {
+  "id": 16,
+  "name": "Bióticos",
+  "description": "O que são bióticos e como ajudam o corpo?",
+  "subtitle": [
+    "Bióticos",
+    "é um termo geral para substâncias que apoiam o microbioma humano e a saúde intestinal. Incluem:"
+  ],
+  "lt": [
+    {
+      "title": "Probióticos",
+      "p": "Microrganismos vivos (bactérias ou leveduras) que, quando consumidos em quantidades adequadas, promovem benefícios à saúde.",
+      "lt": [
         {
-          "title": "Vitaminas e minerais",
-          "p": "apoiam imunidade, metabolismo e sistema nervoso."
+          "title": "Cepas comuns",
+          "lt": [
+            "Lactobacillus",
+            "Bifidobacterium",
+            "Saccharomyces boulardii"
+          ]
         },
         {
-          "title": "Ômega‑3",
-          "p": "beneficia cérebro, coração e redução de inflamação."
-        },
-        {
-          "title": "Colágeno",
-          "p": "melhora pele, cabelo, unhas e articulações."
-        },
-        {
-          "title": "Probióticos e prebióticos",
-          "p": "equilibram microbiota intestinal."
-        },
-        {
-          "title": "Proteína",
-          "p": "apoia massa muscular e recuperação após exercício."
-        },
-        {
-          "title": "Aminoácidos",
-          "p": "suportam músculos, energia e imunidade"
-        },
-        {
-          "title": "Enzimas",
-          "p": "aumentam digestão."
-        },
-        {
-          "title": "Adaptógenos",
-          "p": "ajudam com estresse e fadiga."
-        },
-        {
-          "title": "Magnésio",
-          "p": "promove sono, reduz cãibras e ansiedade"
-        },
-        {
-          "title": "Cálcio + vitamina D",
-          "p": "para saúde dos ossos e do coração."
-        },
-        {
-          "title": "Ferro",
-          "p": "importante para anemia e fadiga crônica."
-        },
-        {
-          "title": "Zinco e selênio",
-          "p": "antioxidantes que fortalecem imunidade."
+          "title": "Benefícios",
+          "lt": [
+            "Restaurar a flora intestinal após antibióticos",
+            "Aliviar sintomas da SII",
+            "Apoiar o sistema imunológico",
+            "Reduzir diarreia ou constipação",
+            "Melhorar a absorção de nutrientes"
+          ]
         }
       ]
     },
+    {
+      "title": "Prebióticos",
+      "p": "Fibras alimentares não digeríveis que servem como \"alimento\" para bactérias intestinais benéficas.",
+      "lt": [
+        {
+          "title": "Tipos principais",
+          "lt": [
+            "Inulina",
+            "Frutooligossacarídeos (FOS)",
+            "Galactooligossacarídeos (GOS)"
+          ]
+        },
+        {
+          "title": "Benefícios",
+          "lt": [
+            "Estimular o crescimento de bactérias saudáveis",
+            "Melhorar a digestão",
+            "Normalizar o trânsito intestinal",
+            "Ajudar a regular colesterol e glicose"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pósbióticos",
+      "p": "Subprodutos metabólicos dos probióticos, como ácidos graxos de cadeia curta, peptídeos e enzimas",
+      "lt": [
+        {
+          "title": "Benefícios",
+          "lt": [
+            "Efeitos anti-inflamatórios",
+            "Apoiam a função da barreira intestinal",
+            "Fortalecem a imunidade",
+            "Combatem microrganismos nocivos"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Simbióticos",
+      "p": "Combinação de probióticos e prebióticos que atuam de forma sinérgica.",
+      "lt": [
+        {
+          "title": "Benefícios",
+          "lt": [
+            "Aumentar a sobrevivência dos probióticos",
+            "Maximizar os benefícios do microbioma intestinal",
+            "Melhorar a digestão e a absorção de nutrientes"
+          ]
+        },
+        {
+          "title": "Outros Benefícios dos Bióticos:",
+          "lt": [
+            [
+              "Eixo intestino-cérebro",
+              "o microbioma afeta o humor, memória, ansiedade"
+            ],
+            [
+              "Saúde da pele",
+              "útil para acne, eczema, dermatite"
+            ],
+            [
+              "Controle de peso",
+              "suporta o metabolismo de gorduras e carboidratos"
+            ]
+          ]
+        },
+        {
+          "title": "Quando usar bióticos",
+          "lt": [
+            "Após uso de antibióticos",
+            "Problemas digestivos",
+            "Estresse crônico",
+            "Apoio ao sistema imunológico"
+          ]
+        }
+      ]
+    }
+  ]
+},
+
+
     {
       "id": 16,
       "name": "Bióticos",

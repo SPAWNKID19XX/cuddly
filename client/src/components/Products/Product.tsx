@@ -544,167 +544,160 @@ const Product = () => {
 
                                             {product.id === 16 && (
                                                 <>
-                                                    <h3><strong>Biotics</strong> is a general term for groups of substances
-                                                        that support the human microbiome and gut health. They include::
+                                                    <h3>
+                                                        <strong>{t('products.15.subtitle.0')}</strong> {t('products.15.subtitle.1')}
                                                     </h3>
 
                                                     <ol>
                                                         <li>
-                                                            Probiotics
+                                                            {t('products.15.lt.0.title')}
                                                         </li>
                                                         <li>
-                                                            Prebiotics
+                                                            {t('products.15.lt.1.title')}
                                                         </li>
                                                         <li>
-                                                            Postbiotics
+                                                            {t('products.15.lt.2.title')}
                                                         </li>
                                                         <li>
-                                                            Synbiotics
+                                                            {t('products.15.lt.3.title')}
                                                         </li>
                                                     </ol>
 
-                                                    <h3>🔬 1. Probiotics:</h3>
-                                                    <p>Live microorganisms (bacteria or yeast) that, when consumed in
-                                                        sufficient amounts, benefit health.</p>
+                                                    <h3>🔬 1. {t('products.15.lt.0.title')}:</h3>
+                                                    <p>{t('products.15.lt.0.p')}</p>
 
-                                                    <h4>Common strains:</h4>
+                                                    <h4>{t('products.15.lt.0.lt.0.title')}:</h4>
                                                     <ul>
                                                         <li>
-                                                            Lactobacillus
+                                                            {t('products.15.lt.0.lt.0.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Bifidobacterium
+                                                            {t('products.15.lt.0.lt.0.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Saccharomyces boulardii
+                                                            {t('products.15.lt.0.lt.0.lt.2')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>Benefits:</h4>
+                                                    <h4>{t('products.15.lt.0.lt.1.title')}:</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Restore gut flora after antibiotics
+                                                            {t('products.15.lt.0.lt.1.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Relieve IBS symptoms
+                                                            {t('products.15.lt.0.lt.1.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Support the immune system
+                                                            {t('products.15.lt.0.lt.1.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Ease diarrhea or constipation
+                                                            {t('products.15.lt.0.lt.1.lt.3')}
                                                         </li>
                                                         <li>
-                                                            Improve nutrient absorption
+                                                            {t('products.15.lt.0.lt.1.lt.4')}
                                                         </li>
                                                     </ul>
 
 
-                                                    <h3>🌱 2. Prebiotics:</h3>
-                                                    <p>Non-digestible dietary fibers that serve as "food" for beneficial gut
-                                                        bacteria.</p>
+                                                    <h3>🌱 2. {t('products.15.lt.1.title')}:</h3>
+                                                    <p>{t('products.15.lt.1.p')}</p>
 
-                                                    <h4>Main types::</h4>
+                                                    <h4>{t('products.15.lt.1.lt.0.title')}:</h4>
                                                     <ul>
                                                         <li>
-                                                            Inulin
+                                                            {t('products.15.lt.1.lt.0.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Fructooligosaccharides (FOS)
+                                                            {t('products.15.lt.1.lt.0.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Galactooligosaccharides (GOS)
+                                                            {t('products.15.lt.1.lt.0.lt.2')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>Benefits:</h4>
+                                                    <h4>{t('products.15.lt.1.lt.1.title')}:</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Promote the growth of healthy bacteria
+                                                            {t('products.15.lt.1.lt.1.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Improve digestion
+                                                            {t('products.15.lt.1.lt.1.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Normalize bowel movements
+                                                            {t('products.15.lt.1.lt.1.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Help regulate cholesterol and glucose
+                                                            {t('products.15.lt.1.lt.1.lt.3')}
                                                         </li>
                                                     </ul>
 
-                                                    <h3>🧬 3. Postbiotics:</h3>
-                                                    <p>Metabolic byproducts of probiotics, such as short-chain fatty acids,
-                                                        peptides, and enzymes.</p>
+                                                    <h3>🧬 3. {t('products.15.lt.2.title')}:</h3>
+                                                    <p>{t('products.15.lt.2.p')}</p>
 
-                                                    <h4>Benefits:</h4>
+                                                    <h4>{t('products.15.lt.2.lt.0.title')}:</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Anti-inflammatory effects
+                                                            {t('products.15.lt.2.lt.0.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Support gut barrier function
+                                                            {t('products.15.lt.2.lt.0.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Strengthen immunity
+                                                            {t('products.15.lt.2.lt.0.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Fight harmful microbes
+                                                            {t('products.15.lt.2.lt.0.lt.3')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>🔗 4. Synbiotics:</h4>
-                                                    <p>A combination of probiotics and prebiotics that work
-                                                        synergistically.</p>
+                                                    <h4>🔗 4. {t('products.15.lt.3.title')}:</h4>
+                                                    <p>{t('products.15.lt.3.p')}</p>
 
-                                                    <h4>Benefits:</h4>
+                                                    <h4>{t('products.15.lt.3.lt.0.title')}:</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Boost probiotic survival
+                                                            {t('products.15.lt.3.lt.0.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Maximize gut microbiome benefits
+                                                            {t('products.15.lt.3.lt.0.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Improve digestion and nutrient absorption
+                                                            {t('products.15.lt.3.lt.0.lt.2')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>🧠 Other Benefits of Biotics:</h4>
+                                                    <h4>🧠 {t('products.15.lt.3.lt.1.title')}:</h4>
 
                                                     <ul>
                                                         <li>
-                                                            <strong>Gut-brain axis:</strong> microbiome affects mood,
-                                                            memory, anxiety
+                                                            <strong>{t('products.15.lt.3.lt.1.lt.0.0')}:</strong> {t('products.15.lt.3.lt.1.lt.0.1')},
                                                         </li>
                                                         <li>
-                                                            <strong>Skin health:</strong> helpful for acne, eczema,
-                                                            dermatitis
+                                                            <strong>{t('products.15.lt.3.lt.1.lt.1.0')}:</strong> {t('products.15.lt.3.lt.1.lt.1.1')}
                                                         </li>
                                                         <li>
-                                                            <strong>Weight management:</strong> supports fat and carb
-                                                            metabolism
+                                                            <strong>{t('products.15.lt.3.lt.1.lt.2.0')}:</strong> s{t('products.15.lt.3.lt.1.lt.2.1')}
                                                         </li>
                                                     </ul>
 
-                                                    <h3>🕒 When to Use Biotics:</h3>
+                                                    <h3>🕒 {t('products.15.lt.3.lt.2.title')}:</h3>
 
                                                     <ul>
                                                         <li>
-                                                            After antibiotics
+                                                            {t('products.15.lt.3.lt.2.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Digestive issues
+                                                            {t('products.15.lt.3.lt.2.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Chronic stress
+                                                            {t('products.15.lt.3.lt.2.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Immune system support
+                                                            {t('products.15.lt.3.lt.2.lt.3')}
                                                         </li>
                                                     </ul>
                                                 </>
