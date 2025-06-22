@@ -385,57 +385,56 @@
       "name": "Minerals",
       "description": "Minerals are inorganic substances needed by the body in small amounts to maintain health, growth, development, and normal organ function.",
       "subtitle": [
-        "Main functions of supplements:",
-        "When to take supplements:"
+        "Main types of minerals",
+        "Minerals are divided into macroelements and microelements (trace elements)"
       ],
       "mf": [
         {
-          "title": "Vitamins & minerals",
-          "p": "support immunity, metabolism, and the nervous system."
+          "title": "Macroelements (needed in large amounts):",
+          "lt": [
+            "Calcium — bone and teeth health, muscle contractions, blood clotting.",
+            "Phosphorus — formation of bones and teeth, energy metabolism.",
+            "Magnesium — supports nerve and muscle function, regulates blood pressure.",
+            "Potassium — heart rhythm, water balance, muscle function.",
+            "Sodium — water-salt balance, nerve impulse transmission.",
+            "Chloride — part of stomach acid, water balance.",
+            "Sulfur — component of amino acids, skin, hair, and nail health."
+          ]
         },
         {
-          "title": "Omega-3",
-          "p": "beneficial for the brain, heart, and reducing inflammation."
+          "title": "Microelements (trace elements):",
+          "lt": [
+            "Iron — oxygen transport (hemoglobin), energy, immunity.",
+            "Zinc — wound healing, immunity, enzymatic reactions.",
+            "Iodine — production of thyroid hormones.",
+            "Selenium — antioxidant, immune support.",
+            "Copper — formation of red blood cells, iron absorption.",
+            "Manganese — metabolism, connective tissue formation.",
+            "Chromium — regulation of blood glucose levels.",
+            "Molybdenum — enzyme activity."
+          ]
         },
         {
-          "title": "Collagen",
-          "p": "improves skin, hair, nails, and joints."
+          "title": "Functions of minerals in the body:",
+          "lt": [
+            "Bone tissue formation (Ca, P, Mg)",
+            "Nerve impulse conduction (Na, K, Ca)",
+            "Hormone production (I, Zn)",
+            "Metabolism regulation (Cr, Se)",
+            "Immune system support (Zn, Fe, Se)",
+            "Antioxidant protection (Se, Cu, Zn)"
+          ]
         },
         {
-          "title": "Probiotics & prebiotics",
-          "p": "balance gut microbiota."
-        },
-        {
-          "title": "Protein",
-          "p": "supports muscle mass and recovery after exercise."
-        },
-        {
-          "title": "Amino acids",
-          "p": "support muscles, energy, and immunity"
-        },
-        {
-          "title": "Enzymes",
-          "p": "enhance digestion."
-        },
-        {
-          "title": "Adaptogens",
-          "p": "help with stress and energy loss."
-        },
-        {
-          "title": "Magnesium",
-          "p": "promotes sleep, reduces cramps and anxiety"
-        },
-        {
-          "title": "Calcium + vitamin D",
-          "p": "or bone and heart health."
-        },
-        {
-          "title": "Iron",
-          "p": "important for anemia and chronic fatigue."
-        },
-        {
-          "title": "Zinc & selenium",
-          "p": "antioxidants that boost immunity."
+          "title": "Why sometimes take minerals as supplements?",
+          "lt": [
+            "Unbalanced diet",
+            "Vegan or restrictive diet",
+            "Pregnancy or breastfeeding",
+            "Chronic diseases (anemia, osteoporosis, etc.)",
+            "Intensive physical activity",
+            "Poor absorption due to gastrointestinal disorders"
+          ]
         }
       ]
     },

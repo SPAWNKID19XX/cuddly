@@ -437,108 +437,105 @@ const Product = () => {
 
                                             {product.id === 15 && (
                                                 <>
-                                                    <h3>Minerals are divided into macroelements and microelements (trace
-                                                        elements):</h3>
-                                                    <h4>Macroelements (needed in large amounts):</h4>
-
+                                                    <p>🪨 {t('products.14.subtitle.0')}</p>
+                                                    <p>{t('products.14.subtitle.1')}</p>
+                                                    <h4>{t('products.14.mf.0.title')}</h4>
                                                     <ul>
                                                         <li>
-                                                            Calcium — bone and teeth health, muscle contractions, blood
-                                                            clotting.
+                                                            {t('products.14.mf.0.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Phosphorus — formation of bones and teeth, energy metabolism.
+                                                            {t('products.14.mf.0.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Magnesium — supports nerve and muscle function, regulates blood
-                                                            pressure.
+                                                            {t('products.14.mf.0.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Potassium — heart rhythm, water balance, muscle function.
+                                                            {t('products.14.mf.0.lt.3')}
                                                         </li>
                                                         <li>
-                                                            Sodium — water-salt balance, nerve impulse transmission.
+                                                            {t('products.14.mf.0.lt.4')}
                                                         </li>
                                                         <li>
-                                                            Chloride — part of stomach acid, water balance.
+                                                            {t('products.14.mf.0.lt.5')}
                                                         </li>
                                                         <li>
-                                                            Sulfur — component of amino acids, skin, hair, and nail health.
+                                                            {t('products.14.mf.0.lt.6')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>Microelements (trace elements):</h4>
+                                                    <h4>{t('products.14.mf.1.title')}</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Iron — oxygen transport (hemoglobin), energy, immunity.
+                                                            {t('products.14.mf.1.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Zinc — wound healing, immunity, enzymatic reactions.
+                                                            {t('products.14.mf.1.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Iodine — production of thyroid hormones.
+                                                            {t('products.14.mf.1.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Selenium — antioxidant, immune support.
+                                                            {t('products.14.mf.1.lt.3')}
                                                         </li>
                                                         <li>
-                                                            Copper — formation of red blood cells, iron absorption.
+                                                            {t('products.14.mf.1.lt.4')}
                                                         </li>
                                                         <li>
-                                                            Manganese — metabolism, connective tissue formation.
+                                                            {t('products.14.mf.1.lt.5')}
                                                         </li>
                                                         <li>
-                                                            Chromium — regulation of blood glucose levels.
+                                                            {t('products.14.mf.1.lt.6')}
                                                         </li>
                                                         <li>
-                                                            Molybdenum — enzyme activity.
+                                                            {t('products.14.mf.1.lt.7')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>⚙️ Functions of minerals in the body:</h4>
+                                                    <h4>⚙️ {t('products.14.mf.2.title')}</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Bone tissue formation (Ca, P, Mg)
+                                                            {t('products.14.mf.2.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Nerve impulse conduction (Na, K, Ca)
+                                                            {t('products.14.mf.2.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Hormone production (I, Zn)
+                                                            {t('products.14.mf.2.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Metabolism regulation (Cr, Se)
+                                                            {t('products.14.mf.2.lt.3')}
                                                         </li>
                                                         <li>
-                                                            Immune system support (Zn, Fe, Se)
+                                                            {t('products.14.mf.2.lt.4')}
                                                         </li>
                                                         <li>
-                                                            Antioxidant protection (Se, Cu, Zn)
+                                                            {t('products.14.mf.2.lt.5')}
                                                         </li>
                                                     </ul>
 
-                                                    <h4>💊 Why sometimes take minerals as supplements?</h4>
+                                                    <h4>💊 {t('products.14.mf.3.title')}</h4>
 
                                                     <ul>
                                                         <li>
-                                                            Unbalanced diet
+                                                            {t('products.14.mf.3.lt.0')}
                                                         </li>
                                                         <li>
-                                                            Vegan or restrictive diet
+                                                            {t('products.14.mf.3.lt.1')}
                                                         </li>
                                                         <li>
-                                                            Pregnancy or breastfeeding
+                                                            {t('products.14.mf.3.lt.2')}
                                                         </li>
                                                         <li>
-                                                            Chronic diseases (anemia, osteoporosis, etc.)
+                                                            {t('products.14.mf.3.lt.3')}
                                                         </li>
                                                         <li>
-                                                            Intensive physical activity
+                                                            {t('products.14.mf.3.lt.4')}
                                                         </li>
                                                         <li>
-                                                            Poor absorption due to gastrointestinal disorders
+                                                            {t('products.14.mf.3.lt.5')}
                                                         </li>
                                                     </ul>
                                                 </>
@@ -681,13 +678,16 @@ const Product = () => {
 
                                                     <ul>
                                                         <li>
-                                                            <strong>Gut-brain axis:</strong> microbiome affects mood, memory, anxiety
+                                                            <strong>Gut-brain axis:</strong> microbiome affects mood,
+                                                            memory, anxiety
                                                         </li>
                                                         <li>
-                                                            <strong>Skin health:</strong>  helpful for acne, eczema, dermatitis
+                                                            <strong>Skin health:</strong> helpful for acne, eczema,
+                                                            dermatitis
                                                         </li>
                                                         <li>
-                                                            <strong>Weight management:</strong>  supports fat and carb metabolism
+                                                            <strong>Weight management:</strong> supports fat and carb
+                                                            metabolism
                                                         </li>
                                                     </ul>
 
