@@ -9,7 +9,8 @@ import CookiesPolicy from './pages/cookies-policy/CookiesPolicy.tsx'
 import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 import MainBaner from "./components/MainBanner/MainBaner.tsx";
-import Product from "./components/Products/Product.tsx";
+import Products from "./components/Products/Product.tsx";
+import HairCare from "./components/HairCare/HairCare.tsx";
 import ContactForm from "./components/ContactForm/ContactForm.tsx";
 
 
@@ -27,7 +28,13 @@ function App() {
 
                 <Route path="/products" element={
                     <>
-                        <Product />
+                        <Products />
+                    </>
+                }/>
+
+                <Route path="/products/hair-care" element={
+                    <>
+                        <HairCare />
                     </>
                 }/>
 

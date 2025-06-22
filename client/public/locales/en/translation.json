@@ -7,7 +7,7 @@
         "title": "Products",
         "subtitle": [
           "Hair Care",
-          " Face & Body Care",
+          "Face & Body Care",
           "Health & Balance"
         ]
       },
@@ -551,7 +551,7 @@
         }
       ]
     }
-  ]
+  ],
   "ftr": {
     "info_coockies": {
       "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",
