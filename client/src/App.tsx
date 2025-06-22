@@ -12,6 +12,7 @@ import MainBaner from "./components/MainBanner/MainBaner.tsx";
 import Products from "./components/Products/Product.tsx";
 import HairCare from "./components/HairCare/HairCare.tsx";
 import FaceBodyCare from "./components/FaceBodyCare/FaceBodyCare.tsx";
+import HealthBalance from "./components/HealthBalance/HealthBalance.tsx"
 import ContactForm from "./components/ContactForm/ContactForm.tsx";
 
 
@@ -42,6 +43,11 @@ function App() {
                 <Route path="/products/face-body-care" element={
                     <>
                         <FaceBodyCare />
+                    </>
+                }/>
+                <Route path="/products/health-balance" element={
+                    <>
+                        <HealthBalance />
                     </>
                 }/>
 

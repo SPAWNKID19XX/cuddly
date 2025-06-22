@@ -60,3 +60,29 @@
 .vitamin-table .col-de {
     width: 30%;
 }
+.products-image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    font-family: "EB Garamond", serif;
+}
+
+.opt{
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.opt a{
+    text-decoration: none;
+    color: black;
+}
+
+.opt img:hover{
+    border: black 1px solid;
+    box-shadow: 0 0 30px gray;
+}
+
+
+.opt img{
+    width: 100%;
+}

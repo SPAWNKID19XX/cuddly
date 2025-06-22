@@ -118,7 +118,6 @@ const FaceBodyCare = () => {
         },
     ]
 
-
     return (
         <div className="product-main-container">
             <div className="container">

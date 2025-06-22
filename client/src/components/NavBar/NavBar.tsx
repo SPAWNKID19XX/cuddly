@@ -26,9 +26,9 @@ const Navbar = () => {
             name: t("navbar.links.3.title"),
             link: '/products/',
             subItems: [
-                { name: t("navbar.links.3.subtitle.0"), link: '/products/hair_care/' },
-                { name: t("navbar.links.3.subtitle.1"), link: '/products/fb_care/' },
-                { name: t("navbar.links.3.subtitle.2"), link: '/products/health_balance/' },
+                { name: t("navbar.links.3.subtitle.0"), link: '/products/hair-care/' },
+                { name: t("navbar.links.3.subtitle.1"), link: '/products/face-body-care/' },
+                { name: t("navbar.links.3.subtitle.2"), link: '/products/health-balance/' },
             ]
         },
         { id: 4, name: t("navbar.links.4"), link: '/contact/' }
