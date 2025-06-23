@@ -554,6 +554,133 @@
 
 
   ],
+  "services": {
+  "title": "Nuestros Servicios",
+  "lt": [
+    {
+      "title": "Servicio Integral de Belleza, Salud y Cuidado",
+      "subtitle": "Qué Ofrecemos",
+      "p": [
+        "Somos tu destino integral para",
+        "productos de cuidado facial, corporal y capilar de alta calidad",
+        "así como",
+        "suplementos nutricionales certificados, vitaminas y productos dietéticos",
+        "de proveedores",
+        "europeos confiables.",
+        "Colaboramos únicamente con marcas verificadas para garantizar seguridad, eficacia y calidad premium."
+      ],
+      "pc": {
+        "title": "Categorías de Productos",
+        "lt": [
+          ["Cuidado facial:", "cremas, sérums, mascarillas, limpiadores, tónicos"],
+          ["Cuidado corporal:", "lociones, exfoliantes, aceites, geles de ducha"],
+          ["Cuidado capilar:", "champús, acondicionadores, mascarillas, sprays"],
+          ["Salud interna:", "vitaminas, probióticos, omega-3, suplementos para belleza, inmunidad y energía"],
+          ["Cuidado personalizado:", "selección personalizada según tipo de piel, estado del cabello o necesidades de salud"]
+        ]
+      },
+      "logist": {
+        "title": "Logística Sin Complicaciones",
+        "p": [
+          "Desde el pedido hasta la entrega a domicilio,",
+          "gestionamos cada paso",
+          "por ti."
+        ],
+        "subtitle": "Nos encargamos de:",
+        "lt": [
+          "Abastecimiento directo de proveedores certificados",
+          "Consolidación de pedidos desde varios países de la UE",
+          "Despacho aduanero y documentación legal",
+          "Envíos internacionales confiables (por tierra, aire, mensajería)",
+          "Seguimiento en tiempo real durante todo el proceso",
+          "Embalaje seguro para proteger la calidad del producto"
+        ]
+      },
+      "wwe": {
+        "title": "¿Por Qué Elegirnos?",
+        "lt": [
+          "Amplia selección de marcas europeas líderes",
+          "Servicio personalizado para cada cliente",
+          "Productos certificados, auténticos y analizados en laboratorio",
+          "Logística llave en mano — lo gestionamos todo",
+          "Productos 100% genuinos — sin falsificaciones"
+        ]
+      },
+      "ls": {
+        "title": "Tú Eliges – Nosotros Hacemos el Resto",
+        "p": [
+          "No necesitas investigar, negociar ni organizar el envío.",
+          "Tú seleccionas lo que necesitas — nosotros nos encargamos del resto,",
+          "desde la fábrica hasta tu puerta."
+        ]
+      }
+    },
+    {
+      "title": "Fabricación Personalizada & Marca Privada",
+      "subtitle": "Tu Fórmula — Nuestra Producción",
+      "p": [
+        "Ofrecemos una oportunidad única para fabricar",
+        "cualquier producto para el cuidado de la piel, cuerpo, cabello o suplemento",
+        "basado en",
+        "tu fórmula personalizada",
+        "o utilizando",
+        "fórmulas europeas certificadas ya disponibles",
+        "en nuestro catálogo.",
+        "Nuestros laboratorios cuentan con tecnología moderna y nuestro equipo experto garantiza una producción segura y eficaz bajo tu marca."
+      ],
+      "lable": {
+        "title": "Servicios de Marca Privada",
+        "p": [
+          "¿Quieres vender productos con tu propia marca? Ofrecemos una solución integral para aplicar",
+          "tu logotipo, certificado e identidad de marca:"
+        ],
+        "lt": [
+          ["Tu", "logotipo", "en la etiqueta"],
+          ["Diseño personalizado", "del empaque"],
+          ["Inclusión de", "tu certificado de calidad"],
+          ["Empaque con", "la paleta de colores de tu marca"],
+          "Soporte en branding y marketing"
+        ]
+      },
+      "collaboration": {
+        "title": "Formato de Colaboración Flexible",
+        "p": "Trabajamos con:",
+        "lt": [
+          "Marcas de cuidado personal y bienestar en expansión",
+          "Nuevos negocios que lanzan su primer producto",
+          "Farmacias, salones, clínicas",
+          "Vendedores y distribuidores de comercio electrónico"
+        ]
+      },
+      "manufact": {
+        "title": "Fabricación Llave en Mano",
+        "p": [
+          "Nos encargamos de",
+          "todo el proceso — desde la idea hasta la entrega:"
+        ],
+        "lt": [
+          "Desarrollo de fórmula personalizada o selección de nuestro catálogo",
+          "Fabricación bajo estándares de la UE",
+          "Pruebas y control de calidad",
+          "Llenado, etiquetado y empaquetado",
+          "Logística y entrega a ti o a tus clientes"
+        ]
+      },
+      "guarantees": {
+        "title": "Garantías",
+        "lt": [
+          "Producción conforme a GMP/ISO",
+          "Ingredientes seguros y verificados",
+          "Opciones de lotes pequeños o grandes",
+          "Confidencialidad de fórmula y marca",
+          "Soporte experto integral"
+        ],
+        "subtitle": "Tu idea — nuestra experiencia. Creamos un producto con tu nombre."
+      }
+    }
+  ]
+},
+
   "ftr": {
     "info_coockies": {
       "p": "Utilizamos cookies para mejorar la funcionalidad del sitio. Al continuar usando el sitio, aceptas el uso de cookies.",

@@ -439,120 +439,273 @@
       ]
     },
     {
-  "id": 16,
-  "name": "Biotici",
-  "description": "Cosa sono i biotici e come aiutano il corpo?",
-  "subtitle": [
-    "Biotici",
-    "è un termine generale per sostanze che supportano il microbioma umano e la salute intestinale. Includono:"
-  ],
-  "lt": [
-    {
-      "title": "Probiotici",
-      "p": "Microrganismi vivi (batteri o lieviti) che, se consumati in quantità adeguate, apportano benefici alla salute.",
+      "id": 16,
+      "name": "Biotici",
+      "description": "Cosa sono i biotici e come aiutano il corpo?",
+      "subtitle": [
+        "Biotici",
+        "è un termine generale per sostanze che supportano il microbioma umano e la salute intestinale. Includono:"
+      ],
       "lt": [
         {
-          "title": "Ceppi comuni",
+          "title": "Probiotici",
+          "p": "Microrganismi vivi (batteri o lieviti) che, se consumati in quantità adeguate, apportano benefici alla salute.",
           "lt": [
-            "Lactobacillus",
-            "Bifidobacterium",
-            "Saccharomyces boulardii"
+            {
+              "title": "Ceppi comuni",
+              "lt": [
+                "Lactobacillus",
+                "Bifidobacterium",
+                "Saccharomyces boulardii"
+              ]
+            },
+            {
+              "title": "Benefici",
+              "lt": [
+                "Ripristinare la flora intestinale dopo antibiotici",
+                "Alleviare i sintomi della sindrome dell’intestino irritabile",
+                "Supportare il sistema immunitario",
+                "Alleviare diarrea o stitichezza",
+                "Migliorare l'assorbimento dei nutrienti"
+              ]
+            }
           ]
         },
         {
-          "title": "Benefici",
+          "title": "Prebiotici",
+          "p": "Fibre alimentari non digeribili che fungono da \"cibo\" per i batteri intestinali benefici.",
           "lt": [
-            "Ripristinare la flora intestinale dopo antibiotici",
-            "Alleviare i sintomi della sindrome dell’intestino irritabile",
-            "Supportare il sistema immunitario",
-            "Alleviare diarrea o stitichezza",
-            "Migliorare l'assorbimento dei nutrienti"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Prebiotici",
-      "p": "Fibre alimentari non digeribili che fungono da \"cibo\" per i batteri intestinali benefici.",
-      "lt": [
-        {
-          "title": "Tipi principali",
-          "lt": [
-            "Inulina",
-            "Frutto-oligosaccaridi (FOS)",
-            "Galatto-oligosaccaridi (GOS)"
-          ]
-        },
-        {
-          "title": "Benefici",
-          "lt": [
-            "Favorire la crescita di batteri benefici",
-            "Migliorare la digestione",
-            "Normalizzare il transito intestinale",
-            "Aiutare a regolare colesterolo e glicemia"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Postbiotici",
-      "p": "Sottoprodotti metabolici dei probiotici, come acidi grassi a catena corta, peptidi ed enzimi",
-      "lt": [
-        {
-          "title": "Benefici",
-          "lt": [
-            "Effetti antinfiammatori",
-            "Supportano la funzione della barriera intestinale",
-            "Rafforzano il sistema immunitario",
-            "Combattono i microbi nocivi"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Simbionti",
-      "p": "Combinazione di probiotici e prebiotici che agiscono sinergicamente.",
-      "lt": [
-        {
-          "title": "Benefici",
-          "lt": [
-            "Migliorare la sopravvivenza dei probiotici",
-            "Massimizzare i benefici del microbioma intestinale",
-            "Migliorare digestione e assorbimento dei nutrienti"
+            {
+              "title": "Tipi principali",
+              "lt": [
+                "Inulina",
+                "Frutto-oligosaccaridi (FOS)",
+                "Galatto-oligosaccaridi (GOS)"
+              ]
+            },
+            {
+              "title": "Benefici",
+              "lt": [
+                "Favorire la crescita di batteri benefici",
+                "Migliorare la digestione",
+                "Normalizzare il transito intestinale",
+                "Aiutare a regolare colesterolo e glicemia"
+              ]
+            }
           ]
         },
         {
-          "title": "Altri benefici dei biotici:",
+          "title": "Postbiotici",
+          "p": "Sottoprodotti metabolici dei probiotici, come acidi grassi a catena corta, peptidi ed enzimi",
           "lt": [
-            [
-              "Asse intestino-cervello",
-              "il microbioma influenza umore, memoria, ansia"
-            ],
-            [
-              "Salute della pelle",
-              "utile per acne, eczema, dermatiti"
-            ],
-            [
-              "Gestione del peso",
-              "supporta il metabolismo di grassi e carboidrati"
-            ]
+            {
+              "title": "Benefici",
+              "lt": [
+                "Effetti antinfiammatori",
+                "Supportano la funzione della barriera intestinale",
+                "Rafforzano il sistema immunitario",
+                "Combattono i microbi nocivi"
+              ]
+            }
           ]
         },
         {
-          "title": "Quando usare i biotici",
+          "title": "Simbionti",
+          "p": "Combinazione di probiotici e prebiotici che agiscono sinergicamente.",
           "lt": [
-            "Dopo antibiotici",
-            "Disturbi digestivi",
-            "Stress cronico",
-            "Supporto al sistema immunitario"
+            {
+              "title": "Benefici",
+              "lt": [
+                "Migliorare la sopravvivenza dei probiotici",
+                "Massimizzare i benefici del microbioma intestinale",
+                "Migliorare digestione e assorbimento dei nutrienti"
+              ]
+            },
+            {
+              "title": "Altri benefici dei biotici:",
+              "lt": [
+                [
+                  "Asse intestino-cervello",
+                  "il microbioma influenza umore, memoria, ansia"
+                ],
+                [
+                  "Salute della pelle",
+                  "utile per acne, eczema, dermatiti"
+                ],
+                [
+                  "Gestione del peso",
+                  "supporta il metabolismo di grassi e carboidrati"
+                ]
+              ]
+            },
+            {
+              "title": "Quando usare i biotici",
+              "lt": [
+                "Dopo antibiotici",
+                "Disturbi digestivi",
+                "Stress cronico",
+                "Supporto al sistema immunitario"
+              ]
+            }
           ]
         }
       ]
     }
-  ]
-}
-
   ],
+  "services": {
+    "title": "I Nostri Servizi",
+    "lt": [
+      {
+        "title": "Servizi Completi di Bellezza, Salute e Cura",
+        "subtitle": "Cosa Offriamo",
+        "p": [
+          "Siamo la tua destinazione unica per",
+          "prodotti per la cura del viso, del corpo e dei capelli di alta qualità",
+          "oltre a",
+          "integratori nutrizionali certificati, vitamine e prodotti dietetici",
+          "da fornitori",
+          "europei affidabili.",
+          "Collaboriamo solo con marchi verificati per garantire sicurezza, efficacia e qualità premium."
+        ],
+        "pc": {
+          "title": "Categorie di Prodotti",
+          "lt": [
+            [
+              "Cura del viso:",
+              "creme, sieri, maschere, detergenti, tonici"
+            ],
+            [
+              "Cura del corpo:",
+              "lozioni, scrub, oli, gel doccia"
+            ],
+            [
+              "Cura dei capelli:",
+              "shampoo, balsami, maschere, spray"
+            ],
+            [
+              "Benessere interno:",
+              "vitamine, probiotici, omega-3, integratori per bellezza, immunità ed energia"
+            ],
+            [
+              "Cura personalizzata:",
+              "selezione su misura per tipo di pelle, condizione dei capelli o esigenze di salute"
+            ]
+          ]
+        },
+        "logist": {
+          "title": "Logistica Senza Problemi",
+          "p": [
+            "Dall’ordine alla consegna a domicilio,",
+            "gestiamo ogni fase",
+            "per te."
+          ],
+          "subtitle": "Ci occupiamo di:",
+          "lt": [
+            "Approvvigionamento diretto da fornitori certificati",
+            "Consolidamento ordini da diversi paesi UE",
+            "Sdoganamento e documentazione legale",
+            "Spedizioni internazionali affidabili (terra, aria, corrieri)",
+            "Tracciamento in tempo reale durante l’intero processo",
+            "Imballaggio sicuro per proteggere la qualità del prodotto"
+          ]
+        },
+        "wwe": {
+          "title": "Perché Scegliere Noi?",
+          "lt": [
+            "Ampia selezione di marchi europei di alta qualità",
+            "Servizio personalizzato per ogni cliente",
+            "Prodotti certificati, autentici e testati in laboratorio",
+            "Logistica completa — ci occupiamo di tutto",
+            "Prodotti 100% autentici — nessun contraffatto"
+          ]
+        },
+        "ls": {
+          "title": "Tu Scegli – Noi Pensiamo al Resto",
+          "p": [
+            "Nessun bisogno di cercare, negoziare o organizzare la spedizione.",
+            "Tu scegli ciò che ti serve — noi ci occupiamo del resto,",
+            "dalla fabbrica a casa tua."
+          ]
+        }
+      },
+      {
+        "title": "Produzione Personalizzata & Marchio Privato",
+        "subtitle": "La Tua Formula — La Nostra Produzione",
+        "p": [
+          "Offriamo un'opportunità unica per produrre",
+          "qualsiasi prodotto per la cura della pelle, del corpo, dei capelli o integratore",
+          "sulla base della",
+          "tua formula personalizzata",
+          "oppure utilizzando",
+          "formule europee certificate pronte all’uso",
+          "disponibili nel nostro catalogo.",
+          "I nostri laboratori sono dotati di tecnologia moderna e il nostro team esperto garantisce una produzione sicura ed efficace sotto il tuo marchio."
+        ],
+        "lable": {
+          "title": "Servizi di Marchio Privato",
+          "p": [
+            "Vuoi vendere prodotti con il tuo nome? Offriamo una soluzione completa per applicare",
+            "il tuo logo, certificato e identità di marca:"
+          ],
+          "lt": [
+            [
+              "Il tuo",
+              "logo",
+              "sull’etichetta"
+            ],
+            [
+              "Design personalizzato",
+              "del packaging"
+            ],
+            [
+              "Inclusione del",
+              "tuo certificato di qualità"
+            ],
+            [
+              "Confezione nei",
+              "colori del tuo brand"
+            ],
+            "Supporto per branding e marketing"
+          ]
+        },
+        "collaboration": {
+          "title": "Formato di Collaborazione Flessibile",
+          "p": "Lavoriamo con:",
+          "lt": [
+            "Marchi di skincare e benessere in espansione",
+            "Nuove aziende che lanciano il loro primo prodotto",
+            "Farmacie, saloni, cliniche",
+            "Venditori e distributori e-commerce"
+          ]
+        },
+        "manufact": {
+          "title": "Produzione Chiavi in Mano",
+          "p": [
+            "Ci occupiamo dell’",
+            "intero processo — dall’idea alla consegna:"
+          ],
+          "lt": [
+            "Sviluppo di formule personalizzate o scelta dal nostro catalogo",
+            "Produzione secondo standard UE",
+            "Test e controllo qualità",
+            "Riempimento, etichettatura e confezionamento",
+            "Logistica e consegna a te o ai tuoi clienti"
+          ]
+        },
+        "guarantees": {
+          "title": "Garanzie",
+          "lt": [
+            "Produzione conforme a GMP/ISO",
+            "Ingredienti sicuri e verificati",
+            "Opzioni per piccoli o grandi lotti",
+            "Riservatezza di formula e branding",
+            "Supporto esperto completo"
+          ],
+          "subtitle": "La tua idea — la nostra esperienza. Creiamo insieme un prodotto con il tuo nome."
+        }
+      }
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "Utilizziamo i cookie per migliorare la funzionalità del sito. Continuando a utilizzare il sito, accetti l'uso dei cookie.",

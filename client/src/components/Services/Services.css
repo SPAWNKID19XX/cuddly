@@ -1,3 +1,41 @@
 .servoces-area {
     margin-top: 150px;
+    font-family: "EB Garamond", serif;
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.servoces-area .services-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-bottom: #5e5b55 solid 3px;
+}
+
+.servoces-area .service-image-area {
+    width: 25%;
+}
+
+.servoces-area .service-image-area img {
+    width: 100%;
+
+}
+
+.servoces-area .service-text-area {
+    width: 70%;
+    font-size: 20px;
+}
+
+
+.servoces-area .service-text-area ol,
+.servoces-area .service-text-area ul {
+    width: 80%;
+    margin-left: 50px;
+    border-bottom: #5e5b55 solid 1px;
+    margin-bottom: 50px;
 }

@@ -552,6 +552,160 @@
       ]
     }
   ],
+  "services": {
+    "title": "Our Services",
+    "lt": [
+      {
+        "title": "Comprehensive Beauty, Health & Care Service",
+        "subtitle": "What We Offer",
+        "p": [
+          "We are your one-stop destination for",
+          "top-quality facial, body, and haircare products",
+          "as well as ",
+          "certified nutritional supplements, vitamins, and dietary products",
+          "from trusted",
+          "European suppliers",
+          "We collaborate only with verified brands to ensure safety, efficiency, and premium quality."
+        ],
+        "pc": {
+          "title": "Product categories",
+          "lt": [
+            [
+              "Facial care:",
+              "creams, serums, masks, cleansers, toners"
+            ],
+            [
+              "Body care:",
+              "lotions, scrubs, oils, shower gels"
+            ],
+            [
+              "Haircare:",
+              "shampoos, conditioners, masks, sprays"
+            ],
+            [
+              "Inner health:",
+              "vitamins, probiotics, omega-3, supplements for beauty, immunity, and energy"
+            ],
+            [
+              "Personalized care:",
+              "custom selection for skin type, hair condition, or health needs"
+            ]
+          ]
+        },
+        "logist": {
+          "title": "Seamless Logistics",
+          "p": [
+            "From order placement to doorstep delivery,",
+            "we manage every step",
+            "for you."
+          ],
+          "subtitle": "We handle:",
+          "lt": [
+            "Direct sourcing from certified suppliers",
+            "Order consolidation from various EU countries",
+            "Customs clearance and legal documentation",
+            "Reliable international shipping (ground, air, couriers)",
+            "Real-time tracking throughout the process",
+            "Secure packaging to protect product quality"
+          ]
+        },
+        "wwe": {
+          "title": "Why Choose Us?",
+          "lt": [
+            "Wide selection of top European brands",
+            "Personalized service for every customer",
+            "Certified, authentic, and lab-tested products",
+            "Turnkey logistics — we handle everything",
+            "100% genuine products — no counterfeits"
+          ]
+        },
+        "ls": {
+          "title": "You Choose – We Do the Rest",
+          "p": [
+            "No need to research, negotiate, or arrange shipping.",
+            "You select what you need — we handle everything else,",
+            "from the factory floor to your home."
+          ]
+        }
+      },
+      {
+        "title": "Custom Manufacturing & Private Label",
+        "subtitle": "Your Formula — Our Production",
+        "p": [
+          "We offer a unique opportunity to manufacture",
+          "any skincare, body, hair or supplement product",
+          "based on",
+          "your custom formula",
+          "or using",
+          "ready-made certified European formulations",
+          "available in our catalog.",
+          "Our labs are equipped with modern technology, and our expert team ensures safe and effective product manufacturing under your brand."
+        ],
+        "lable": {
+          "title": "Private Label Services",
+          "p": [
+            "Want to sell products under your own name? We provide a full-service solution for applying",
+            "your logo, certificate, and brand identity:"
+          ],
+          "lt": [
+            [
+              "Your",
+              "logo",
+              "on the label"
+            ],
+            [
+              "Custom",
+              "packaging design"
+            ],
+            [
+              "Inclusion of",
+              "your certificate of quality"
+            ],
+            [
+              "Packaging in",
+              "your brand color palette"
+            ],
+            "Branding and marketing support"
+          ]
+        },
+        "collaboration": {
+          "title": "Flexible Collaboration Format",
+          "p": "We work with:",
+          "lt": [
+            "Expanding skincare & wellness brands",
+            "New businesses launching their first product",
+            "Pharmacies, salons, clinics",
+            "E-commerce sellers and distributors"
+          ]
+        },
+        "manufact": {
+          "title": "Turnkey Manufacturing",
+          "p": [
+            "We handle the",
+            "entire process — from concept to delivery:"
+          ],
+          "lt": [
+            "Custom formula development or selection from our formulas",
+            "Manufacturing under EU standards",
+            "Testing & quality control",
+            "Filling, labeling & packaging",
+            "Logistics and delivery to you or your clients"
+          ]
+        },
+        "guarantees": {
+          "title": "Guarantees",
+          "lt": [
+            "GMP/ISO-compliant production",
+            "Safe, verified ingredients",
+            "Small or large batch options",
+            "Confidentiality of formula and branding",
+            "Full expert support"
+          ],
+          "subtitle": "Your idea — our expertise. Let’s create a product that carries your name."
+        }
+      }
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",
