@@ -1,207 +1,42 @@
 import './Product.css'
-import hc from './../../assets/img/handsCream.jpg'
-import sc from './../../assets/img/sunscreen.jpg'
-import oil from './../../assets/img/oil.jpg'
-import ser from './../../assets/img/serum.jpg'
-import mw from './../../assets/img/micelar_water.jpg'
-import fc from './../../assets/img/fc.jpg'
-import sh from './../../assets/img/champoo.jpg'
-import cond from './../../assets/img/cond.jpg'
-import hm from './../../assets/img/hearMask.jpg'
-import hcaps from './../../assets/img/hearCapsuls.jpg'
+import opt1 from './../../assets/img/BodyCare.jpg'
+import opt2 from './../../assets/img/prodHair.jpg'
+import opt3 from './../../assets/img/prodSupliment.jpg'
+import { Link } from 'react-router-dom';
+
+
 import {useTranslation} from "react-i18next";
 
 const Product = () => {
-    
 
-    interface Product {
-        id: number;
-        name: string;
-        subtitle: string;
-        description: string;
-        vantage: string[];
-        image: string;
-        add_info?: string;
-    }
     const {t} = useTranslation();
-    const productList: Product[] = [
-  {
-    id: 1,
-    name: t('products.0.name'),
-    subtitle: t('products.0.subtitle'),
-    description: t('products.0.description'),
-    vantage: [
-      t('products.0.vantage.0'),
-      t('products.0.vantage.1'),
-      t('products.0.vantage.2'),
-      t('products.0.vantage.3'),
-      t('products.0.vantage.4')
-    ],
-    image: hc,
-    add_info: t('products.0.add_info')
-  },
-  {
-    id: 2,
-    name: t('products.1.name'),
-    subtitle: t('products.1.subtitle'),
-    description: t('products.1.description'),
-    vantage: [
-      t('products.1.vantage.0'),
-      t('products.1.vantage.1'),
-      t('products.1.vantage.2'),
-      t('products.1.vantage.3'),
-      t('products.1.vantage.4')
-    ],
-    image: sc,
-    add_info: t('products.1.add_info')
-  },
-  {
-    id: 3,
-    name: t('products.2.name'),
-    subtitle: t('products.2.subtitle'),
-    description: t('products.2.description'),
-    vantage: [
-      t('products.2.vantage.0'),
-      t('products.2.vantage.1'),
-      t('products.2.vantage.2'),
-      t('products.2.vantage.3'),
-      t('products.2.vantage.4')
-    ],
-    image: oil,
-    add_info: t('products.2.add_info')
-  },
-  {
-    id: 4,
-    name: t('products.3.name'),
-    subtitle: t('products.3.subtitle'),
-    description: t('products.3.description'),
-    vantage: [
-      t('products.3.vantage.0'),
-      t('products.3.vantage.1'),
-      t('products.3.vantage.2'),
-      t('products.3.vantage.3'),
-      t('products.3.vantage.4')
-    ],
-    image: mw,
-    add_info: t('products.3.add_info')
-  },
-  {
-    id: 5,
-    name: t('products.4.name'),
-    subtitle: t('products.4.subtitle'),
-    description: t('products.4.description'),
-    vantage: [
-      t('products.4.vantage.0'),
-      t('products.4.vantage.1'),
-      t('products.4.vantage.2'),
-      t('products.4.vantage.3'),
-      t('products.4.vantage.4')
-    ],
-    image: ser,
-    add_info: t('products.4.add_info')
-  },
-  {
-    id: 6,
-    name: t('products.5.name'),
-    subtitle: t('products.5.subtitle'),
-    description: t('products.5.description'),
-    vantage: [
-      t('products.5.vantage.0'),
-      t('products.5.vantage.1'),
-      t('products.5.vantage.2'),
-      t('products.5.vantage.3')
-    ],
-    image: fc,
-    add_info: t('products.5.add_info')
-  },
-  {
-    id: 7,
-    name: t('products.6.name'),
-    subtitle: t('products.6.subtitle'),
-    description: t('products.6.description'),
-    vantage: [
-      t('products.6.vantage.0'),
-      t('products.6.vantage.1'),
-      t('products.6.vantage.2'),
-      t('products.6.vantage.3')
-    ],
-    image: sh,
-    add_info: t('products.6.add_info')
-  },
-  {
-    id: 8,
-    name: t('products.7.name'),
-    subtitle: t('products.7.subtitle'),
-    description: t('products.7.description'),
-    vantage: [
-      t('products.7.vantage.0'),
-      t('products.7.vantage.1'),
-      t('products.7.vantage.2'),
-      t('products.7.vantage.3')
-    ],
-    image: cond,
-    add_info: t('products.7.add_info')
-  },
-  {
-    id: 9,
-    name: t('products.8.name'),
-    subtitle: t('products.8.subtitle'),
-    description: t('products.8.description'),
-    vantage: [
-      t('products.8.vantage.0'),
-      t('products.8.vantage.1'),
-      t('products.8.vantage.2'),
-      t('products.8.vantage.3')
-    ],
-    image: hm,
-    add_info: t('products.8.add_info')
-  },
-  {
-    id: 10,
-    name: t('products.9.name'),
-    subtitle: t('products.9.subtitle'),
-    description: t('products.9.description'),
-    vantage: [
-      t('products.9.vantage.0'),
-      t('products.9.vantage.1'),
-      t('products.9.vantage.2'),
-      t('products.9.vantage.3')
-    ],
-    image: hcaps,
-    add_info: t('products.9.add_info')
-  }
-];
 
     return (
-        <div className="product-main-container">
-            <div className="container">
-                <div className="title-container">
-                    <h1>Our Products</h1>
+        <>
+            <h1 style={{marginTop: '175px', fontFamily: '"EB Garamond", serif'}}>
+                Our products
+            </h1>
+            <div className="products-image-container">
+                <div className="opt">
+                    <Link to="/products/face-body-care">
+                        <img src={opt1} alt="BodyCare"/>
+                        <h3>{t("navbar.links.3.subtitle.1")}</h3>
+                    </Link>
                 </div>
-                <div className="products-description-container">
-                    {
-                        productList.map(product => (
-                            <div className="product-container" key={product.id}>
-                                <div className="product-image-container">
-                                    <img src={product.image} alt={product.name}/>
-                                </div>
-                                <div className="product-description-container">
-                                    <div className="prodict-title">
-                                        <h2>{product.name}</h2>
-                                        <p>{product.description}</p>
-                                        <ul>
-                                            {product.vantage.map(vantage => (
-                                                <li key={vantage}>{vantage}</li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        ))
-                    }
+                <div className="opt">
+                    <Link to="/products/hair-care">
+                        <img src={opt2} alt="prodHair"/>
+                        <h3>{t("navbar.links.3.subtitle.0")}</h3>
+                    </Link>
+                </div>
+                <div className="opt">
+                    <Link to="/products/health-balance">
+                        <img src={opt3} alt="/health-balance"/>
+                        <h3>{t("navbar.links.3.subtitle.2")}</h3>
+                    </Link>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -8,12 +8,14 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import serializers
 
+
 class ContactSerializer(serializers.Serializer):
     name = serializers.CharField()
     email = serializers.EmailField()
     phone = serializers.CharField()
     subject = serializers.CharField()
     message = serializers.CharField()
+
 
 class ContactView(APIView):
     def post(self, request):
@@ -27,9 +29,28 @@ class ContactView(APIView):
 
             send_mail(
                 subject=f"Contact from {email}",
-                message=f"From: {name} <{email}>\n"
-                        f"{subject}\n"
-                        f"My phone number is {phone} contact me please\n{message}",
+                message=
+f"""
+Dear {name},
+
+Thank you for getting in touch with us.
+
+We have received your message and will get back to you as soon as possible. Below is a copy of your inquiry for your records:
+
+-------------------------
+📌 Subject: {subject}
+📞 Phone: {phone}
+📧 Email: {email}
+
+📝 Message:
+{message}
+-------------------------
+Our team will review your request and respond promptly. If you need immediate assistance, please don’t hesitate to call us.
+
+Best regards,  
+Customer Support Team  
+CuddlyFreeze.Lda
+""",
                 from_email=settings.DEFAULT_FROM_EMAIL,
                 recipient_list=[settings.DEFAULT_FROM_EMAIL, email],
                 fail_silently=False,

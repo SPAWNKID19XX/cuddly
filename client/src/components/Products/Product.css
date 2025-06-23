@@ -1,6 +1,8 @@
 .product-main-container{
     margin-top: 150px;
     background: #f7f7eb;
+    font-family: "EB Garamond", serif;
+        font-size: 20px;
 }
 
 .product-main-container .container{
@@ -15,14 +17,10 @@
 }
 .product-description-container{
     width: 60%;
-    margin-top: 100px;
     text-align: left;
-    font-size: 20px;
+
 }
 
-.product-description-container h2{
-    margin: 25px 0;
-}
 .product-description-container ul{
     margin: 25px;
 }
@@ -30,9 +28,61 @@
 .product-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
 }
 
 .product-image-container img{
     border-radius: 10px;
+    width: 100%;
+}
+
+.vitamin-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.vitamin-table th,
+.vitamin-table td {
+    border: 1px solid black;
+    padding: 8px;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.vitamin-table .col-vit {
+    width: 10%;
+}
+
+.vitamin-table .col-func,
+.vitamin-table .col-source,
+.vitamin-table .col-de {
+    width: 30%;
+}
+.products-image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    font-family: "EB Garamond", serif;
+}
+
+.opt{
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.opt a{
+    text-decoration: none;
+    color: black;
+}
+
+.opt img:hover{
+    border: black 1px solid;
+    box-shadow: 0 0 30px gray;
+}
+
+
+.opt img{
     width: 100%;
 }

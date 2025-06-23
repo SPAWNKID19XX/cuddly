@@ -19,19 +19,19 @@ const Navbar = () => {
     const { t } = useTranslation();
 
     const navItems: NavItem[] = [
-        { id: 1, name: t("navbar.0"), link: '/about_us/' },
-        { id: 2, name: t("navbar.1"), link: '/services/' },
+        { id: 1, name: t("navbar.links.1"), link: '/about_us/' },
+        { id: 2, name: t("navbar.links.2"), link: '/services/' },
         {
             id: 3,
-            name: t("navbar.2"),
+            name: t("navbar.links.3.title"),
             link: '/products/',
             subItems: [
-                { name: t("navbar.products.option1"), link: '/products/option1' },
-                { name: t("navbar.products.option2"), link: '/products/option2' },
-                { name: t("navbar.products.option3"), link: '/products/option3' },
+                { name: t("navbar.links.3.subtitle.0"), link: '/products/hair-care/' },
+                { name: t("navbar.links.3.subtitle.1"), link: '/products/face-body-care/' },
+                { name: t("navbar.links.3.subtitle.2"), link: '/products/health-balance/' },
             ]
         },
-        { id: 4, name: t("navbar.3"), link: '/contact/' }
+        { id: 4, name: t("navbar.links.4"), link: '/contact/' }
     ];
 
     // Scroll effect

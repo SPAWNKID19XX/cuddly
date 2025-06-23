@@ -1,10 +1,19 @@
 {
-  "navbar": [
-    "Sobre Nosotros",
-    "Servicios",
-    "Productos",
-    "Contacto"
-  ],
+  "navbar": {
+    "links": {
+      "1": "Sobre Nosotros",
+      "2": "Servicios",
+      "3": {
+        "title": "Productos",
+        "subtitle": [
+          "Cuidado del Cabello",
+          "Cuidado Facial y Corporal",
+          "Salud y Equilibrio"
+        ]
+      },
+      "4": "Contacto"
+    }
+  },
   "mb": {
     "title": "Bienvenido a Cuddly Breeze Lda",
     "subtitle": "Crea tu propia marca de cosméticos – nosotros nos encargamos del resto",
@@ -14,6 +23,10 @@
     ]
   },
   "about_us": {
+    "links": [
+      "Laboratorio",
+      "Productos"
+    ],
     "title": "Sobre Nosotros",
     "p": [
       "Somos un equipo de profesionales que trabaja en la industria de la belleza y el bienestar, desarrollando productos modernos para los mercados cosmético y de bienestar. Nuestro enfoque combina una profunda experiencia, avances científicos de vanguardia y estándares de calidad europeos.",
@@ -192,7 +205,354 @@
         "Fórmula minimalista sin fragancia"
       ],
       "add_info": "🌿 Cuidado capilar inspirado en la naturaleza."
+    },
+    {
+      "id": 11,
+      "name": "EXFOLIANTE CAPILAR",
+      "subtitle": "💧 Limpieza profunda del cuero cabelludo para un crecimiento saludable del cabello.",
+      "description": "Un exfoliante innovador para el cuero cabelludo en formato de tarro, diseñado para una limpieza suave pero eficaz. La fórmula con exfoliantes naturales elimina suavemente la acumulación de productos, el exceso de sebo y las células muertas, estimulando la circulación y promoviendo el crecimiento de un cabello fuerte y saludable.",
+      "vantage": [
+        "Adecuado para todo tipo de cuero cabelludo",
+        "Libre de sulfatos, parabenos y siliconas",
+        "Puede usarse 1–2 veces por semana",
+        "Ideal como preparación antes de los sérums"
+      ],
+      "ingr": [
+        "Partículas exfoliantes naturales",
+        "Aceites hidratantes",
+        "Extractos vegetales que calman el cuero cabelludo"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "SÉRUM CAPILAR",
+      "subtitle": "💧 Nutrición intensiva y protección para un cabello sano y brillante",
+      "description": "Un sérum capilar en frasco con cuentagotas, diseñado para una restauración profunda y un cuidado intensivo. Su textura ligera se absorbe rápidamente sin apelmazar el cabello, dejándolo brillante, suave y fuerte. Los ingredientes activos protegen del calor y de los daños ambientales, ayudando a prevenir la rotura y las puntas abiertas.",
+      "vantage": [
+        "Adecuado para todo tipo de cabello",
+        "Ideal para uso diario",
+        "Libre de sulfatos, parabenos, alcohol y siliconas",
+        "Restaura la estructura del cabello desde el interior"
+      ],
+      "ingr": [
+        "Aceites de argán y coco",
+        "Complejo vitamínico A, E, F",
+        "Extractos vegetales para nutrir y proteger"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Resumen de Vitaminas",
+      "vit_func": {
+        "A": {
+          "func": "Visión, piel, inmunidad",
+          "source": "Zanahorias, hígado, huevos",
+          "de": "Ceguera nocturna, piel seca"
+        },
+        "D": {
+          "func": "Absorción de calcio, huesos",
+          "source": "Luz solar, pescado, yema de huevo",
+          "de": "Raquitismo, osteomalacia"
+        },
+        "E": {
+          "func": "Antioxidante, protección celular",
+          "source": "Frutos secos, aceites, espinacas",
+          "de": "Debilidad muscular"
+        },
+        "K": {
+          "func": "Coagulación sanguínea, huesos",
+          "source": "Verduras, brócoli, flora intestinal",
+          "de": "Problemas de sangrado"
+        },
+        "C": {
+          "func": "Inmunidad, antioxidante, colágeno",
+          "source": "Cítricos, bayas, pimientos",
+          "de": "Escorbuto, debilidad"
+        },
+        "B1": {
+          "func": "Nervios, metabolismo de carbohidratos",
+          "source": "Cereales, carne",
+          "de": "Beri-beri"
+        },
+        "B2": {
+          "func": "Metabolismo, piel",
+          "source": "Leche, huevos",
+          "de": "Labios agrietados"
+        },
+        "B3": {
+          "func": "Respiración celular",
+          "source": "Carne, pescado, cereales",
+          "de": "Pelagra"
+        },
+        "B5": {
+          "func": "Hormonas, energía",
+          "source": "Huevos, hígado",
+          "de": "Fatiga, irritabilidad"
+        },
+        "B6": {
+          "func": "Metabolismo de proteínas",
+          "source": "Carne, plátanos",
+          "de": "Anemia, trastornos del estado de ánimo"
+        },
+        "B7": {
+          "func": "Piel, cabello, metabolismo de grasas",
+          "source": "Huevos, nueces",
+          "de": "Erupciones, cabello quebradizo"
+        },
+        "B9": {
+          "func": "ADN, desarrollo fetal",
+          "source": "Hojas verdes",
+          "de": "Anemia, defectos neuronales"
+        },
+        "B12": {
+          "func": "Sistema nervioso, sangre",
+          "source": "Carne, huevos, pescado",
+          "de": "Anemia, daño nervioso"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Suplementos",
+      "description": "Los suplementos (suplementos dietéticos, nutracéuticos) son productos que complementan la dieta y proporcionan al cuerpo nutrientes esenciales: vitaminas, minerales, aminoácidos, ácidos grasos, enzimas, extractos vegetales y más. No reemplazan los alimentos, pero ayudan a cubrir carencias nutricionales o a apoyar funciones corporales específicas.",
+      "subtitle": [
+        "Funciones principales de los suplementos:",
+        "Cuándo tomar suplementos:"
+      ],
+      "mf": [
+        {
+          "title": "Vitaminas y minerales",
+          "p": "apoyan la inmunidad, el metabolismo y el sistema nervioso."
+        },
+        {
+          "title": "Omega-3",
+          "p": "beneficioso para el cerebro, el corazón y la reducción de la inflamación."
+        },
+        {
+          "title": "Colágeno",
+          "p": "mejora la piel, el cabello, las uñas y las articulaciones."
+        },
+        {
+          "title": "Probióticos y prebióticos",
+          "p": "equilibran la microbiota intestinal."
+        },
+        {
+          "title": "Proteína",
+          "p": "apoya la masa muscular y la recuperación tras el ejercicio."
+        },
+        {
+          "title": "Aminoácidos",
+          "p": "apoyan los músculos, la energía y la inmunidad."
+        },
+        {
+          "title": "Enzimas",
+          "p": "mejoran la digestión."
+        },
+        {
+          "title": "Adaptógenos",
+          "p": "ayudan con el estrés y la falta de energía."
+        },
+        {
+          "title": "Magnesio",
+          "p": "favorece el sueño, reduce los calambres y la ansiedad."
+        },
+        {
+          "title": "Calcio + vitamina D",
+          "p": "para la salud ósea y cardíaca."
+        },
+        {
+          "title": "Hierro",
+          "p": "importante para la anemia y la fatiga crónica."
+        },
+        {
+          "title": "Zinc y selenio",
+          "p": "antioxidantes que fortalecen la inmunidad."
+        }
+      ],
+      "ws": [
+        "En caso de deficiencia (tras análisis de laboratorio).",
+        "Durante el estrés, la enfermedad o el esfuerzo físico.",
+        "Durante dietas o restricciones alimentarias.",
+        "Para la belleza y el bienestar general."
+      ],
+      "note": [
+        "Nota",
+        "Los suplementos no reemplazan un estilo de vida saludable, pero son una adición útil."
+      ]
+    },
+    {
+  "id": 15,
+  "name": "Minerales",
+  "description": "Los minerales son sustancias inorgánicas que el cuerpo necesita en pequeñas cantidades para mantener la salud, el crecimiento, el desarrollo y el funcionamiento normal de los órganos.",
+  "subtitle": [
+    "Principales tipos de minerales",
+    "Los minerales se dividen en macroelementos y microelementos (oligoelementos)"
+  ],
+  "mf": [
+    {
+      "title": "Macroelements (necesarios en grandes cantidades):",
+      "lt": [
+        "Calcio — salud ósea y dental, contracciones musculares, coagulación sanguínea.",
+        "Fósforo — formación de huesos y dientes, metabolismo energético.",
+        "Magnesio — apoya la función nerviosa y muscular, regula la presión arterial.",
+        "Potasio — ritmo cardíaco, equilibrio hídrico, función muscular.",
+        "Sodio — equilibrio hídrico y salino, transmisión de impulsos nerviosos.",
+        "Cloruro — parte del ácido gástrico, equilibrio hídrico.",
+        "Azufre — componente de aminoácidos, salud de la piel, cabello y uñas."
+      ]
+    },
+    {
+      "title": "Microelementos (oligoelementos):",
+      "lt": [
+        "Hierro — transporte de oxígeno (hemoglobina), energía, inmunidad.",
+        "Zinc — cicatrización, inmunidad, reacciones enzimáticas.",
+        "Yodo — producción de hormonas tiroideas.",
+        "Selenio — antioxidante, apoyo inmunológico.",
+        "Cobre — formación de glóbulos rojos, absorción de hierro.",
+        "Manganeso — metabolismo, formación de tejido conectivo.",
+        "Cromo — regulación de la glucosa en sangre.",
+        "Molibdeno — actividad enzimática."
+      ]
+    },
+    {
+      "title": "Funciones de los minerales en el cuerpo:",
+      "lt": [
+        "Formación de tejido óseo (Ca, P, Mg)",
+        "Conducción de impulsos nerviosos (Na, K, Ca)",
+        "Producción hormonal (I, Zn)",
+        "Regulación del metabolismo (Cr, Se)",
+        "Apoyo al sistema inmunológico (Zn, Fe, Se)",
+        "Protección antioxidante (Se, Cu, Zn)"
+      ]
+    },
+    {
+      "title": "¿Por qué tomar minerales como suplementos?",
+      "lt": [
+        "Dieta desequilibrada",
+        "Dieta vegana o restrictiva",
+        "Embarazo o lactancia",
+        "Enfermedades crónicas (anemia, osteoporosis, etc.)",
+        "Actividad física intensa",
+        "Mala absorción por trastornos gastrointestinales"
+      ]
     }
+  ]
+},
+    {
+  "id": 16,
+  "name": "Bióticos",
+  "description": "¿Qué son los bióticos y cómo ayudan al cuerpo?",
+  "subtitle": [
+    "Bióticos",
+    "es un término general para sustancias que apoyan el microbioma humano y la salud intestinal. Incluyen:"
+  ],
+  "lt": [
+    {
+      "title": "Probióticos",
+      "p": "Microorganismos vivos (bacterias o levaduras) que, cuando se consumen en cantidades adecuadas, benefician la salud.",
+      "lt": [
+        {
+          "title": "Cepas comunes",
+          "lt": [
+            "Lactobacillus",
+            "Bifidobacterium",
+            "Saccharomyces boulardii"
+          ]
+        },
+        {
+          "title": "Beneficios",
+          "lt": [
+            "Restaurar la flora intestinal después de antibióticos",
+            "Aliviar síntomas del SII",
+            "Apoyar el sistema inmunológico",
+            "Aliviar la diarrea o el estreñimiento",
+            "Mejorar la absorción de nutrientes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Prebióticos",
+      "p": "Fibras alimentarias no digeribles que sirven de \"alimento\" para las bacterias intestinales beneficiosas.",
+      "lt": [
+        {
+          "title": "Tipos principales",
+          "lt": [
+            "Inulina",
+            "Fructooligosacáridos (FOS)",
+            "Galactooligosacáridos (GOS)"
+          ]
+        },
+        {
+          "title": "Beneficios",
+          "lt": [
+            "Promover el crecimiento de bacterias saludables",
+            "Mejorar la digestión",
+            "Normalizar el tránsito intestinal",
+            "Ayudar a regular el colesterol y la glucosa"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Postbióticos",
+      "p": "Subproductos metabólicos de los probióticos, como ácidos grasos de cadena corta, péptidos y enzimas",
+      "lt": [
+        {
+          "title": "Beneficios",
+          "lt": [
+            "Efectos antiinflamatorios",
+            "Apoyar la función de barrera intestinal",
+            "Fortalecer el sistema inmunológico",
+            "Combatir microbios dañinos"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Simbióticos",
+      "p": "Combinación de probióticos y prebióticos que actúan de manera sinérgica.",
+      "lt": [
+        {
+          "title": "Beneficios",
+          "lt": [
+            "Aumentar la supervivencia de los probióticos",
+            "Maximizar los beneficios del microbioma intestinal",
+            "Mejorar la digestión y la absorción de nutrientes"
+          ]
+        },
+        {
+          "title": "Otros beneficios de los bióticos:",
+          "lt": [
+            [
+              "Eje intestino-cerebro",
+              "el microbioma afecta el estado de ánimo, memoria, ansiedad"
+            ],
+            [
+              "Salud de la piel",
+              "útil para el acné, eccema, dermatitis"
+            ],
+            [
+              "Control del peso",
+              "apoya el metabolismo de grasas y carbohidratos"
+            ]
+          ]
+        },
+        {
+          "title": "Cuándo usar bióticos",
+          "lt": [
+            "Después de antibióticos",
+            "Problemas digestivos",
+            "Estrés crónico",
+            "Apoyo al sistema inmunológico"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
   ],
   "ftr": {
     "info_coockies": {

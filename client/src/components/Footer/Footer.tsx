@@ -85,9 +85,9 @@ const Footer = () => {
                     <div className='footer-info'>
                         <span>{t("ftr.slogan")}</span>
                         <div className='social-media'>
-                            <a href=""><img src={fb} alt=""/></a>
-                            <a href=""><img src={insta} alt=""/></a>
-                            <a href=""><img src={tt} alt=""/></a>
+                            {/*<a href=""><img src={fb} alt=""/></a>*/}
+                            {/*<a href=""><img src={insta} alt=""/></a>*/}
+                            {/*<a href=""><img src={tt} alt=""/></a>*/}
                         </div>
                         <div className='contact-politics'>
                             <div className='contacts'>
