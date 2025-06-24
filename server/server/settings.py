@@ -2,8 +2,7 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-
-#connect .env file
+# connect .env file
 load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -16,7 +15,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'cuddly-server.onrender.com',
+]
 
 # Application definition
 
@@ -51,7 +54,6 @@ MIDDLEWARE = [
 
 # setup CORS for development
 CORS_ALLOW_ALL_ORIGINS = True  # TODO false before deployment
-
 
 # For deployment use
 # CORS_ALLOWED_ORIGINS = [
@@ -132,7 +134,6 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
@@ -159,5 +160,3 @@ EMAIL_HOST_USER = os.environ.get('MAIL_USERNAME')
 EMAIL_HOST_PASSWORD = os.environ.get('MAIL_PASSWORD')
 
 print(EMAIL_BACKEND, EMAIL_HOST, EMAIL_PORT, EMAIL_USE_TLS, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD)
-
-
