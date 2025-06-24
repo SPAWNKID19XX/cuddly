@@ -1,8 +1,8 @@
 import axios from 'axios';
 import './Footer.css'
-import fb from '../../assets/img/icons/facebook.png'
-import tt from '../../assets/img/icons/tiktok.png'
-import insta from '../../assets/img/icons/instagram.png'
+// import fb from '../../assets/img/icons/facebook.png'
+// import tt from '../../assets/img/icons/tiktok.png'
+// import insta from '../../assets/img/icons/instagram.png'
 import {useState} from "react";
 import {useTranslation} from "react-i18next";
 
