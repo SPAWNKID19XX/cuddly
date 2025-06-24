@@ -12,8 +12,8 @@ const Product = () => {
     const {t} = useTranslation();
 
     return (
-        <>
-            <h1 style={{marginTop: '175px', fontFamily: '"EB Garamond", serif'}}>
+        <div className="product-main-container">
+            <h1 style={{marginTop: '150px', fontFamily: '"EB Garamond", serif'}}>
                 {t("prod_title")}
             </h1>
             <div className="products-image-container">
@@ -36,7 +36,7 @@ const Product = () => {
                     </Link>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

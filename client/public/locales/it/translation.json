@@ -70,7 +70,9 @@
       }
     ]
   },
+
   "prod_title": "I nostri prodotti",
+  "serv_title": "I nostri servizi",
   "products": [
     {
       "id": 1,

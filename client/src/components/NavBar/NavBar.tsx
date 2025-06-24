@@ -20,7 +20,15 @@ const Navbar = () => {
 
     const navItems: NavItem[] = [
         { id: 1, name: t("navbar.links.1"), link: '/about_us/' },
-        { id: 2, name: t("navbar.links.2"), link: '/services/' },
+        {
+            id: 2,
+            name: t("navbar.links.2"),
+            link: '/services/',
+            subItems: [
+                { name: t("about_us.links.0"), link: '/services/lab/' },
+                { name: t("about_us.links.1"), link: '/services/products/' },
+            ]
+        },
         {
             id: 3,
             name: t("navbar.links.3.title"),
