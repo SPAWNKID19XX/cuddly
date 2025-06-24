@@ -11,7 +11,6 @@ body {
 }
 
 .page-container {
-    min-height: 100vh;
     background-color: white;
     font-family: "EB Garamond", serif;
     font-size: 20px;
@@ -59,7 +58,6 @@ body {
     font-size: 28px;
     font-weight: bold;
     margin: 20px 0;
-    max-width: 520px;
 }
 
 .social-media {
@@ -85,7 +83,7 @@ body {
 /* Contacts & links layout */
 .contact-politics {
     display: flex;
-    gap: 15%;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -98,15 +96,21 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 40%;
+
+}
+
+.politics {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
 
 .contacts span {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .contacts button {
-    background-color: #1EB958;
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
@@ -129,10 +133,7 @@ body {
     width: 30px;
 }
 
-.politics {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .politics a {
     margin-bottom: 15px;
