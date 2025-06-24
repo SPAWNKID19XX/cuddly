@@ -1,18 +1,27 @@
 .servoces-area {
     margin-top: 150px;
     font-family: "EB Garamond", serif;
-    text-align: left;
+    text-align: center;
     background: #f7f7eb;
 }
 
 .container {
-    width: 80%;
+    width: 88%;
     margin: 0 auto;
+}
+
+.products-image-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    font-family: "EB Garamond", serif;
+
 }
 
 .servoces-area .services-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 25px;
     margin-bottom: 50px;
     border-bottom: #5e5b55 solid 3px;

@@ -9,6 +9,7 @@ import micelar_water from './../../assets/img/micelar_water.jpg'
 import lab from './../../assets/img/lab.jpg'
 import products from './../../assets/img/products.jpg'
 import {useTranslation} from "react-i18next";
+import { Link } from 'react-router-dom';
 
 
 interface MainBannerProps {
@@ -114,20 +115,20 @@ const MainBaner: React.FC<MainBannerProps> = () => {
             <div className="banner-content">
                 <div className="main_links">
                     <div className="links-img-container">
-                        <a href="#">
+                        <Link to="/services/lab/">
                             <img src={lab} alt="lab" />
                             <div className="title_img_lab">
                                 <h3>{t("about_us.links.0")}</h3>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="links-img-container">
-                        <a href="#">
+                        <Link to="/services/products/">
                             <img src={products} alt='products' />
                             <div className="title_img_lab">
                                 <h3>{t("about_us.links.1")}</h3>
                             </div>
-                        </a>
+                        </Link>
                     </div>
 
 

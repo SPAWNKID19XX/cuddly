@@ -15,6 +15,8 @@ import FaceBodyCare from "./components/FaceBodyCare/FaceBodyCare.tsx";
 import HealthBalance from "./components/HealthBalance/HealthBalance.tsx"
 import ContactForm from "./components/ContactForm/ContactForm.tsx";
 import Services from './components/Services/Services.tsx'
+import ServicesProd from './components/ServiceProd/ServiceProd.tsx'
+import ServicesLab from './components/ServiceLab/ServiceLab.tsx'
 
 
 function App() {
@@ -87,6 +89,18 @@ function App() {
                 <Route path="/services" element={
                     <>
                         <Services />
+                    </>
+                }/>
+
+                 <Route path="/services/lab" element={
+                    <>
+                        <ServicesLab/>
+                    </>
+                }/>
+
+                <Route path="/services/products" element={
+                    <>
+                        <ServicesProd/>
                     </>
                 }/>
 
