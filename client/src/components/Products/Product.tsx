@@ -14,7 +14,7 @@ const Product = () => {
     return (
         <>
             <h1 style={{marginTop: '175px', fontFamily: '"EB Garamond", serif'}}>
-                Our products
+                {t("prod_title")}
             </h1>
             <div className="products-image-container">
                 <div className="opt">

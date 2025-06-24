@@ -59,8 +59,8 @@ const Footer = () => {
             return;
         }
         try {
-            const apiUrl = process.env.REACT_APP_API_URL;
-
+            const apiUrl = import.meta.env.VITE_API_URL;
+            console.log('+++++++++++++++++' + apiUrl);
             const response = await axios.post(`${apiUrl}/api/v1/main/`, formData);
 
             console.log('Success:', response.data);
