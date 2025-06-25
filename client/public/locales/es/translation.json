@@ -245,444 +245,376 @@
     {
       "id": 13,
       "name": "Resumen de Vitaminas",
-      "vit_func": {
-        "A": {
-          "func": "Visión, piel, inmunidad",
-          "source": "Zanahorias, hígado, huevos",
-          "de": "Ceguera nocturna, piel seca"
+      "description": {
+        "fat_soluble_vitamins": {
+          "title": "Vitaminas Liposolubles",
+          "description": "Almacenadas en la grasa corporal y absorbidas con las grasas dietéticas.",
+          "vitamins": {
+            "A": "Visión, piel, inmunidad",
+            "D": "Absorción de calcio, fuerza ósea",
+            "E": "Antioxidante, protección celular",
+            "K": "Coagulación sanguínea, salud ósea"
+          },
+          "sources": {
+            "title": "Fuentes",
+            "A": "Zanahorias, hígado, huevos",
+            "D": "Luz solar, pescado, yema de huevo",
+            "E": "Nueces, aceites, espinacas",
+            "K": "Verduras de hoja, brócoli, flora intestinal"
+          },
+          "deficiency_effects": {
+            "title": "Efectos de la Deficiencia",
+            "A": "Ceguera nocturna, piel seca",
+            "D": "Raquitismo, osteomalacia",
+            "E": "Debilidad muscular",
+            "K": "Problemas de sangrado"
+          }
         },
-        "D": {
-          "func": "Absorción de calcio, huesos",
-          "source": "Luz solar, pescado, yema de huevo",
-          "de": "Raquitismo, osteomalacia"
+        "water_soluble_vitamins_b_complex": {
+          "title": "Vitaminas Hidrosolubles – Complejo B",
+          "description": "Apoyan el metabolismo energético y el sistema nervioso.",
+          "vitamins_functions": {
+            "title": "Vitaminas y Funciones:",
+            "B1": "Nervios, metabolismo de carbohidratos",
+            "B2": "Piel, producción de energía",
+            "B3": "Respiración celular",
+            "B5": "Hormonas, energía",
+            "B6": "Metabolismo de proteínas, equilibrio del estado de ánimo",
+            "B7": "Piel, cabello, metabolismo de grasas",
+            "B9": "ADN, desarrollo fetal",
+            "B12": "Nervios, glóbulos rojos"
+          },
+          "sources_title": "Fuentes",
+          "sources": "Cereales, carne, leche, huevos, verduras, plátanos, pescado",
+          "deficiency_symptoms_title": "Síntomas de Deficiencia",
+          "deficiency_symptoms": [
+            "Beri-beri (B1), labios agrietados (B2), pelagra (B3)",
+            "Fatiga, irritabilidad (B5), anemia (B6/B9/B12)",
+            "Trastornos del estado de ánimo, defectos neurales, cabello quebradizo (B7)"
+          ]
         },
-        "E": {
-          "func": "Antioxidante, protección celular",
-          "source": "Frutos secos, aceites, espinacas",
-          "de": "Debilidad muscular"
+        "water_soluble_vitamin_c": {
+          "deficiency_title": "Deficiencia",
+          "title": "Vitamina Hidrosoluble – Vitamina C",
+          "description": "Poderoso antioxidante y refuerzo inmunológico.",
+          "function": [
+            "Apoya la inmunidad",
+            "Promueve la producción de colágeno",
+            "Ayuda a absorber el hierro",
+            "Protección antioxidante"
+          ],
+          "sources": "Frutas cítricas, bayas, pimientos",
+          "deficiency": "Escorbuto, debilidad, sangrado de encías"
         },
-        "K": {
-          "func": "Coagulación sanguínea, huesos",
-          "source": "Verduras, brócoli, flora intestinal",
-          "de": "Problemas de sangrado"
+        "why_vitamins_matter": {
+          "title": "Por Qué Importan las Vitaminas",
+          "points": [
+            "Apoyan el crecimiento y desarrollo",
+            "Regulan el metabolismo",
+            "Refuerzan la inmunidad y la función cerebral",
+            "Previenen enfermedades crónicas"
+          ]
         },
-        "C": {
-          "func": "Inmunidad, antioxidante, colágeno",
-          "source": "Cítricos, bayas, pimientos",
-          "de": "Escorbuto, debilidad"
-        },
-        "B1": {
-          "func": "Nervios, metabolismo de carbohidratos",
-          "source": "Cereales, carne",
-          "de": "Beri-beri"
-        },
-        "B2": {
-          "func": "Metabolismo, piel",
-          "source": "Leche, huevos",
-          "de": "Labios agrietados"
-        },
-        "B3": {
-          "func": "Respiración celular",
-          "source": "Carne, pescado, cereales",
-          "de": "Pelagra"
-        },
-        "B5": {
-          "func": "Hormonas, energía",
-          "source": "Huevos, hígado",
-          "de": "Fatiga, irritabilidad"
-        },
-        "B6": {
-          "func": "Metabolismo de proteínas",
-          "source": "Carne, plátanos",
-          "de": "Anemia, trastornos del estado de ánimo"
-        },
-        "B7": {
-          "func": "Piel, cabello, metabolismo de grasas",
-          "source": "Huevos, nueces",
-          "de": "Erupciones, cabello quebradizo"
-        },
-        "B9": {
-          "func": "ADN, desarrollo fetal",
-          "source": "Hojas verdes",
-          "de": "Anemia, defectos neuronales"
-        },
-        "B12": {
-          "func": "Sistema nervioso, sangre",
-          "source": "Carne, huevos, pescado",
-          "de": "Anemia, daño nervioso"
+        "when_to_watch_vitamin_levels": {
+          "title": "Cuándo Controlar los Niveles de Vitaminas",
+          "points": [
+            "Fatiga, caída del cabello, poca concentración",
+            "Resfriados frecuentes o infecciones",
+            "Problemas digestivos u óseos",
+            "Embarazo y envejecimiento"
+          ]
         }
       }
     },
     {
       "id": 14,
       "name": "Suplementos",
-      "description": "Los suplementos (suplementos dietéticos, nutracéuticos) son productos que complementan la dieta y proporcionan al cuerpo nutrientes esenciales: vitaminas, minerales, aminoácidos, ácidos grasos, enzimas, extractos vegetales y más. No reemplazan los alimentos, pero ayudan a cubrir carencias nutricionales o a apoyar funciones corporales específicas.",
-      "subtitle": [
-        "Funciones principales de los suplementos:",
-        "Cuándo tomar suplementos:"
+      "title": "¿Qué Son los Suplementos?",
+      "description": "Los suplementos (suplementos dietéticos, nutracéuticos) son productos que complementan la dieta y proporcionan nutrientes esenciales.",
+      "include_title": "Incluyen:",
+      "include_list": [
+        "Vitaminas, minerales",
+        "Aminoácidos",
+        "Ácidos grasos (ej. Omega-3)",
+        "Enzimas",
+        "Extractos de plantas"
       ],
-      "mf": [
-        {
-          "title": "Vitaminas y minerales",
-          "p": "apoyan la inmunidad, el metabolismo y el sistema nervioso."
-        },
-        {
-          "title": "Omega-3",
-          "p": "beneficioso para el cerebro, el corazón y la reducción de la inflamación."
-        },
-        {
-          "title": "Colágeno",
-          "p": "mejora la piel, el cabello, las uñas y las articulaciones."
-        },
-        {
-          "title": "Probióticos y prebióticos",
-          "p": "equilibran la microbiota intestinal."
-        },
-        {
-          "title": "Proteína",
-          "p": "apoya la masa muscular y la recuperación tras el ejercicio."
-        },
-        {
-          "title": "Aminoácidos",
-          "p": "apoyan los músculos, la energía y la inmunidad."
-        },
-        {
-          "title": "Enzimas",
-          "p": "mejoran la digestión."
-        },
-        {
-          "title": "Adaptógenos",
-          "p": "ayudan con el estrés y la falta de energía."
-        },
-        {
-          "title": "Magnesio",
-          "p": "favorece el sueño, reduce los calambres y la ansiedad."
-        },
-        {
-          "title": "Calcio + vitamina D",
-          "p": "para la salud ósea y cardíaca."
-        },
-        {
-          "title": "Hierro",
-          "p": "importante para la anemia y la fatiga crónica."
-        },
-        {
-          "title": "Zinc y selenio",
-          "p": "antioxidantes que fortalecen la inmunidad."
-        }
+      "warning": "⚠️ Los suplementos no sustituyen los alimentos, pero ayudan a cubrir deficiencias nutricionales o apoyar funciones específicas del cuerpo.",
+      "functions_title": "🎯 Funciones Principales de los Suplementos:",
+      "functions_list": [
+        "Vitaminas y Minerales – Inmunidad, metabolismo, nervios",
+        "Omega-3 – Cerebro, corazón, antiinflamatorio",
+        "Colágeno – Piel, cabello, uñas, articulaciones",
+        "Probióticos y Prebióticos – Equilibrio de la microbiota intestinal",
+        "Proteína – Mantenimiento y recuperación muscular",
+        "Aminoácidos – Energía, músculos, inmunidad",
+        "Enzimas – Apoyo digestivo",
+        "Adaptógenos – Manejo del estrés y la fatiga",
+        "Magnesio – Sueño, calambres, ansiedad",
+        "Calcio + Vitamina D – Salud ósea y cardíaca",
+        "Hierro – Anemia, fatiga crónica",
+        "Zinc y Selenio – Antioxidantes, apoyo inmunológico"
       ],
-      "ws": [
-        "En caso de deficiencia (tras análisis de laboratorio).",
-        "Durante el estrés, la enfermedad o el esfuerzo físico.",
-        "Durante dietas o restricciones alimentarias.",
-        "Para la belleza y el bienestar general."
+      "when_title": "🕒 Cuándo Tomar Suplementos:",
+      "when_list": [
+        "Deficiencia de nutrientes (confirmada por análisis de laboratorio)",
+        "Estrés, enfermedad o esfuerzo físico",
+        "Dietas restrictivas o mala alimentación",
+        "Apoyo estético o bienestar general"
       ],
-      "note": [
-        "Nota",
-        "Los suplementos no reemplazan un estilo de vida saludable, pero son una adición útil."
-      ]
+      "reminder_title": "📌 Recordatorio:",
+      "reminder": "Los suplementos no son un sustituto de un estilo de vida saludable, sino una adición útil para apoyar la salud general."
     },
     {
-  "id": 15,
-  "name": "Minerales",
-  "description": "Los minerales son sustancias inorgánicas que el cuerpo necesita en pequeñas cantidades para mantener la salud, el crecimiento, el desarrollo y el funcionamiento normal de los órganos.",
-  "subtitle": [
-    "Principales tipos de minerales",
-    "Los minerales se dividen en macroelementos y microelementos (oligoelementos)"
-  ],
-  "mf": [
-    {
-      "title": "Macroelements (necesarios en grandes cantidades):",
-      "lt": [
-        "Calcio — salud ósea y dental, contracciones musculares, coagulación sanguínea.",
-        "Fósforo — formación de huesos y dientes, metabolismo energético.",
-        "Magnesio — apoya la función nerviosa y muscular, regula la presión arterial.",
-        "Potasio — ritmo cardíaco, equilibrio hídrico, función muscular.",
-        "Sodio — equilibrio hídrico y salino, transmisión de impulsos nerviosos.",
-        "Cloruro — parte del ácido gástrico, equilibrio hídrico.",
-        "Azufre — componente de aminoácidos, salud de la piel, cabello y uñas."
-      ]
-    },
-    {
-      "title": "Microelementos (oligoelementos):",
-      "lt": [
-        "Hierro — transporte de oxígeno (hemoglobina), energía, inmunidad.",
-        "Zinc — cicatrización, inmunidad, reacciones enzimáticas.",
-        "Yodo — producción de hormonas tiroideas.",
-        "Selenio — antioxidante, apoyo inmunológico.",
-        "Cobre — formación de glóbulos rojos, absorción de hierro.",
-        "Manganeso — metabolismo, formación de tejido conectivo.",
-        "Cromo — regulación de la glucosa en sangre.",
-        "Molibdeno — actividad enzimática."
-      ]
-    },
-    {
-      "title": "Funciones de los minerales en el cuerpo:",
-      "lt": [
-        "Formación de tejido óseo (Ca, P, Mg)",
+      "id": 15,
+      "name": "Minerales",
+      "title": "🧂 ¿Qué son los minerales?",
+      "description": "Los minerales son sustancias inorgánicas que el cuerpo necesita en pequeñas cantidades para mantener la salud, el crecimiento, el desarrollo y el funcionamiento normal de los órganos.",
+      "functions_title": "⚙️ Funciones de los minerales:",
+      "functions_list": [
+        "Formación del tejido óseo (Ca, P, Mg)",
         "Conducción de impulsos nerviosos (Na, K, Ca)",
-        "Producción hormonal (I, Zn)",
+        "Producción de hormonas (I, Zn)",
         "Regulación del metabolismo (Cr, Se)",
         "Apoyo al sistema inmunológico (Zn, Fe, Se)",
         "Protección antioxidante (Se, Cu, Zn)"
-      ]
-    },
-    {
-      "title": "¿Por qué tomar minerales como suplementos?",
-      "lt": [
+      ],
+      "why_title": "💊 ¿Por qué tomar suplementos minerales?",
+      "why_list": [
         "Dieta desequilibrada",
         "Dieta vegana o restrictiva",
         "Embarazo o lactancia",
-        "Enfermedades crónicas (anemia, osteoporosis, etc.)",
+        "Enfermedades crónicas (anemia, osteoporosis)",
         "Actividad física intensa",
-        "Mala absorción por trastornos gastrointestinales"
+        "Mala absorción debido a trastornos gastrointestinales"
       ]
-    }
-  ]
-},
+    },
     {
   "id": 16,
   "name": "Bióticos",
-  "description": "¿Qué son los bióticos y cómo ayudan al cuerpo?",
-  "subtitle": [
-    "Bióticos",
-    "es un término general para sustancias que apoyan el microbioma humano y la salud intestinal. Incluyen:"
-  ],
-  "lt": [
-    {
-      "title": "Probióticos",
-      "p": "Microorganismos vivos (bacterias o levaduras) que, cuando se consumen en cantidades adecuadas, benefician la salud.",
-      "lt": [
-        {
-          "title": "Cepas comunes",
-          "lt": [
-            "Lactobacillus",
-            "Bifidobacterium",
-            "Saccharomyces boulardii"
-          ]
-        },
-        {
-          "title": "Beneficios",
-          "lt": [
-            "Restaurar la flora intestinal después de antibióticos",
-            "Aliviar síntomas del SII",
-            "Apoyar el sistema inmunológico",
-            "Aliviar la diarrea o el estreñimiento",
-            "Mejorar la absorción de nutrientes"
-          ]
-        }
+  "title": "¿Qué son los bióticos y cómo ayudan al cuerpo?",
+  "intro": "<strong>Bióticos</strong> es un término general para grupos de sustancias que apoyan el microbioma humano y la salud intestinal. Incluyen:",
+  "types_list": ["Probióticos", "Prebióticos", "Postbióticos", "Simbióticos"],
+  "sections": {
+    "probiotics": {
+      "title": "🔬 1. Probióticos",
+      "description": "Microorganismos vivos (bacterias o levaduras) que, cuando se consumen en cantidades suficientes, benefician la salud.",
+      "common_strains_title": "Cepas comunes:",
+      "common_strains": ["Lactobacillus", "Bifidobacterium", "Saccharomyces boulardii"],
+      "benefits_title": "Beneficios:",
+      "benefits": [
+        "Restaurar la flora intestinal después de antibióticos",
+        "Aliviar los síntomas del SII",
+        "Apoyar el sistema inmunológico",
+        "Reducir la diarrea o el estreñimiento",
+        "Mejorar la absorción de nutrientes"
       ]
     },
-    {
-      "title": "Prebióticos",
-      "p": "Fibras alimentarias no digeribles que sirven de \"alimento\" para las bacterias intestinales beneficiosas.",
-      "lt": [
-        {
-          "title": "Tipos principales",
-          "lt": [
-            "Inulina",
-            "Fructooligosacáridos (FOS)",
-            "Galactooligosacáridos (GOS)"
-          ]
-        },
-        {
-          "title": "Beneficios",
-          "lt": [
-            "Promover el crecimiento de bacterias saludables",
-            "Mejorar la digestión",
-            "Normalizar el tránsito intestinal",
-            "Ayudar a regular el colesterol y la glucosa"
-          ]
-        }
+    "prebiotics": {
+      "title": "🌱 2. Prebióticos",
+      "description": "Fibras alimentarias no digeribles que sirven como \"alimento\" para las bacterias intestinales beneficiosas.",
+      "main_types_title": "Tipos principales:",
+      "main_types": ["Inulina", "Fructooligosacáridos (FOS)", "Galactooligosacáridos (GOS)"],
+      "benefits_title": "Beneficios:",
+      "benefits": [
+        "Fomentar el crecimiento de bacterias saludables",
+        "Mejorar la digestión",
+        "Normalizar el tránsito intestinal",
+        "Ayudar a regular el colesterol y la glucosa"
       ]
     },
-    {
-      "title": "Postbióticos",
-      "p": "Subproductos metabólicos de los probióticos, como ácidos grasos de cadena corta, péptidos y enzimas",
-      "lt": [
-        {
-          "title": "Beneficios",
-          "lt": [
-            "Efectos antiinflamatorios",
-            "Apoyar la función de barrera intestinal",
-            "Fortalecer el sistema inmunológico",
-            "Combatir microbios dañinos"
-          ]
-        }
+    "postbiotics": {
+      "title": "🧬 3. Postbióticos",
+      "description": "Subproductos metabólicos de los probióticos, como ácidos grasos de cadena corta, péptidos y enzimas.",
+      "benefits_title": "Beneficios:",
+      "benefits": [
+        "Efectos antiinflamatorios",
+        "Apoyo a la barrera intestinal",
+        "Fortalecimiento del sistema inmunológico",
+        "Combate de microbios dañinos"
       ]
     },
-    {
-      "title": "Simbióticos",
-      "p": "Combinación de probióticos y prebióticos que actúan de manera sinérgica.",
-      "lt": [
-        {
-          "title": "Beneficios",
-          "lt": [
-            "Aumentar la supervivencia de los probióticos",
-            "Maximizar los beneficios del microbioma intestinal",
-            "Mejorar la digestión y la absorción de nutrientes"
-          ]
-        },
-        {
-          "title": "Otros beneficios de los bióticos:",
-          "lt": [
-            [
-              "Eje intestino-cerebro",
-              "el microbioma afecta el estado de ánimo, memoria, ansiedad"
-            ],
-            [
-              "Salud de la piel",
-              "útil para el acné, eccema, dermatitis"
-            ],
-            [
-              "Control del peso",
-              "apoya el metabolismo de grasas y carbohidratos"
-            ]
-          ]
-        },
-        {
-          "title": "Cuándo usar bióticos",
-          "lt": [
-            "Después de antibióticos",
-            "Problemas digestivos",
-            "Estrés crónico",
-            "Apoyo al sistema inmunológico"
-          ]
-        }
+    "synbiotics": {
+      "title": "🔗 4. Simbióticos",
+      "description": "Una combinación de probióticos y prebióticos que actúan de manera sinérgica.",
+      "benefits_title": "Beneficios:",
+      "benefits": [
+        "Mejorar la supervivencia de los probióticos",
+        "Maximizar los beneficios del microbioma intestinal",
+        "Mejorar la digestión y la absorción de nutrientes"
       ]
     }
+  },
+  "other_benefits_title": "🧠 Otros beneficios de los bióticos:",
+  "other_benefits": [
+    "Eje intestino-cerebro: el microbioma afecta el estado de ánimo, la memoria y la ansiedad",
+    "Salud de la piel: útil para el acné, eczema, dermatitis",
+    "Control del peso: apoya el metabolismo de grasas y carbohidratos"
+  ],
+  "when_to_use_title": "🕒 Cuándo usar bióticos:",
+  "when_to_use": [
+    "Después de antibióticos",
+    "Problemas digestivos",
+    "Estrés crónico",
+    "Apoyo al sistema inmunológico"
   ]
 }
 
-
   ],
   "services": {
-  "title": "Nuestros Servicios",
-  "lt": [
-    {
-      "title": "Servicio Integral de Belleza, Salud y Cuidado",
-      "subtitle": "Qué Ofrecemos",
-      "p": [
-        "Somos tu destino integral para",
-        "productos de cuidado facial, corporal y capilar de alta calidad",
-        "así como",
-        "suplementos nutricionales certificados, vitaminas y productos dietéticos",
-        "de proveedores",
-        "europeos confiables.",
-        "Colaboramos únicamente con marcas verificadas para garantizar seguridad, eficacia y calidad premium."
-      ],
-      "pc": {
-        "title": "Categorías de Productos",
-        "lt": [
-          ["Cuidado facial:", "cremas, sérums, mascarillas, limpiadores, tónicos"],
-          ["Cuidado corporal:", "lociones, exfoliantes, aceites, geles de ducha"],
-          ["Cuidado capilar:", "champús, acondicionadores, mascarillas, sprays"],
-          ["Salud interna:", "vitaminas, probióticos, omega-3, suplementos para belleza, inmunidad y energía"],
-          ["Cuidado personalizado:", "selección personalizada según tipo de piel, estado del cabello o necesidades de salud"]
-        ]
-      },
-      "logist": {
-        "title": "Logística Sin Complicaciones",
+    "title": "Nuestros Servicios",
+    "lt": [
+      {
+        "title": "Servicio Integral de Belleza, Salud y Cuidado",
+        "subtitle": "Qué Ofrecemos",
         "p": [
-          "Desde el pedido hasta la entrega a domicilio,",
-          "gestionamos cada paso",
-          "por ti."
+          "Somos tu destino integral para",
+          "productos de cuidado facial, corporal y capilar de alta calidad",
+          "así como",
+          "suplementos nutricionales certificados, vitaminas y productos dietéticos",
+          "de proveedores",
+          "europeos confiables.",
+          "Colaboramos únicamente con marcas verificadas para garantizar seguridad, eficacia y calidad premium."
         ],
-        "subtitle": "Nos encargamos de:",
-        "lt": [
-          "Abastecimiento directo de proveedores certificados",
-          "Consolidación de pedidos desde varios países de la UE",
-          "Despacho aduanero y documentación legal",
-          "Envíos internacionales confiables (por tierra, aire, mensajería)",
-          "Seguimiento en tiempo real durante todo el proceso",
-          "Embalaje seguro para proteger la calidad del producto"
-        ]
+        "pc": {
+          "title": "Categorías de Productos",
+          "lt": [
+            [
+              "Cuidado facial:",
+              "cremas, sérums, mascarillas, limpiadores, tónicos"
+            ],
+            [
+              "Cuidado corporal:",
+              "lociones, exfoliantes, aceites, geles de ducha"
+            ],
+            [
+              "Cuidado capilar:",
+              "champús, acondicionadores, mascarillas, sprays"
+            ],
+            [
+              "Salud interna:",
+              "vitaminas, probióticos, omega-3, suplementos para belleza, inmunidad y energía"
+            ],
+            [
+              "Cuidado personalizado:",
+              "selección personalizada según tipo de piel, estado del cabello o necesidades de salud"
+            ]
+          ]
+        },
+        "logist": {
+          "title": "Logística Sin Complicaciones",
+          "p": [
+            "Desde el pedido hasta la entrega a domicilio,",
+            "gestionamos cada paso",
+            "por ti."
+          ],
+          "subtitle": "Nos encargamos de:",
+          "lt": [
+            "Abastecimiento directo de proveedores certificados",
+            "Consolidación de pedidos desde varios países de la UE",
+            "Despacho aduanero y documentación legal",
+            "Envíos internacionales confiables (por tierra, aire, mensajería)",
+            "Seguimiento en tiempo real durante todo el proceso",
+            "Embalaje seguro para proteger la calidad del producto"
+          ]
+        },
+        "wwe": {
+          "title": "¿Por Qué Elegirnos?",
+          "lt": [
+            "Amplia selección de marcas europeas líderes",
+            "Servicio personalizado para cada cliente",
+            "Productos certificados, auténticos y analizados en laboratorio",
+            "Logística llave en mano — lo gestionamos todo",
+            "Productos 100% genuinos — sin falsificaciones"
+          ]
+        },
+        "ls": {
+          "title": "Tú Eliges – Nosotros Hacemos el Resto",
+          "p": [
+            "No necesitas investigar, negociar ni organizar el envío.",
+            "Tú seleccionas lo que necesitas — nosotros nos encargamos del resto,",
+            "desde la fábrica hasta tu puerta."
+          ]
+        }
       },
-      "wwe": {
-        "title": "¿Por Qué Elegirnos?",
-        "lt": [
-          "Amplia selección de marcas europeas líderes",
-          "Servicio personalizado para cada cliente",
-          "Productos certificados, auténticos y analizados en laboratorio",
-          "Logística llave en mano — lo gestionamos todo",
-          "Productos 100% genuinos — sin falsificaciones"
-        ]
-      },
-      "ls": {
-        "title": "Tú Eliges – Nosotros Hacemos el Resto",
+      {
+        "title": "Fabricación Personalizada & Marca Privada",
+        "subtitle": "Tu Fórmula — Nuestra Producción",
         "p": [
-          "No necesitas investigar, negociar ni organizar el envío.",
-          "Tú seleccionas lo que necesitas — nosotros nos encargamos del resto,",
-          "desde la fábrica hasta tu puerta."
-        ]
+          "Ofrecemos una oportunidad única para fabricar",
+          "cualquier producto para el cuidado de la piel, cuerpo, cabello o suplemento",
+          "basado en",
+          "tu fórmula personalizada",
+          "o utilizando",
+          "fórmulas europeas certificadas ya disponibles",
+          "en nuestro catálogo.",
+          "Nuestros laboratorios cuentan con tecnología moderna y nuestro equipo experto garantiza una producción segura y eficaz bajo tu marca."
+        ],
+        "lable": {
+          "title": "Servicios de Marca Privada",
+          "p": [
+            "¿Quieres vender productos con tu propia marca? Ofrecemos una solución integral para aplicar",
+            "tu logotipo, certificado e identidad de marca:"
+          ],
+          "lt": [
+            [
+              "Tu",
+              "logotipo",
+              "en la etiqueta"
+            ],
+            [
+              "Diseño personalizado",
+              "del empaque"
+            ],
+            [
+              "Inclusión de",
+              "tu certificado de calidad"
+            ],
+            [
+              "Empaque con",
+              "la paleta de colores de tu marca"
+            ],
+            "Soporte en branding y marketing"
+          ]
+        },
+        "collaboration": {
+          "title": "Formato de Colaboración Flexible",
+          "p": "Trabajamos con:",
+          "lt": [
+            "Marcas de cuidado personal y bienestar en expansión",
+            "Nuevos negocios que lanzan su primer producto",
+            "Farmacias, salones, clínicas",
+            "Vendedores y distribuidores de comercio electrónico"
+          ]
+        },
+        "manufact": {
+          "title": "Fabricación Llave en Mano",
+          "p": [
+            "Nos encargamos de",
+            "todo el proceso — desde la idea hasta la entrega:"
+          ],
+          "lt": [
+            "Desarrollo de fórmula personalizada o selección de nuestro catálogo",
+            "Fabricación bajo estándares de la UE",
+            "Pruebas y control de calidad",
+            "Llenado, etiquetado y empaquetado",
+            "Logística y entrega a ti o a tus clientes"
+          ]
+        },
+        "guarantees": {
+          "title": "Garantías",
+          "lt": [
+            "Producción conforme a GMP/ISO",
+            "Ingredientes seguros y verificados",
+            "Opciones de lotes pequeños o grandes",
+            "Confidencialidad de fórmula y marca",
+            "Soporte experto integral"
+          ],
+          "subtitle": "Tu idea — nuestra experiencia. Creamos un producto con tu nombre."
+        }
       }
-    },
-    {
-      "title": "Fabricación Personalizada & Marca Privada",
-      "subtitle": "Tu Fórmula — Nuestra Producción",
-      "p": [
-        "Ofrecemos una oportunidad única para fabricar",
-        "cualquier producto para el cuidado de la piel, cuerpo, cabello o suplemento",
-        "basado en",
-        "tu fórmula personalizada",
-        "o utilizando",
-        "fórmulas europeas certificadas ya disponibles",
-        "en nuestro catálogo.",
-        "Nuestros laboratorios cuentan con tecnología moderna y nuestro equipo experto garantiza una producción segura y eficaz bajo tu marca."
-      ],
-      "lable": {
-        "title": "Servicios de Marca Privada",
-        "p": [
-          "¿Quieres vender productos con tu propia marca? Ofrecemos una solución integral para aplicar",
-          "tu logotipo, certificado e identidad de marca:"
-        ],
-        "lt": [
-          ["Tu", "logotipo", "en la etiqueta"],
-          ["Diseño personalizado", "del empaque"],
-          ["Inclusión de", "tu certificado de calidad"],
-          ["Empaque con", "la paleta de colores de tu marca"],
-          "Soporte en branding y marketing"
-        ]
-      },
-      "collaboration": {
-        "title": "Formato de Colaboración Flexible",
-        "p": "Trabajamos con:",
-        "lt": [
-          "Marcas de cuidado personal y bienestar en expansión",
-          "Nuevos negocios que lanzan su primer producto",
-          "Farmacias, salones, clínicas",
-          "Vendedores y distribuidores de comercio electrónico"
-        ]
-      },
-      "manufact": {
-        "title": "Fabricación Llave en Mano",
-        "p": [
-          "Nos encargamos de",
-          "todo el proceso — desde la idea hasta la entrega:"
-        ],
-        "lt": [
-          "Desarrollo de fórmula personalizada o selección de nuestro catálogo",
-          "Fabricación bajo estándares de la UE",
-          "Pruebas y control de calidad",
-          "Llenado, etiquetado y empaquetado",
-          "Logística y entrega a ti o a tus clientes"
-        ]
-      },
-      "guarantees": {
-        "title": "Garantías",
-        "lt": [
-          "Producción conforme a GMP/ISO",
-          "Ingredientes seguros y verificados",
-          "Opciones de lotes pequeños o grandes",
-          "Confidencialidad de fórmula y marca",
-          "Soporte experto integral"
-        ],
-        "subtitle": "Tu idea — nuestra experiencia. Creamos un producto con tu nombre."
-      }
-    }
-  ]
-},
-
+    ]
+  },
   "ftr": {
     "info_coockies": {
       "p": "Utilizamos cookies para mejorar la funcionalidad del sitio. Al continuar usando el sitio, aceptas el uso de cookies.",
