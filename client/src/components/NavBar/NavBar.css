@@ -156,6 +156,19 @@
     margin: 0 15px;
 }
 
+
+@media (max-width: 1300px) {
+    .navbar-container {
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .navbar-links a {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 991px) {
     .mobile-visible-language {
         display: flex;
@@ -280,5 +293,17 @@
         font-size: 1rem;
         padding: 12px 24px;
         color: white;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .navbar-links a {
+        font-size: 1.1rem;
+    }
+
+    .navbar-logo img {
+        width: 200px;
+        height: 100px;
     }
 }
