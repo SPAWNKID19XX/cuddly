@@ -55,7 +55,7 @@ const Footer = () => {
                                         <button onClick={scrollToTop}>
                                             <img
                                                 src="https://img.icons8.com/ios-glyphs/30/000000/up-2.png"
-                                                alt="Scroll to top"
+                                                alt={t('stotop')}
                                             />
                                         </button>
                                     </div>
