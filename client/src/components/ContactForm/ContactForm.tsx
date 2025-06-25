@@ -15,7 +15,8 @@ const ContactForm = () => {
         {value: '', label: t("ftr.frm.fields.subject.lt.0")},
         {value: 'general', label: t("ftr.frm.fields.subject.lt.1")},
         {value: 'support', label: t("ftr.frm.fields.subject.lt.2")},
-        {value: 'feedback', label: t("ftr.frm.fields.subject.lt.3")}
+        {value: 'feedback', label: t("ftr.frm.fields.subject.lt.3")},
+        {value: 'Information', label: t("ftr.frm.fields.subject.lt.4")}
     ];
 
     const [selectedSubject, setSelectedSubject] = useState<string>('');
@@ -56,7 +57,6 @@ const ContactForm = () => {
         }
         try {
             const apiUrl = import.meta.env.VITE_API_URL;
-            console.log('+++++++++++++++++' + apiUrl);
             const response = await axios.post(`${apiUrl}/api/v1/main/`, formData);
             console.log('Success:', response.data);
             alert(t("ftr.frm.success_msg"));

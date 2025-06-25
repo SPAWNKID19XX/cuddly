@@ -1,4 +1,5 @@
 {
+  "stotop": "Torna su",
   "navbar": {
     "links": {
       "1": "Chi Siamo",
@@ -70,7 +71,6 @@
       }
     ]
   },
-
   "prod_title": "I nostri prodotti",
   "serv_title": "I nostri servizi",
   "products": [
@@ -246,312 +246,231 @@
     {
       "id": 13,
       "name": "Panoramica delle Vitamine",
-      "vit_func": {
-        "A": {
-          "func": "Vista, pelle, immunità",
-          "source": "Carote, fegato, uova",
-          "de": "Cecità notturna, pelle secca"
+      "description": {
+        "fat_soluble_vitamins": {
+          "title": "Vitamine Liposolubili",
+          "description": "Conservate nel grasso corporeo e assorbite con i grassi alimentari.",
+          "vitamins": {
+            "A": "Vista, pelle, immunità",
+            "D": "Assorbimento del calcio, forza ossea",
+            "E": "Antiossidante, protezione cellulare",
+            "K": "Coagulazione del sangue, salute ossea"
+          },
+          "sources": {
+            "title": "Fonti",
+            "A": "Carote, fegato, uova",
+            "D": "Luce solare, pesce, tuorlo d’uovo",
+            "E": "Noci, oli, spinaci",
+            "K": "Verdure a foglia, broccoli, flora intestinale"
+          },
+          "deficiency_effects": {
+            "title": "Effetti della Carenza",
+            "A": "Cecità notturna, pelle secca",
+            "D": "Rachitismo, osteomalacia",
+            "E": "Debolezza muscolare",
+            "K": "Problemi di coagulazione"
+          }
         },
-        "D": {
-          "func": "Assorbimento del calcio, ossa",
-          "source": "Luce solare, pesce, tuorlo d’uovo",
-          "de": "Rachitismo, osteomalacia"
+        "water_soluble_vitamins_b_complex": {
+          "title": "Vitamine Idrosolubili – Complesso B",
+          "description": "Supportano il metabolismo energetico e il sistema nervoso.",
+          "vitamins_functions": {
+            "title": "Vitamine e Funzioni:",
+            "B1": "Nervi, metabolismo dei carboidrati",
+            "B2": "Pelle, produzione di energia",
+            "B3": "Respirazione cellulare",
+            "B5": "Ormoni, energia",
+            "B6": "Metabolismo proteico, equilibrio dell'umore",
+            "B7": "Pelle, capelli, metabolismo dei grassi",
+            "B9": "DNA, sviluppo fetale",
+            "B12": "Nervi, globuli rossi"
+          },
+          "sources_title": "Fonti",
+          "sources": "Cereali, carne, latte, uova, verdure, banane, pesce",
+          "deficiency_symptoms_title": "Sintomi di Carenza",
+          "deficiency_symptoms": [
+            "Beriberi (B1), labbra screpolate (B2), pellagra (B3)",
+            "Affaticamento, irritabilità (B5), anemia (B6/B9/B12)",
+            "Disturbi dell'umore, difetti neurali, capelli fragili (B7)"
+          ]
         },
-        "E": {
-          "func": "Antiossidante, protezione cellulare",
-          "source": "Frutta secca, oli, spinaci",
-          "de": "Debolezza muscolare"
+        "water_soluble_vitamin_c": {
+          "deficiency_title": "Carenza",
+          "title": "Vitamina Idrosolubile – Vitamina C",
+          "description": "Potente antiossidante e stimolante del sistema immunitario.",
+          "function": [
+            "Sostiene l’immunità",
+            "Favorisce la produzione di collagene",
+            "Aiuta l’assorbimento del ferro",
+            "Protezione antiossidante"
+          ],
+          "sources": "Agrumi, frutti di bosco, peperoni",
+          "deficiency": "Scorbuto, debolezza, sanguinamento gengivale"
         },
-        "K": {
-          "func": "Coagulazione del sangue, ossa",
-          "source": "Verdure, broccoli, flora intestinale",
-          "de": "Problemi di sanguinamento"
+        "why_vitamins_matter": {
+          "title": "Perché le Vitamine Sono Importanti",
+          "points": [
+            "Favoriscono la crescita e lo sviluppo",
+            "Regolano il metabolismo",
+            "Rafforzano l’immunità e le funzioni cerebrali",
+            "Prevengono malattie croniche"
+          ]
         },
-        "C": {
-          "func": "Immunità, antiossidante, collagene",
-          "source": "Agrumi, frutti di bosco, peperoni",
-          "de": "Scorbuto, debolezza"
-        },
-        "B1": {
-          "func": "Nervi, metabolismo dei carboidrati",
-          "source": "Cereali, carne",
-          "de": "Beriberi"
-        },
-        "B2": {
-          "func": "Metabolismo, pelle",
-          "source": "Latte, uova",
-          "de": "Labbra screpolate"
-        },
-        "B3": {
-          "func": "Respirazione cellulare",
-          "source": "Carne, pesce, cereali",
-          "de": "Pellagra"
-        },
-        "B5": {
-          "func": "Ormoni, energia",
-          "source": "Uova, fegato",
-          "de": "Affaticamento, irritabilità"
-        },
-        "B6": {
-          "func": "Metabolismo delle proteine",
-          "source": "Carne, banane",
-          "de": "Anemia, disturbi dell’umore"
-        },
-        "B7": {
-          "func": "Pelle, capelli, metabolismo dei grassi",
-          "source": "Uova, noci",
-          "de": "Eruzioni cutanee, capelli fragili"
-        },
-        "B9": {
-          "func": "DNA, sviluppo fetale",
-          "source": "Verdure a foglia verde",
-          "de": "Anemia, difetti neurali"
-        },
-        "B12": {
-          "func": "Sistema nervoso, sangue",
-          "source": "Carne, uova, pesce",
-          "de": "Anemia, danni ai nervi"
+        "when_to_watch_vitamin_levels": {
+          "title": "Quando Monitorare i Livelli di Vitamine",
+          "points": [
+            "Affaticamento, perdita di capelli, scarsa concentrazione",
+            "Raffreddori o infezioni frequenti",
+            "Problemi digestivi o ossei",
+            "Gravidanza e invecchiamento"
+          ]
         }
       }
     },
     {
       "id": 14,
       "name": "Integratori",
-      "description": "Gli integratori (integratori alimentari, nutraceutici) sono prodotti che completano la dieta e forniscono al corpo nutrienti essenziali: vitamine, minerali, aminoacidi, acidi grassi, enzimi, estratti vegetali e altro. Non sostituiscono il cibo, ma aiutano a colmare le carenze nutrizionali o a supportare funzioni corporee specifiche.",
-      "subtitle": [
-        "Funzioni principali degli integratori:",
-        "Quando assumere integratori:"
+      "title": "Cosa Sono gli Integratori?",
+      "description": "Gli integratori (integratori alimentari, nutraceutici) sono prodotti che completano la dieta e forniscono nutrienti essenziali.",
+      "include_title": "Includono:",
+      "include_list": [
+        "Vitamine, minerali",
+        "Aminoacidi",
+        "Acidi grassi (es. Omega-3)",
+        "Enzimi",
+        "Estratti vegetali"
       ],
-      "mf": [
-        {
-          "title": "Vitamine e minerali",
-          "p": "sostengono l’immunità, il metabolismo e il sistema nervoso."
-        },
-        {
-          "title": "Omega-3",
-          "p": "benefico per il cervello, il cuore e per ridurre l’infiammazione."
-        },
-        {
-          "title": "Collagene",
-          "p": "migliora la pelle, i capelli, le unghie e le articolazioni."
-        },
-        {
-          "title": "Probiotici e prebiotici",
-          "p": "bilanciano il microbiota intestinale."
-        },
-        {
-          "title": "Proteine",
-          "p": "supportano la massa muscolare e il recupero dopo l'esercizio."
-        },
-        {
-          "title": "Aminoacidi",
-          "p": "supportano i muscoli, l’energia e l’immunità."
-        },
-        {
-          "title": "Enzimi",
-          "p": "favoriscono la digestione."
-        },
-        {
-          "title": "Adattogeni",
-          "p": "aiutano con lo stress e la perdita di energia."
-        },
-        {
-          "title": "Magnesio",
-          "p": "favorisce il sonno, riduce i crampi e l’ansia."
-        },
-        {
-          "title": "Calcio + vitamina D",
-          "p": "per la salute delle ossa e del cuore."
-        },
-        {
-          "title": "Ferro",
-          "p": "importante per l’anemia e la stanchezza cronica."
-        },
-        {
-          "title": "Zinco e selenio",
-          "p": "antiossidanti che rafforzano l’immunità."
-        }
+      "warning": "⚠️ Gli integratori non sostituiscono il cibo, ma aiutano a colmare carenze nutrizionali o supportare funzioni specifiche del corpo.",
+      "functions_title": "🎯 Funzioni Principali degli Integratori:",
+      "functions_list": [
+        "Vitamine e Minerali – Immunità, metabolismo, nervi",
+        "Omega-3 – Cervello, cuore, antinfiammatorio",
+        "Collagene – Pelle, capelli, unghie, articolazioni",
+        "Probiotici e Prebiotici – Equilibrio del microbiota intestinale",
+        "Proteine – Mantenimento e recupero muscolare",
+        "Aminoacidi – Energia, muscoli, immunità",
+        "Enzimi – Supporto digestivo",
+        "Adattogeni – Gestione dello stress e della stanchezza",
+        "Magnesio – Sonno, crampi, ansia",
+        "Calcio + Vitamina D – Salute di ossa e cuore",
+        "Ferro – Anemia, stanchezza cronica",
+        "Zinco e Selenio – Antiossidanti, supporto immunitario"
       ],
-      "ws": [
-        "In caso di carenza (dopo esami di laboratorio).",
-        "Durante stress, malattia o sforzo fisico.",
-        "Durante diete o restrizioni alimentari.",
-        "Per la bellezza e il benessere generale."
+      "when_title": "🕒 Quando Assumere Integratori:",
+      "when_list": [
+        "Carenza di nutrienti (confermata da analisi di laboratorio)",
+        "Stress, malattia o sforzo fisico",
+        "Diete restrittive o alimentazione carente",
+        "Supporto alla bellezza o al benessere generale"
       ],
-      "note": [
-        "Nota",
-        "Gli integratori non sostituiscono uno stile di vita sano, ma sono un'aggiunta utile."
-      ]
+      "reminder_title": "📌 Promemoria:",
+      "reminder": "Gli integratori non sono un sostituto di uno stile di vita sano, ma un'aggiunta utile per supportare la salute generale."
     },
     {
       "id": 15,
       "name": "Minerali",
-      "description": "I minerali sono sostanze inorganiche necessarie all'organismo in piccole quantità per mantenere la salute, la crescita, lo sviluppo e il normale funzionamento degli organi.",
-      "subtitle": [
-        "Principali tipi di minerali",
-        "I minerali si dividono in macroelementi e microelementi (oligoelementi)"
+      "title": "🧂 Cosa sono i minerali?",
+      "description": "I minerali sono sostanze inorganiche di cui il corpo ha bisogno in piccole quantità per mantenere la salute, la crescita, lo sviluppo e il normale funzionamento degli organi.",
+      "functions_title": "⚙️ Funzioni dei minerali:",
+      "functions_list": [
+        "Formazione del tessuto osseo (Ca, P, Mg)",
+        "Conduzione degli impulsi nervosi (Na, K, Ca)",
+        "Produzione di ormoni (I, Zn)",
+        "Regolazione del metabolismo (Cr, Se)",
+        "Supporto immunitario (Zn, Fe, Se)",
+        "Protezione antiossidante (Se, Cu, Zn)"
       ],
-      "mf": [
-        {
-          "title": "Macroelements (necessari in grandi quantità):",
-          "lt": [
-            "Calcio — salute di ossa e denti, contrazioni muscolari, coagulazione del sangue.",
-            "Fosforo — formazione di ossa e denti, metabolismo energetico.",
-            "Magnesio — sostiene la funzione nervosa e muscolare, regola la pressione sanguigna.",
-            "Potassio — ritmo cardiaco, equilibrio idrico, funzione muscolare.",
-            "Sodio — equilibrio idrosalino, trasmissione degli impulsi nervosi.",
-            "Cloruro — parte dell’acido gastrico, equilibrio dei liquidi.",
-            "Zolfo — componente degli amminoacidi, salute di pelle, capelli e unghie."
-          ]
-        },
-        {
-          "title": "Microelementi (oligoelementi):",
-          "lt": [
-            "Ferro — trasporto dell’ossigeno (emoglobina), energia, immunità.",
-            "Zinco — guarigione delle ferite, immunità, reazioni enzimatiche.",
-            "Iodio — produzione di ormoni tiroidei.",
-            "Selenio — antiossidante, supporto al sistema immunitario.",
-            "Rame — formazione dei globuli rossi, assorbimento del ferro.",
-            "Manganese — metabolismo, formazione del tessuto connettivo.",
-            "Cromo — regolazione dei livelli di glucosio nel sangue.",
-            "Molibdeno — attività enzimatica."
-          ]
-        },
-        {
-          "title": "Funzioni dei minerali nel corpo:",
-          "lt": [
-            "Formazione del tessuto osseo (Ca, P, Mg)",
-            "Conduzione degli impulsi nervosi (Na, K, Ca)",
-            "Produzione di ormoni (I, Zn)",
-            "Regolazione del metabolismo (Cr, Se)",
-            "Supporto al sistema immunitario (Zn, Fe, Se)",
-            "Protezione antiossidante (Se, Cu, Zn)"
-          ]
-        },
-        {
-          "title": "Perché assumere i minerali come integratori?",
-          "lt": [
-            "Dieta squilibrata",
-            "Dieta vegana o restrittiva",
-            "Gravidanza o allattamento",
-            "Malattie croniche (anemia, osteoporosi, ecc.)",
-            "Attività fisica intensa",
-            "Scarso assorbimento per disturbi gastrointestinali"
-          ]
-        }
+      "why_title": "💊 Perché assumere integratori minerali?",
+      "why_list": [
+        "Dieta squilibrata",
+        "Dieta vegana o restrittiva",
+        "Gravidanza o allattamento",
+        "Malattie croniche (anemia, osteoporosi)",
+        "Attività fisica intensa",
+        "Scarsa assimilazione dovuta a disturbi gastrointestinali"
       ]
     },
     {
       "id": 16,
       "name": "Biotici",
-      "description": "Cosa sono i biotici e come aiutano il corpo?",
-      "subtitle": [
-        "Biotici",
-        "è un termine generale per sostanze che supportano il microbioma umano e la salute intestinale. Includono:"
+      "title": "Cosa sono i biotici e come aiutano il corpo?",
+      "intro": "<strong>Biotici</strong> è un termine generico per gruppi di sostanze che supportano il microbioma umano e la salute intestinale. Includono:",
+      "types_list": [
+        "Probiotici",
+        "Prebiotici",
+        "Postbiotici",
+        "Simbiotici"
       ],
-      "lt": [
-        {
-          "title": "Probiotici",
-          "p": "Microrganismi vivi (batteri o lieviti) che, se consumati in quantità adeguate, apportano benefici alla salute.",
-          "lt": [
-            {
-              "title": "Ceppi comuni",
-              "lt": [
-                "Lactobacillus",
-                "Bifidobacterium",
-                "Saccharomyces boulardii"
-              ]
-            },
-            {
-              "title": "Benefici",
-              "lt": [
-                "Ripristinare la flora intestinale dopo antibiotici",
-                "Alleviare i sintomi della sindrome dell’intestino irritabile",
-                "Supportare il sistema immunitario",
-                "Alleviare diarrea o stitichezza",
-                "Migliorare l'assorbimento dei nutrienti"
-              ]
-            }
+      "sections": {
+        "probiotics": {
+          "title": "🔬 1. Probiotici",
+          "description": "Microrganismi vivi (batteri o lieviti) che, se assunti in quantità adeguate, apportano benefici alla salute.",
+          "common_strains_title": "Ceppi comuni:",
+          "common_strains": [
+            "Lactobacillus",
+            "Bifidobacterium",
+            "Saccharomyces boulardii"
+          ],
+          "benefits_title": "Benefici:",
+          "benefits": [
+            "Ripristinare la flora intestinale dopo antibiotici",
+            "Alleviare i sintomi dell’IBS",
+            "Supportare il sistema immunitario",
+            "Alleviare diarrea o stitichezza",
+            "Migliorare l’assorbimento dei nutrienti"
           ]
         },
-        {
-          "title": "Prebiotici",
-          "p": "Fibre alimentari non digeribili che fungono da \"cibo\" per i batteri intestinali benefici.",
-          "lt": [
-            {
-              "title": "Tipi principali",
-              "lt": [
-                "Inulina",
-                "Frutto-oligosaccaridi (FOS)",
-                "Galatto-oligosaccaridi (GOS)"
-              ]
-            },
-            {
-              "title": "Benefici",
-              "lt": [
-                "Favorire la crescita di batteri benefici",
-                "Migliorare la digestione",
-                "Normalizzare il transito intestinale",
-                "Aiutare a regolare colesterolo e glicemia"
-              ]
-            }
+        "prebiotics": {
+          "title": "🌱 2. Prebiotici",
+          "description": "Fibre alimentari non digeribili che fungono da \"cibo\" per i batteri intestinali benefici.",
+          "main_types_title": "Principali tipi:",
+          "main_types": [
+            "Inulina",
+            "Fruttoligosaccaridi (FOS)",
+            "Galattoligosaccaridi (GOS)"
+          ],
+          "benefits_title": "Benefici:",
+          "benefits": [
+            "Favorire la crescita di batteri sani",
+            "Migliorare la digestione",
+            "Regolarizzare l’intestino",
+            "Aiutare a regolare colesterolo e glucosio"
           ]
         },
-        {
-          "title": "Postbiotici",
-          "p": "Sottoprodotti metabolici dei probiotici, come acidi grassi a catena corta, peptidi ed enzimi",
-          "lt": [
-            {
-              "title": "Benefici",
-              "lt": [
-                "Effetti antinfiammatori",
-                "Supportano la funzione della barriera intestinale",
-                "Rafforzano il sistema immunitario",
-                "Combattono i microbi nocivi"
-              ]
-            }
+        "postbiotics": {
+          "title": "🧬 3. Postbiotici",
+          "description": "Metaboliti prodotti dai probiotici, come acidi grassi a catena corta, peptidi ed enzimi.",
+          "benefits_title": "Benefici:",
+          "benefits": [
+            "Effetti antinfiammatori",
+            "Supporto alla barriera intestinale",
+            "Rafforzamento del sistema immunitario",
+            "Contrasto ai microrganismi dannosi"
           ]
         },
-        {
-          "title": "Simbionti",
-          "p": "Combinazione di probiotici e prebiotici che agiscono sinergicamente.",
-          "lt": [
-            {
-              "title": "Benefici",
-              "lt": [
-                "Migliorare la sopravvivenza dei probiotici",
-                "Massimizzare i benefici del microbioma intestinale",
-                "Migliorare digestione e assorbimento dei nutrienti"
-              ]
-            },
-            {
-              "title": "Altri benefici dei biotici:",
-              "lt": [
-                [
-                  "Asse intestino-cervello",
-                  "il microbioma influenza umore, memoria, ansia"
-                ],
-                [
-                  "Salute della pelle",
-                  "utile per acne, eczema, dermatiti"
-                ],
-                [
-                  "Gestione del peso",
-                  "supporta il metabolismo di grassi e carboidrati"
-                ]
-              ]
-            },
-            {
-              "title": "Quando usare i biotici",
-              "lt": [
-                "Dopo antibiotici",
-                "Disturbi digestivi",
-                "Stress cronico",
-                "Supporto al sistema immunitario"
-              ]
-            }
+        "synbiotics": {
+          "title": "🔗 4. Simbiotici",
+          "description": "Una combinazione di probiotici e prebiotici che agiscono in sinergia.",
+          "benefits_title": "Benefici:",
+          "benefits": [
+            "Aumentare la sopravvivenza dei probiotici",
+            "Massimizzare i benefici del microbioma intestinale",
+            "Migliorare digestione e assorbimento dei nutrienti"
           ]
         }
+      },
+      "other_benefits_title": "🧠 Altri benefici dei biotici:",
+      "other_benefits": [
+        "Asse intestino-cervello: il microbioma influenza umore, memoria, ansia",
+        "Salute della pelle: utile per acne, eczema, dermatite",
+        "Controllo del peso: supporta il metabolismo di grassi e carboidrati"
+      ],
+      "when_to_use_title": "🕒 Quando usare i biotici:",
+      "when_to_use": [
+        "Dopo antibiotici",
+        "Disturbi digestivi",
+        "Stress cronico",
+        "Supporto al sistema immunitario"
       ]
     }
   ],
@@ -738,7 +657,8 @@
             "Seleziona un oggetto",
             "Richiesta Generale",
             "Supporto Tecnico",
-            "Feedback"
+            "Feedback",
+            "Informazioni"
           ]
         },
         "msg": "Messaggio",

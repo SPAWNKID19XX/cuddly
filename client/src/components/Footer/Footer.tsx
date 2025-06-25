@@ -3,10 +3,26 @@ import './Footer.css'
 // import tt from '../../assets/img/icons/tiktok.png'
 // import insta from '../../assets/img/icons/instagram.png'
 import {useTranslation} from "react-i18next";
+import {useEffect, useState} from "react";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     const {t} = useTranslation();
+    const [isVisible, setIsVisible] = useState(false);
+
+    const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        setIsVisible(scrollTop > 300); // Показываем кнопку, если прокручено больше 300px
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({top: 0, behavior: "smooth"});
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
         <div className='page-container'>
@@ -32,6 +48,18 @@ const Footer = () => {
                                 <a href="/privacy-policy">{t("ftr.docs.lt.0")}</a>
                                 <a href="/cookie-policy">{t("ftr.docs.lt.1")}</a>
                                 <a href="/terms-conditions">{t("ftr.docs.lt.2")}</a>
+                            </div>
+                            <div className="btnTop">
+                                {isVisible && (
+                                    <div className="btnTop">
+                                        <button onClick={scrollToTop}>
+                                            <img
+                                                src="https://img.icons8.com/ios-glyphs/30/000000/up-2.png"
+                                                alt={t('stotop')}
+                                            />
+                                        </button>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

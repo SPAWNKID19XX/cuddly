@@ -252,3 +252,25 @@ body {
     height: 10vh;
     color: #fff;
 }
+
+.btnTop {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 999;
+}
+
+.btnTop button {
+  background-color: #eae3db;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+
+}
+
+.btnTop button:hover {
+  transform: scale(1.1);
+}
