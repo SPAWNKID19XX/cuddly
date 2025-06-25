@@ -306,4 +306,12 @@
         width: 200px;
         height: 100px;
     }
+
+    .mobile-visible-language {
+        margin: 0;
+    }
+
+    .language-select {
+        min-width: 50px;
+    }
 }

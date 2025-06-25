@@ -86,3 +86,14 @@
 .opt img{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .product-main-container .products-image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-main-container .opt{
+        width: 70%;
+        margin: 0 auto;
+    }
+}

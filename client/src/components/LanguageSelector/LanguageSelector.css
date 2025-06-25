@@ -1,51 +1,52 @@
 .language-dropdown {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.language-select {
-    appearance: none;
-    padding: 8px 32px 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    min-width: 100px;
-}
-
-.language-select:hover {
-    border-color: #999;
-}
-
-.language-select:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .selected-flag {
-    width: 20px;
-    height: 15px;
-    object-fit: cover;
-    position: absolute;
-    right: 8px;
-    pointer-events: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.language-select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* скрываем сам select */
+  cursor: pointer;
 }
 
-/* Add a custom dropdown arrow */
-.language-dropdown::after {
-    content: '';
-    position: absolute;
-    right: 36px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #666;
-    pointer-events: none;
+@media (max-width: 535px) {
+
+.language-dropdown {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
+
+.selected-flag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.language-select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* скрываем сам select */
+  cursor: pointer;
+}
+}
+
+
