@@ -63,3 +63,14 @@ form button:hover {
     color: white;
 }
 
+@media (max-width: 768px) {
+    .contact-form-section .container {
+        width: 90%;
+    }
+
+    .contact-form-section {
+        padding-bottom: 0;
+
+    }
+}
+

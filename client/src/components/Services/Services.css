@@ -49,3 +49,13 @@
     border-bottom: #5e5b55 solid 1px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+    .servoces-area .products-image-container{
+        flex-direction: column;
+    }
+    .servoces-area .opt{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
