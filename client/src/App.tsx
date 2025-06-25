@@ -17,11 +17,14 @@ import ContactForm from "./components/ContactForm/ContactForm.tsx";
 import Services from './components/Services/Services.tsx'
 import ServicesProd from './components/ServiceProd/ServiceProd.tsx'
 import ServicesLab from './components/ServiceLab/ServiceLab.tsx'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop.tsx'
 
 
 function App() {
     return (
         <BrowserRouter>
+            <ScrollToTop/>
+
             <Navbar/>
 
             <Routes>
@@ -33,30 +36,30 @@ function App() {
 
                 <Route path="/products" element={
                     <>
-                        <Products />
+                        <Products/>
                     </>
                 }/>
 
                 <Route path="/products/hair-care" element={
                     <>
-                        <HairCare />
+                        <HairCare/>
                     </>
                 }/>
 
                 <Route path="/products/face-body-care" element={
                     <>
-                        <FaceBodyCare />
+                        <FaceBodyCare/>
                     </>
                 }/>
                 <Route path="/products/health-balance" element={
                     <>
-                        <HealthBalance />
+                        <HealthBalance/>
                     </>
                 }/>
 
                 <Route path="/contact" element={
                     <>
-                        <ContactForm />
+                        <ContactForm/>
                     </>
                 }/>
 
@@ -88,11 +91,11 @@ function App() {
 
                 <Route path="/services" element={
                     <>
-                        <Services />
+                        <Services/>
                     </>
                 }/>
 
-                 <Route path="/services/lab" element={
+                <Route path="/services/lab" element={
                     <>
                         <ServicesLab/>
                     </>
@@ -106,6 +109,7 @@ function App() {
 
             </Routes>
             <CookieConsent/>
+
             <Footer/>
         </BrowserRouter>
     )
