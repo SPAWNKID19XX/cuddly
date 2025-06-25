@@ -1,4 +1,4 @@
-import './HealthBalance.css'
+import styles from './HealthBalance.module.css';
 import {useTranslation} from "react-i18next";
 import vit from "../../assets/img/vitamins.png";
 import supl from './../../assets/img/supl.png'
@@ -17,11 +17,11 @@ const HealthBalance = () => {
                     <div className="title-container">
                         <h1>Health & Balance</h1>
                     </div>
-                    <div className="item_product_container">
-                        <div className="products-img-container">
+                    <div className={styles.itemProductContainer}>
+                        <div className={styles.productsImgContainer}>
                             <img src={vit} alt="Vitamins"/>
                         </div>
-                        <div className="products-description-container">
+                        <div className={styles.itemDescriptionContainer}>
                             <h2>🌞 {t('products.12.description.fat_soluble_vitamins.title')} </h2>
                             <p>{t('products.12.description.fat_soluble_vitamins.description')}</p>
                             <h3>Vitamins:</h3>
@@ -122,11 +122,11 @@ const HealthBalance = () => {
                         </div>
                     </div>
 
-                    <div className="item_product_container">
-                        <div className="products-img-container">
+                    <div className={styles.itemProductContainer}>
+                        <div className={styles.productsImgContainer}>
                             <img src={supl} alt="Vitamins"/>
                         </div>
-                        <div className="products-description-container">
+                        <div className={styles.itemDescriptionContainer}>
                             <h2>{t('products.13.title')}</h2>
                             <p>{t('products.13.description')}</p>
                             <h3>{t('products.13.include_title')}</h3>
@@ -191,11 +191,11 @@ const HealthBalance = () => {
                     </div>
 
 
-                    <div className="item_product_container">
-                        <div className="products-img-container">
+                    <div className={styles.itemProductContainer}>
+                        <div className={styles.productsImgContainer}>
                             <img src={minerals} alt="Minerals"/>
                         </div>
-                        <div className="products-description-container">
+                        <div className={styles.itemDescriptionContainer}>
                             <h2>{t('products.14.title')}</h2>
                             <p>{t('products.14.description')}</p>
 
@@ -234,89 +234,89 @@ const HealthBalance = () => {
                     </div>
 
 
-                    <div className="item_product_container">
-  <div className="products-img-container">
-    <img src={biotics} alt={t('products.15.name')} />
-  </div>
-  <div className="products-description-container">
-    <h2>{t('products.15.title')}</h2>
-    <p dangerouslySetInnerHTML={{ __html: t('products.15.intro') }} />
+                    <div className={styles.itemProductContainer}>
+                        <div className={styles.productsImgContainer}>
+                            <img src={biotics} alt={t('products.15.name')}/>
+                        </div>
+                        <div className={styles.itemDescriptionContainer}>
+                            <h2>{t('products.15.title')}</h2>
+                            <p dangerouslySetInnerHTML={{__html: t('products.15.intro')}}/>
 
-    <ul>
-      <li>{t('products.15.types_list.0')}</li>
-      <li>{t('products.15.types_list.1')}</li>
-      <li>{t('products.15.types_list.2')}</li>
-      <li>{t('products.15.types_list.3')}</li>
-    </ul>
+                            <ul>
+                                <li>{t('products.15.types_list.0')}</li>
+                                <li>{t('products.15.types_list.1')}</li>
+                                <li>{t('products.15.types_list.2')}</li>
+                                <li>{t('products.15.types_list.3')}</li>
+                            </ul>
 
-    <h2>{t('products.15.sections.probiotics.title')}</h2>
-    <p>{t('products.15.sections.probiotics.description')}</p>
-    <h3>{t('products.15.sections.probiotics.common_strains_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.probiotics.common_strains.0')}</li>
-      <li>{t('products.15.sections.probiotics.common_strains.1')}</li>
-      <li>{t('products.15.sections.probiotics.common_strains.2')}</li>
-    </ul>
-    <h3>{t('products.15.sections.probiotics.benefits_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.probiotics.benefits.0')}</li>
-      <li>{t('products.15.sections.probiotics.benefits.1')}</li>
-      <li>{t('products.15.sections.probiotics.benefits.2')}</li>
-      <li>{t('products.15.sections.probiotics.benefits.3')}</li>
-      <li>{t('products.15.sections.probiotics.benefits.4')}</li>
-    </ul>
+                            <h2>{t('products.15.sections.probiotics.title')}</h2>
+                            <p>{t('products.15.sections.probiotics.description')}</p>
+                            <h3>{t('products.15.sections.probiotics.common_strains_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.probiotics.common_strains.0')}</li>
+                                <li>{t('products.15.sections.probiotics.common_strains.1')}</li>
+                                <li>{t('products.15.sections.probiotics.common_strains.2')}</li>
+                            </ul>
+                            <h3>{t('products.15.sections.probiotics.benefits_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.probiotics.benefits.0')}</li>
+                                <li>{t('products.15.sections.probiotics.benefits.1')}</li>
+                                <li>{t('products.15.sections.probiotics.benefits.2')}</li>
+                                <li>{t('products.15.sections.probiotics.benefits.3')}</li>
+                                <li>{t('products.15.sections.probiotics.benefits.4')}</li>
+                            </ul>
 
-    <h2>{t('products.15.sections.prebiotics.title')}</h2>
-    <p>{t('products.15.sections.prebiotics.description')}</p>
-    <h3>{t('products.15.sections.prebiotics.main_types_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.prebiotics.main_types.0')}</li>
-      <li>{t('products.15.sections.prebiotics.main_types.1')}</li>
-      <li>{t('products.15.sections.prebiotics.main_types.2')}</li>
-    </ul>
-    <h3>{t('products.15.sections.prebiotics.benefits_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.prebiotics.benefits.0')}</li>
-      <li>{t('products.15.sections.prebiotics.benefits.1')}</li>
-      <li>{t('products.15.sections.prebiotics.benefits.2')}</li>
-      <li>{t('products.15.sections.prebiotics.benefits.3')}</li>
-    </ul>
+                            <h2>{t('products.15.sections.prebiotics.title')}</h2>
+                            <p>{t('products.15.sections.prebiotics.description')}</p>
+                            <h3>{t('products.15.sections.prebiotics.main_types_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.prebiotics.main_types.0')}</li>
+                                <li>{t('products.15.sections.prebiotics.main_types.1')}</li>
+                                <li>{t('products.15.sections.prebiotics.main_types.2')}</li>
+                            </ul>
+                            <h3>{t('products.15.sections.prebiotics.benefits_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.prebiotics.benefits.0')}</li>
+                                <li>{t('products.15.sections.prebiotics.benefits.1')}</li>
+                                <li>{t('products.15.sections.prebiotics.benefits.2')}</li>
+                                <li>{t('products.15.sections.prebiotics.benefits.3')}</li>
+                            </ul>
 
-    <h2>{t('products.15.sections.postbiotics.title')}</h2>
-    <p>{t('products.15.sections.postbiotics.description')}</p>
-    <h3>{t('products.15.sections.postbiotics.benefits_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.postbiotics.benefits.0')}</li>
-      <li>{t('products.15.sections.postbiotics.benefits.1')}</li>
-      <li>{t('products.15.sections.postbiotics.benefits.2')}</li>
-      <li>{t('products.15.sections.postbiotics.benefits.3')}</li>
-    </ul>
+                            <h2>{t('products.15.sections.postbiotics.title')}</h2>
+                            <p>{t('products.15.sections.postbiotics.description')}</p>
+                            <h3>{t('products.15.sections.postbiotics.benefits_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.postbiotics.benefits.0')}</li>
+                                <li>{t('products.15.sections.postbiotics.benefits.1')}</li>
+                                <li>{t('products.15.sections.postbiotics.benefits.2')}</li>
+                                <li>{t('products.15.sections.postbiotics.benefits.3')}</li>
+                            </ul>
 
-    <h2>{t('products.15.sections.synbiotics.title')}</h2>
-    <p>{t('products.15.sections.synbiotics.description')}</p>
-    <h3>{t('products.15.sections.synbiotics.benefits_title')}</h3>
-    <ul>
-      <li>{t('products.15.sections.synbiotics.benefits.0')}</li>
-      <li>{t('products.15.sections.synbiotics.benefits.1')}</li>
-      <li>{t('products.15.sections.synbiotics.benefits.2')}</li>
-    </ul>
+                            <h2>{t('products.15.sections.synbiotics.title')}</h2>
+                            <p>{t('products.15.sections.synbiotics.description')}</p>
+                            <h3>{t('products.15.sections.synbiotics.benefits_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.sections.synbiotics.benefits.0')}</li>
+                                <li>{t('products.15.sections.synbiotics.benefits.1')}</li>
+                                <li>{t('products.15.sections.synbiotics.benefits.2')}</li>
+                            </ul>
 
-    <h3>{t('products.15.other_benefits_title')}</h3>
-    <ul>
-      <li>{t('products.15.other_benefits.0')}</li>
-      <li>{t('products.15.other_benefits.1')}</li>
-      <li>{t('products.15.other_benefits.2')}</li>
-    </ul>
+                            <h3>{t('products.15.other_benefits_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.other_benefits.0')}</li>
+                                <li>{t('products.15.other_benefits.1')}</li>
+                                <li>{t('products.15.other_benefits.2')}</li>
+                            </ul>
 
-    <h3>{t('products.15.when_to_use_title')}</h3>
-    <ul>
-      <li>{t('products.15.when_to_use.0')}</li>
-      <li>{t('products.15.when_to_use.1')}</li>
-      <li>{t('products.15.when_to_use.2')}</li>
-      <li>{t('products.15.when_to_use.3')}</li>
-    </ul>
-  </div>
-</div>
+                            <h3>{t('products.15.when_to_use_title')}</h3>
+                            <ul>
+                                <li>{t('products.15.when_to_use.0')}</li>
+                                <li>{t('products.15.when_to_use.1')}</li>
+                                <li>{t('products.15.when_to_use.2')}</li>
+                                <li>{t('products.15.when_to_use.3')}</li>
+                            </ul>
+                        </div>
+                    </div>
 
 
                 </div>
