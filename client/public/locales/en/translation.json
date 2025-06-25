@@ -656,7 +656,8 @@
             "Select a subject",
             "General Inquiry",
             "Technical Support",
-            "Feedback"
+            "Feedback",
+            "Information"
           ]
         },
         "msg": "Message",

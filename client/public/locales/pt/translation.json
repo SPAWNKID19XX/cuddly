@@ -390,76 +390,88 @@
       ]
     },
     {
-  "id": 16,
-  "name": "Bióticos",
-  "title": "O que são bióticos e como ajudam o corpo?",
-  "intro": "<strong>Bióticos</strong> é um termo geral para grupos de substâncias que apoiam o microbioma humano e a saúde intestinal. Incluem:",
-  "types_list": ["Probióticos", "Prebióticos", "Pós-bióticos", "Simbióticos"],
-  "sections": {
-    "probiotics": {
-      "title": "🔬 1. Probióticos",
-      "description": "Micro-organismos vivos (bactérias ou leveduras) que, quando consumidos em quantidades adequadas, trazem benefícios à saúde.",
-      "common_strains_title": "Estirpes comuns:",
-      "common_strains": ["Lactobacillus", "Bifidobacterium", "Saccharomyces boulardii"],
-      "benefits_title": "Benefícios:",
-      "benefits": [
-        "Restaurar a flora intestinal após antibióticos",
-        "Aliviar sintomas da SII",
-        "Apoiar o sistema imunitário",
-        "Reduzir diarreia ou obstipação",
-        "Melhorar a absorção de nutrientes"
+      "id": 16,
+      "name": "Bióticos",
+      "title": "O que são bióticos e como ajudam o corpo?",
+      "intro": "<strong>Bióticos</strong> é um termo geral para grupos de substâncias que apoiam o microbioma humano e a saúde intestinal. Incluem:",
+      "types_list": [
+        "Probióticos",
+        "Prebióticos",
+        "Pós-bióticos",
+        "Simbióticos"
+      ],
+      "sections": {
+        "probiotics": {
+          "title": "🔬 1. Probióticos",
+          "description": "Micro-organismos vivos (bactérias ou leveduras) que, quando consumidos em quantidades adequadas, trazem benefícios à saúde.",
+          "common_strains_title": "Estirpes comuns:",
+          "common_strains": [
+            "Lactobacillus",
+            "Bifidobacterium",
+            "Saccharomyces boulardii"
+          ],
+          "benefits_title": "Benefícios:",
+          "benefits": [
+            "Restaurar a flora intestinal após antibióticos",
+            "Aliviar sintomas da SII",
+            "Apoiar o sistema imunitário",
+            "Reduzir diarreia ou obstipação",
+            "Melhorar a absorção de nutrientes"
+          ]
+        },
+        "prebiotics": {
+          "title": "🌱 2. Prebióticos",
+          "description": "Fibras alimentares não digeríveis que servem como \"alimento\" para bactérias intestinais benéficas.",
+          "main_types_title": "Principais tipos:",
+          "main_types": [
+            "Inulina",
+            "Frutooligossacarídeos (FOS)",
+            "Galactooligossacarídeos (GOS)"
+          ],
+          "benefits_title": "Benefícios:",
+          "benefits": [
+            "Promover o crescimento de bactérias saudáveis",
+            "Melhorar a digestão",
+            "Normalizar os movimentos intestinais",
+            "Ajudar a regular o colesterol e a glicose"
+          ]
+        },
+        "postbiotics": {
+          "title": "🧬 3. Pós-bióticos",
+          "description": "Subprodutos metabólicos dos probióticos, como ácidos graxos de cadeia curta, peptídeos e enzimas.",
+          "benefits_title": "Benefícios:",
+          "benefits": [
+            "Efeitos anti-inflamatórios",
+            "Apoiar a função da barreira intestinal",
+            "Reforçar a imunidade",
+            "Combater microrganismos nocivos"
+          ]
+        },
+        "synbiotics": {
+          "title": "🔗 4. Simbióticos",
+          "description": "Uma combinação de probióticos e prebióticos que atuam sinergicamente.",
+          "benefits_title": "Benefícios:",
+          "benefits": [
+            "Aumentar a sobrevivência dos probióticos",
+            "Maximizar os benefícios do microbioma intestinal",
+            "Melhorar a digestão e a absorção de nutrientes"
+          ]
+        }
+      },
+      "other_benefits_title": "🧠 Outros benefícios dos bióticos:",
+      "other_benefits": [
+        "Eixo intestino-cérebro: o microbioma afeta o humor, a memória, a ansiedade",
+        "Saúde da pele: útil para acne, eczema, dermatite",
+        "Gestão de peso: apoia o metabolismo de gorduras e carboidratos"
+      ],
+      "when_to_use_title": "🕒 Quando usar bióticos:",
+      "when_to_use": [
+        "Após uso de antibióticos",
+        "Problemas digestivos",
+        "Estresse crônico",
+        "Suporte ao sistema imunitário"
       ]
     },
-    "prebiotics": {
-      "title": "🌱 2. Prebióticos",
-      "description": "Fibras alimentares não digeríveis que servem como \"alimento\" para bactérias intestinais benéficas.",
-      "main_types_title": "Principais tipos:",
-      "main_types": ["Inulina", "Frutooligossacarídeos (FOS)", "Galactooligossacarídeos (GOS)"],
-      "benefits_title": "Benefícios:",
-      "benefits": [
-        "Promover o crescimento de bactérias saudáveis",
-        "Melhorar a digestão",
-        "Normalizar os movimentos intestinais",
-        "Ajudar a regular o colesterol e a glicose"
-      ]
-    },
-    "postbiotics": {
-      "title": "🧬 3. Pós-bióticos",
-      "description": "Subprodutos metabólicos dos probióticos, como ácidos graxos de cadeia curta, peptídeos e enzimas.",
-      "benefits_title": "Benefícios:",
-      "benefits": [
-        "Efeitos anti-inflamatórios",
-        "Apoiar a função da barreira intestinal",
-        "Reforçar a imunidade",
-        "Combater microrganismos nocivos"
-      ]
-    },
-    "synbiotics": {
-      "title": "🔗 4. Simbióticos",
-      "description": "Uma combinação de probióticos e prebióticos que atuam sinergicamente.",
-      "benefits_title": "Benefícios:",
-      "benefits": [
-        "Aumentar a sobrevivência dos probióticos",
-        "Maximizar os benefícios do microbioma intestinal",
-        "Melhorar a digestão e a absorção de nutrientes"
-      ]
-    }
-  },
-  "other_benefits_title": "🧠 Outros benefícios dos bióticos:",
-  "other_benefits": [
-    "Eixo intestino-cérebro: o microbioma afeta o humor, a memória, a ansiedade",
-    "Saúde da pele: útil para acne, eczema, dermatite",
-    "Gestão de peso: apoia o metabolismo de gorduras e carboidratos"
-  ],
-  "when_to_use_title": "🕒 Quando usar bióticos:",
-  "when_to_use": [
-    "Após uso de antibióticos",
-    "Problemas digestivos",
-    "Estresse crônico",
-    "Suporte ao sistema imunitário"
-  ]
-},
-
     {
       "id": 16,
       "name": "Bióticos",
@@ -730,22 +742,48 @@
   },
   "ftr": {
     "info_coockies": {
-      "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",
-      "btn": "Accept"
+      "p": "Utilizamos cookies para melhorar a funcionalidade do site. Ao continuar a usá-lo, você aceita o uso de cookies.",
+      "btn": "Aceitar"
     },
-    "slogan": "CadlyBreeze — é a tua brisa de frescura, beleza e força.",
+    "slogan": "CadlyBreeze — a sua brisa de frescor, beleza e força.",
     "contact": {
-      "title": "Contacts"
+      "title": "Contato"
     },
     "docs": {
-      "title": "Documents",
+      "title": "Documentos",
       "lt": [
-        "Privacy Policy",
-        "Cookie Policy",
-        "Terms Conditions"
+        "Política de Privacidade",
+        "Política de Cookies",
+        "Termos e Condições"
       ]
     },
-    "bf": "All rights reserved."
+    "frm": {
+      "title": "Formulário de contato",
+      "p": "Preencha o formulário abaixo para entrar em contato com nossa equipe",
+      "fields": {
+        "name": "Nome",
+        "phone": "Telefone",
+        "subject": {
+          "title": "Assunto",
+          "lt": [
+            "Selecione um assunto",
+            "Consulta Geral",
+            "Suporte Técnico",
+            "Feedback",
+            "Informações"
+          ]
+        },
+        "msg": "Mensagem",
+        "axcept": [
+          "Li e aceito os",
+          "Termos e Condições"
+        ]
+      },
+      "btn": "Enviar",
+      "success_msg": "E-mail enviado com sucesso!",
+      "error_msg": "Ocorreu um erro ao enviar o e-mail!"
+    },
+    "bf": "Todos os direitos reservados."
   },
   "pc": {
     "top_info": {
