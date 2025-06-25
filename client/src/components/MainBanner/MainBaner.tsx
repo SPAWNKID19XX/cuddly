@@ -111,7 +111,7 @@ const MainBaner: React.FC<MainBannerProps> = () => {
 
     const {t} = useTranslation();
     return (
-        <div className="main-banner">
+        <div id="scrollTop" className="main-banner">
             <div className="banner-content">
                 <div className="main_links">
                     <div className="links-img-container">

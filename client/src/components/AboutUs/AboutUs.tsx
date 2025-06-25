@@ -55,9 +55,7 @@ const AboutUs = () => {
                     </ul>
                 </div>
                 <p>{t("about_us.p.3")}</p>
-
             </div>
-
         </div>
     );
 };

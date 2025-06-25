@@ -2,6 +2,7 @@ import './Footer.css'
 // import fb from '../../assets/img/icons/facebook.png'
 // import tt from '../../assets/img/icons/tiktok.png'
 // import insta from '../../assets/img/icons/instagram.png'
+import {ChevronUp} from "lucide-react";
 import {useTranslation} from "react-i18next";
 import {useEffect, useState} from "react";
 
@@ -52,11 +53,8 @@ const Footer = () => {
                             <div className="btnTop">
                                 {isVisible && (
                                     <div className="btnTop">
-                                        <button onClick={scrollToTop}>
-                                            <img
-                                                src="https://img.icons8.com/ios-glyphs/30/000000/up-2.png"
-                                                alt={t('stotop')}
-                                            />
+                                        <button onClick={scrollToTop} aria-label={t('stotop')}>
+                                            <ChevronUp size={24}/>
                                         </button>
                                     </div>
                                 )}
