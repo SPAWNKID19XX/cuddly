@@ -168,7 +168,7 @@ const CookiesPolicy: React.FC = () => {
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td><code>santiclinic-cookies-consent</code></td>
+                                        <td><code>Cuddly Breeze-cookies-consent</code></td>
                                         <td>{t("pc.lt.3.tbl.type.necessary")}</td>
                                         <td>1 {t("pc.lt.3.tbl.duration.year")}</td>
                                         <td>{t("pc.lt.3.tbl.obj.0")}</td>
@@ -356,12 +356,14 @@ const CookiesPolicy: React.FC = () => {
 
                             <div className="cookies-policy__contact">
                                 <div className="cookies-policy__contact-item">
-                                    <strong>{t("pc.lt.8.lt.0")}:</strong> cuddlybreeze@gmail.com</div>
+                                    <strong>{t("pc.lt.8.lt.0")}:</strong> cuddlybreeze@gmail.com
+                                </div>
                                 <div className="cookies-policy__contact-item">
                                     <strong>{t("pc.lt.8.lt.1")}:</strong> +351 920 811 661
                                 </div>
                                 <div className="cookies-policy__contact-item">
-                                    <strong>{t("pc.lt.8.lt.2")}:</strong> Rua das Hortênsias, Lote F, Loja D, R/C Faro 8005-196 Gambelas
+                                    <strong>{t("pc.lt.8.lt.2")}:</strong> Rua das Hortênsias, Lote F, Loja D, R/C Faro
+                                    8005-196 Gambelas
                                 </div>
                             </div>
 

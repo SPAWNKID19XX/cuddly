@@ -260,16 +260,16 @@ const PrivacyPolicy: React.FC = () => {
 
                             <div className="privacy-policy__contact">
                                 <div className="privacy-policy__contact-item">
-                                    <strong>Email:</strong> geral@santiclinic.eu
+                                    <strong>Email:</strong> cuddlybreeze@gmail.com
                                 </div>
                                 <div className="privacy-policy__contact-item">
-                                    <strong>{t("pp.lt.9.words.phone")}:</strong> +351 915 007 427
+                                    <strong>{t("pp.lt.9.words.phone")}:</strong> +351 920 811 661
                                 </div>
                                 <div className="privacy-policy__contact-item">
-                                    <strong>{t("pp.lt.9.words.adress")}:</strong> Praceta Agostinho Ferreira Chaves 5 Lj 4 AA, 8005-328 Faro
+                                    <strong>{t("pp.lt.9.words.adress")}:</strong> Rua das Hortênsias, Lote F, Loja D, R/C Faro 8005-196 Gambelas
                                 </div>
                                 <div className="privacy-policy__contact-item">
-                                    <strong>{t("pp.lt.9.words.responsable")}:</strong> geral@santiclinic.eu
+                                    <strong>{t("pp.lt.9.words.responsable")}:</strong> cuddlybreeze@gmail.com
                                 </div>
                             </div>
 

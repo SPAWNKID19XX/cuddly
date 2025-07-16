@@ -56,7 +56,7 @@ const TermsConditions: React.FC = () => {
                                     <strong>Email:</strong> cuddlybreeze@gmail.com
                                 </div>
                                 <div className="terms-conditions__contact-item">
-                                    <strong>Website:</strong> www.santiclinic.eu
+                                    <strong>Website:</strong> cuddlybreeze@gmail.com
                                 </div>
                             </div>
                         </div>
