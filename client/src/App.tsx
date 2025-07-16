@@ -5,9 +5,11 @@ import CookieConsent from './components/coockiesConsent/CookiesConsent'
 import './i18n.js'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import PrivacyPolicy from './components/privacyPolicy/PrivacyPolicy.tsx'
+// import PrivacyPolicy from './components/privacyPolicy/PrivacyPolicy.tsx'
 import CookiesPolicy from './components/cookiesPolicy/CookiesPolicy.tsx'
 import TermsConditions from './components/termsConditions/TermsConditions.tsx'
+
+import PP from './components/pp/PP.tsx'
 
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 import MainBaner from "./components/MainBanner/MainBaner.tsx";
@@ -67,7 +69,7 @@ function App() {
 
                 <Route path="/privacy_policy" element={
                     <>
-                        <PrivacyPolicy/>
+                        <PP/>
                     </>
                 }/>
 
