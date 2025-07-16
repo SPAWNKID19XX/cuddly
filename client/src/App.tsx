@@ -4,9 +4,9 @@ import Footer from './components/Footer/Footer'
 import CookieConsent from './components/coockiesConsent/CookiesConsent'
 import './i18n.js'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy.tsx'
-import CookiesPolicy from './pages/cookies-policy/CookiesPolicy.tsx'
-import TermsConditions from './pages/terms-conditions/TermsConditions.tsx'
+import PrivacyPolicy from './components/privacy-policy/index.ts'
+import CookiesPolicy from './components/cookies-policy/index.ts'
+import TermsConditions from './components/terms-conditions/TermsConditions.tsx'
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 import MainBaner from "./components/MainBanner/MainBaner.tsx";
 import Products from "./components/Products/Product.tsx";
@@ -69,7 +69,7 @@ function App() {
                     </>
                 }/>
 
-                <Route path="/cookies-policy" element={
+                <Route path="/cookie-policy" element={
                     <>
                         <CookiesPolicy/>
                     </>
