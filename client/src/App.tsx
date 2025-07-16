@@ -4,9 +4,11 @@ import Footer from './components/Footer/Footer'
 import CookieConsent from './components/coockiesConsent/CookiesConsent'
 import './i18n.js'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import PrivacyPolicy from './components/privacy-policy/index.ts'
-import CookiesPolicy from './components/cookies-policy/index.ts'
-import TermsConditions from './components/terms-conditions/TermsConditions.tsx'
+
+import PrivacyPolicy from './components/privacyPolicy/PrivacyPolicy.tsx'
+import CookiesPolicy from './components/cookiesPolicy/CookiesPolicy.tsx'
+import TermsConditions from './components/termsConditions/TermsConditions.tsx'
+
 import AboutUs from "./components/AboutUs/AboutUs.tsx";
 import MainBaner from "./components/MainBanner/MainBaner.tsx";
 import Products from "./components/Products/Product.tsx";
