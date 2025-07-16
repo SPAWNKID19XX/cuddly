@@ -49,7 +49,7 @@ Our team will review your request and respond promptly. If you need immediate as
 
 Best regards,  
 Customer Support Team  
-CuddlyFreeze.Lda
+CuddlyBreeze.Lda
 """,
                 from_email=settings.DEFAULT_FROM_EMAIL,
                 recipient_list=[settings.DEFAULT_FROM_EMAIL, email],
